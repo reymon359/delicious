@@ -1,7 +1,7 @@
 import { Recipe } from './recipes.service';
+
 // Here will go the recipes info
-// tslint:disable-next-line:align
-export recipes: Recipe[] = [
+export const recipes: Recipe[] = [
     {
         id: 'paella-pollo',
         title: 'Paella de Pollo',
