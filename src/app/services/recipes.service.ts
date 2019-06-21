@@ -16,7 +16,7 @@ export interface Recipe {
   title: string; // Title
   img: string; // Main recipe img
   desc: string; // Recipe description
-  time: string; // Cooking time
+  time: number; // Cooking time
   steps: Step[];
 }
 
