@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 // Services
-import { RecipesService } from './services/recipes.service';
+import { RecipeService } from './services/recipes.service';
 
 // Components
 import { AppComponent } from './app.component';
@@ -25,7 +25,7 @@ import { RecipeCardComponent } from './components/recipe-card/recipe-card.compon
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [RecipesService],
+  providers: [RecipeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

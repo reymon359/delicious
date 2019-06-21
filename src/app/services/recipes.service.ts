@@ -4,12 +4,12 @@ import { RECIPES } from './recipes';
 @Injectable({
   providedIn: 'root'
 })
-export class RecipesService {
+export class RecipeService {
 
   private recipes: Recipe[] = RECIPES;
   
     constructor() {
-    console.log('recipeServices ');
+    console.log('recipeService ');
     console.log('recipes: ', this.recipes);
    }
 }

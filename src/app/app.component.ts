@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RecipesService } from './services/recipes.service';
+import { RecipeService } from './services/recipes.service';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +8,6 @@ import { RecipesService } from './services/recipes.service';
 })
 export class AppComponent {
   title = 'dove-legacy';
-  constructor(private recipesService: RecipesService) { }
+  constructor(private recipesService: RecipeService) { }
 
 }
