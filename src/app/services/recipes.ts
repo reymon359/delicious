@@ -1,5 +1,8 @@
 import { Recipe } from './recipes.service';
 
+// TODO: https://code.tutsplus.com/tutorials/create-your-first-angular-app-storing-and-accessing-data--cms-30098
+
+
 // Here will go the recipes info
 export const RECIPES: Recipe[] = [
     {
