@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { recipes } from './recipes';
+import { RECIPES } from './recipes';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RecipesService {
 
-  private recipes: Recipe[] = recipes;
+  private recipes: Recipe[] = RECIPES;
   
     constructor() {
     console.log('recipeServices ');

@@ -1,7 +1,7 @@
 import { Recipe } from './recipes.service';
 
 // Here will go the recipes info
-export const recipes: Recipe[] = [
+export const RECIPES: Recipe[] = [
     {
         id: 'paella-pollo',
         title: 'Paella de Pollo',
