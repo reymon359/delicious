@@ -3,6 +3,7 @@
 export class Recipe {
     id: string; // recipe id
     title: string; // Title
+    dateCreated: Date;
     img: string; // Main recipe img
     desc: string; // Recipe description
     time: number; // Cooking time

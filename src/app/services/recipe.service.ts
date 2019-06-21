@@ -11,26 +11,32 @@ export class RecipeService {
   private recipes: Recipe[] = RECIPES;
 
   constructor() { }
- 
-  getCountries(): Rec[] {
-    return COUNTRIES;
+
+  /**
+   * getRecipes()
+   * Returns the array of recipes like it is
+   */
+  getRecipes(): Recipe[] {
+    return RECIPES;
   }
- 
-  getPopulatedCountries(): Rec[] {
-    return COUNTRIES.sort((a, b) => b.population - a.population).slice(0, 3);
+
+  /**
+   * getRecipe()
+   * Returns the recipe that matches the id
+   * @params{
+   *   id { String }: recipe id
+   * }
+   */
+  getRecipe(id: string): Recipe {
+    return RECIPES.find(recipe => recipe.id === id);
   }
- 
-  getLargestCountries(): Rec[] {
-    return COUNTRIES.sort((a, b) => b.area - a.area).slice(0, 3);
+
+  getLastRecipes(): Recipe[] {
+    return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
   }
- 
-  getGDPCountries(): Rec[] {
-    return COUNTRIES.sort((a, b) => b.gdp - a.gdp).slice(0, 3);
-  }
- 
-  getRec(name: string): Rec {
-    return COUNTRIES.find(country => country.name === name);
-  }
+
+
+
 }
 
 
