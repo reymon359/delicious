@@ -1,3 +1,7 @@
-<p>
-  home works!
-</p>
+<h1>Recipes </h1>
+<hr>
+
+<div class="card-columns">
+    <app-recipe-card [recipe]="recipe" *ngFor="let recipe of recipes; let i = index"></app-recipe-card>
+
+</div>
