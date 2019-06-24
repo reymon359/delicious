@@ -9,6 +9,8 @@ export const RECIPES: Recipe[] = [
         img: './assets/recipes/paella_pollo.jpg',
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
+        meal: 'lunch',
+        ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
                 number: 1,
@@ -19,12 +21,14 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'paella-pollo2',
-        title: 'Paella de Pollo2',
+        id: 'paella-pollo',
+        title: 'Paella de Pollo',
+        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         img: './assets/recipes/paella_pollo.jpg',
-        dateCreated: new Date('2019-06-22T00:00:00.000Z'),
-        desc: 'La paella de pollo2 mitica de la mia mama',
+        desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
+        meal: 'lunch',
+        ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
                 number: 1,
@@ -33,5 +37,5 @@ export const RECIPES: Recipe[] = [
                 desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
             }
         ]
-    }
+    },
 ];
