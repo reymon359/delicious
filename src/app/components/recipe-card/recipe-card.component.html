@@ -1,12 +1,12 @@
-<div class="card animated fadeIn fast">
+<div class="card mb-4 box-shadow animated fadeIn fast">
     <img class="card-img-top" [src]="recipe.img" [alt]="recipe.title">
     <div class="card-body">
         <h5 class="card-title">{{recipe.title}}</h5>
         <p class="card-text">{{recipe.desc}}</p>
         <p class="card-text"><small class="text-muted">{{recipe.dateCreated | date}}</small></p>
         <button (click)="seeRecipe()" type="button" class="btn btn-outline-primary btn-block">
-      See more...
-    </button>
+        See more...
+      </button>
         <!-- <a [routerLink]="['/recipe',i]" class="btn btn-outline-primary btn-block">  See more...</a> -->
     </div>
 </div>

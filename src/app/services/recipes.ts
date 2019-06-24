@@ -3,8 +3,8 @@ import { Recipe } from './recipe';
 // Here will go the recipes info
 export const RECIPES: Recipe[] = [
     {
-        id: 'paella-pollo',
-        title: 'Paella de Pollo',
+        id: 'paella-pollo1',
+        title: 'Paella de Pollo1',
         dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: './assets/img/recipes/paella_pollo.jpg',
@@ -22,8 +22,8 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'paella-pollo',
-        title: 'Paella de Pollo',
+        id: 'paella-pollo2',
+        title: 'Paella de Pollo2',
         dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: './assets/img/recipes/paella_pollo.jpg',
@@ -41,8 +41,8 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'paella-pollo',
-        title: 'Paella de Pollo',
+        id: 'paella-pollo3',
+        title: 'Paella de Pollo3',
         dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: './assets/img/recipes/paella_pollo.jpg',
@@ -60,8 +60,8 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'paella-pollo',
-        title: 'Paella de Pollo',
+        id: 'paella-pollo4',
+        title: 'Paella de Pollo4',
         dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: './assets/img/recipes/paella_pollo.jpg',
