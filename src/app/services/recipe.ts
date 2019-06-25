@@ -8,7 +8,8 @@ export class Recipe {
     img: string; // Main recipe img
     desc: string; // Recipe description
     time: number; // Cooking time
-    lang: string[];
+    lang: string[]; // languages the recipe is explained
+    advices: string[]; // some cooking advices
     meal: string; // snack, lunch, soup, salad
     ingredients: string[];
     steps: Step[];
