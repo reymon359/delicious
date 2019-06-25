@@ -21,7 +21,15 @@ export const RECIPES: Recipe[] = [
             },
             {
                 desc: 'Ponemos en la paellera aceite y unos ajos, los cuales tienen un corte. Los dejamos que se vayan haciendo y friendo un poco a fuego bajo-medio hasta que estén blanditos y huele bastante a ajo (como en la segunda imagen). Luego los apartamos a un lado.',
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step2_1.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step2_2.jpg' ]
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step2_1.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step2_2.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step2_3.jpg' ]
+            },
+            {
+                desc: 'Ahora es el turno del pollo, previamente lavado y con sal. Ponemos el pollo en la paella con el aceite que quedaba al quitar los ajos a fuego fuerte. Lo dejamos un rato tapado y le damos la vuelta a las piezas para que se tuesten por ambos lados. La carne no tiene que hacerse solamente tiene que tostarse un poco.',
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step3_1.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step3_2.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step3_3.jpg' ]
+            },
+            {
+                desc: 'Ahora echamos un vaso y poco más de caldo por cada vaso de arroz en el tomate. El caldo usado es uno obtenido de una crema de verduras pero se puede usar otro ya hecho. Luego echamos el caldo en el pollo con los ajos y echamos colorante o azafran y sal por encima.',
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step4_1.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step4_2.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step4_3.jpg' ]
             },
         ]
     },
