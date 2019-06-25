@@ -11,6 +11,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -30,6 +31,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -49,6 +51,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -68,6 +71,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -87,6 +91,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -106,6 +111,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -125,6 +131,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
@@ -144,6 +151,7 @@ export const RECIPES: Recipe[] = [
         desc: 'La paella de pollo mitica de la mia mama',
         time: 30,
         meal: 'lunch',
+        lang: ['es'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {
