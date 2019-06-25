@@ -48,6 +48,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Ponemos los pimientos por encima y se deja a fuego medio hirviendo unos 15 minutos. En la segunda foto no se ve bien pero está burbujeando. Tras los 15 minutos lo bajamos a fuego lento para que se acabe de hacer.',
                 imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step8_1.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step8_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step8_3.jpg']
             },
+            {
+                desc: 'Y ya estaría listo. Solo queda disfrutarlo!',
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_main.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step9_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step9_3.jpg']
+            }
         ]
     },
     {
