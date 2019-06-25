@@ -44,6 +44,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Ahora es el momento del arroz. En un recipiente echamos 4 vasos, 1 por persona. Volcamos el recipiente en la paella y removemos.',
                 imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step7_1.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step7_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step7_3.jpg']
             },
+            {
+                desc: 'Ponemos los pimientos por encima y se deja a fuego medio hirviendo unos 15 minutos. En la segunda foto no se ve bien pero está burbujeando. Tras los 15 minutos lo bajamos a fuego lento para que se acabe de hacer.',
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step8_1.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step8_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step8_3.jpg']
+            },
         ]
     },
     {
