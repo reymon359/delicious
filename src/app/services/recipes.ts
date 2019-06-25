@@ -16,8 +16,12 @@ export const RECIPES: Recipe[] = [
         ingredients: ['arroz', 'pimientos', 'tomate'],
         steps: [
             {
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.',
-                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg']
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite. Estará listo cuando ya no le salga mucha agua. Una vez en ese estado lo dejamos ahí con el fuego apagado',
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg','./assets/img/recipes/paella_pollo_step1_2.jpg' ]
+            },
+            {
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite. Estará listo cuando ya no le salga mucha agua. Una vez en ese estado lo dejamos ahí con el fuego apagado',
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg','./assets/img/recipes/paella_pollo_step1_2.jpg' ]
             },
         ]
     },
