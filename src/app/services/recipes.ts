@@ -31,6 +31,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Ahora echamos un vaso y poco más de caldo por cada vaso de arroz en el tomate. El caldo usado es uno obtenido de una crema de verduras pero se puede usar otro ya hecho. Luego echamos el caldo en el pollo con los ajos y echamos colorante o azafran y sal por encima.',
                 imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step4_1.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step4_2.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step4_3.jpg' ]
             },
+            {
+                desc: 'Ahora lo ponemos unos 20-30min a fuego medio y lo tapamos. Al pasar la media hora se puede dejar así hasta que se quiera. Por ejemplo hacerlo por la mañana y dejarlo en este estado hasta la hora de comer. Pero antes de echar el arroz hay que recalentarlo hasta hervir.',
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step5_1.jpg']
+            },
         ]
     },
     {
