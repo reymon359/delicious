@@ -18,8 +18,6 @@ export class Recipe {
 
 // Steps interface
 export class Step {
-    number: number; // step number
-    title: string; // Title
-    img: string; // step img
     desc: string; // Steps description
+    imgs: string[]; // step img
 }

@@ -13,14 +13,12 @@ export const RECIPES: Recipe[] = [
         meal: 'lunch',
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
+        ingredients: ['arroz', 'pimientos', 'tomate'],
         steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
-            }
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.',
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg']
+            },
         ]
     },
     {
@@ -35,13 +33,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
     {
@@ -56,13 +52,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
     {
@@ -77,13 +71,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
     {
@@ -98,13 +90,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
     {
@@ -119,13 +109,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
     {
@@ -140,13 +128,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
     {
@@ -161,13 +147,11 @@ export const RECIPES: Recipe[] = [
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
+          steps: [
             {
-                number: 1,
-                title: 'Primer pasito',
-                img: './assets/img/recipes/paella_pollo_1.jpg',
-                desc: 'En este paso hay que ewhiuoghwuifhweiu fwe ewfhui fhweui fweh foewiofn ewji nfieuofhbiwue    '
-            }
+                imgs: ['./assets/img/recipes/paella_pollo_step1_1.jpg'],
+                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+            },
         ]
     },
 ];
