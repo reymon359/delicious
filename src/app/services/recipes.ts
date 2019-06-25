@@ -35,6 +35,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Ahora lo ponemos unos 20-30min a fuego medio y lo tapamos. Al pasar la media hora se puede dejar así hasta que se quiera. Por ejemplo hacerlo por la mañana y dejarlo en este estado hasta la hora de comer. Pero antes de echar el arroz hay que recalentarlo hasta hervir.',
                 imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step5_1.jpg']
             },
+            {
+                desc: 'Ahora vamos a hacer los pimientos. Una vez cortados los ponemos en una sartén con aceite, los tapamos y les vamos dando la vuelta.Una vez medio hechos apagamos el fuego y los tapamos.',
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step6_1.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step6_2.jpg','./assets/img/recipes/paella-pollo/paella_pollo_step6_3.jpg' ]
+            },
         ]
     },
     {
