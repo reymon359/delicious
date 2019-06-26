@@ -46,6 +46,9 @@ body {
 
 .recipe-jumbotron {
     height: 40vh!important;
+}
+
+.bg-image-cover {
     background-position: center!important;
     background-size: cover!important;
 }

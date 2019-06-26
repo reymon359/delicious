@@ -1,12 +1,11 @@
-<div class="card  mb-4 box-shadow animated fadeIn fast">
-    <img class="card-img-top " [src]="recipe.img" [alt]="recipe.title">
-    <div class="card-body">
+<div class="card bg-image-cover mb-4 box-shadow animated fadeIn fast" [ngStyle]="{background: 'url(' + recipe.img + ')'}">
+    <div class="card-body" style="padding: 6rem;">
+    </div>
+    <div class="card-footer text-white" style="background:rgba(0,0,0,0.7);">
         <h5 class="card-title">{{recipe.title}}</h5>
-        <p class="card-text">{{recipe.desc}}</p>
-        <p class="card-text"><small class="text-muted">{{recipe.dateCreated | date}}</small></p>
-        <button (click)="seeRecipe()" type="button" class="btn btn-primary btn-block">
-        See more...
+        <p class="card-text  "><small class="text-light">{{recipe.dateCreated | date}}</small></p>
+        <button (click)="seeRecipe()" type="button" class="btn btn-outline-success btn-block">
+        Ver receta
       </button>
-
     </div>
 </div>
