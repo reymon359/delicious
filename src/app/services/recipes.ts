@@ -11,7 +11,7 @@ export const RECIPES: Recipe[] = [
         desc: 'Paella de pollo y pimientos típica de los fines de semana 🥘.',
         time: 60,
         people: 4,
-        meal: 'lunch',
+        meal: 'Comida',
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['arroz', 'pimientos', 'tomate'],

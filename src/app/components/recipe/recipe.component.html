@@ -3,22 +3,15 @@
     </div>
     <div class="row">
         <div class="col">
-            <h1>{{recipe.title}}</h1>
+            <h1>{{recipe.title}} </h1>
             <h3 class="font-italic">{{recipe.author}}</h3>
-            <p>{{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
+            <p><span class="badge badge-primary">{{recipe.meal}}</span> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
             <hr>
             <p class="text-justify">{{recipe.desc}}</p>
-            <p> Ingredientes: <span *ngFor="let item of recipe.ingredients" class="badge badge-primary ml-1">{{item}}</span> </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-5">
+            <p> Ingredientes: <span *ngFor="let item of recipe.ingredients" class="badge badge-secondary ml-1">{{item}}</span> </p>
             <p>tiempo: {{recipe.time}} min.</p>
             <p>Personas: {{recipe.people}} aprox.</p>
         </div>
-        <div class="col-md-7">
-
-        </div>
     </div>
+    <button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-danger">Back</button>
 </div>
-<button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-danger position-fixed">Back</button>
