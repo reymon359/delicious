@@ -10,6 +10,11 @@ import { SearchComponent } from './components/search/search.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
 import { RecipeCardComponent } from './components/recipe-card/recipe-card.component';
 
+// dates in other language
+import { LOCALE_ID } from '@angular/core';
+import localeEs from '@angular/common/locales/es';
+import { registerLocaleData } from '@angular/common';
+registerLocaleData(localeEs);
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +27,7 @@ import { RecipeCardComponent } from './components/recipe-card/recipe-card.compon
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{ provide: LOCALE_ID, useValue: 'es' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
