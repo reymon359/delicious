@@ -43,3 +43,9 @@ body {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+.recipe-jumbotron {
+    height: 40vh!important;
+    background-position: center!important;
+    background-size: cover!important;
+}
