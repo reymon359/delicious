@@ -17,5 +17,10 @@
     <h2>Pasos</h2>
     <div *ngFor="let step of recipe.steps; let i = index" class="row mt-3">
         <p> <span class="badge badge-primary m-2">{{i+1}}</span>{{step.desc}}</p>
+        <div class="row w-100 text-center">
+            <div *ngFor="let img of step.imgs" class="col-6 col-md-4">
+                <img [src]="img" alt="" class="mw-100 rounded mb-4" style="max-height: 500px">
+            </div>
+        </div>
     </div>
 </div>
