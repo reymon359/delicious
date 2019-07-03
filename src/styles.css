@@ -52,3 +52,8 @@ body {
     background-position: center!important;
     background-size: cover!important;
 }
+
+.card:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
+    cursor: pointer;
+}
