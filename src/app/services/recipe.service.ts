@@ -39,6 +39,16 @@ export class RecipeService {
     return RECIPES.filter( recipes => recipes.title.includes(text) );
     
     // return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
+
+  //   const inventory = [
+  //     {name: 'apples', quantity: 2},
+  //     {name: 'bananas', quantity: 0},
+  //     {name: 'cherries', quantity: 5}
+  // ];
+  
+  // const result = inventory.find( fruit => fruit.name === 'cherries' );
+  
+  // console.log(result) // { name: 'cherries', quantity: 5 }
   }
 
   filterRecipesByMeal(meal: string): Recipe[] {

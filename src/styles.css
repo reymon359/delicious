@@ -53,7 +53,13 @@ body {
     background-size: cover!important;
 }
 
+.card {
+    transition: all .5s;
+}
+
 .card:hover {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)!important;
+    box-shadow: 0px 5px 40px 3px #8C8689!important;
     cursor: pointer;
+    margin-top: -.5em;
+    transition: all .5s;
 }
