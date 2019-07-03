@@ -87,7 +87,12 @@ export const RECIPES: Recipe[] = [
             {
                 desc: 'Echamos un poco de aceite para freír el arroz y removemos hasta que la gran mayoría del arroz tenga un color transparente',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step5_1.jpg']
+            }, 
+             {
+                desc: 'Una vez el arroz tenga el color descrito anteriormente añadimos el caldo de pescado hasta que cubra el arroz. Entonces Añadimos otro vaso de vino y un poco de sal y removemos( no hay que añadir mucha sal porque luego añadiremos queso ). Si el arroz consume el caldo añadimos más caldo. ',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step6_1.jpg']
             },
+            
         ]
     },
     {
