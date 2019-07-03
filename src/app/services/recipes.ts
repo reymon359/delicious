@@ -14,7 +14,7 @@ export const RECIPES: Recipe[] = [
         meal: 'Comida',
         lang: ['es'],
         advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['arroz', 'pimientos', 'tomate'],
+        ingredients: ['arroz', 'pimientos', 'tomate', 'pollo', 'azafran', 'colorante', 'ajo', 'aceite'],
         steps: [
             {
                 desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite. Estará listo cuando ya no le salga mucha agua. Una vez en ese estado lo dejamos ahí con el fuego apagado.',
