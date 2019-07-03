@@ -73,8 +73,8 @@ export const RECIPES: Recipe[] = [
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
             },
             {
-                desc: 'Ponemos en la paellera aceite y unos ajos, los cuales tienen un corte. Los dejamos que se vayan haciendo y friendo un poco a fuego bajo-medio hasta que estén blanditos y huele bastante a ajo (como en la segunda imagen). Luego los apartamos a un lado.',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step2_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step2_3.jpg']
+                desc: 'Mientras tanto cortamos cebolla y la pochamos',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg']
             }
         ]
     },
