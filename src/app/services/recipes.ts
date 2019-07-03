@@ -96,6 +96,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Añadimos queso rallado. ',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step7_1.jpg']
             },
+            {
+                desc: 'Seguimos añadiendo caldo y queso hasta que el arroz este en su punto, más blando y entonces apagamos el fuego y lo dejamos reposar tapado.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step8_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step8_2.jpg']
+            },
         ]
     },
     {
