@@ -92,7 +92,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Una vez el arroz tenga el color descrito anteriormente añadimos el caldo de pescado hasta que cubra el arroz. Entonces Añadimos otro vaso de vino y un poco de sal y removemos( no hay que añadir mucha sal porque luego añadiremos queso ). Si el arroz consume el caldo añadimos más caldo. ',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step6_1.jpg']
             },
-            
+            {
+                desc: 'Añadimos queso rallado. ',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step7_1.jpg']
+            },
         ]
     },
     {
