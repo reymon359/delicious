@@ -84,6 +84,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Ponemos 3 vasos de arroz para 4 personas en un cuenco y lo echamos con los calamares una vez estén fritos/hechos',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step4_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step4_2.jpg']
             },
+            {
+                desc: 'Echamos un poco de aceite para freír el arroz y removemos hasta que la gran mayoría del arroz tenga un color transparente',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step5_1.jpg']
+            },
         ]
     },
     {
