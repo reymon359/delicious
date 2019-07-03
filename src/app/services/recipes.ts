@@ -66,7 +66,7 @@ export const RECIPES: Recipe[] = [
         meal: 'lunch',
         lang: ['es'],
         advices: ['No pasarse con el vino'],
-        ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla'],
+        ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla', 'sal'],
         steps: [
             {
                 desc: 'Ponemos los calamares a descongelar en caso de estar congelados y lo mismo con el caldo si también lo está.',
@@ -75,7 +75,11 @@ export const RECIPES: Recipe[] = [
             {
                 desc: 'Mientras tanto cortamos cebolla y la pochamos',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg']
-            }
+            },
+            {
+                desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step3_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step3_2.jpg']
+            },
         ]
     },
     {
