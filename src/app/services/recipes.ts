@@ -59,19 +59,23 @@ export const RECIPES: Recipe[] = [
         title: 'Risotto de calamares',
         dateCreated: new Date('2019-06-24T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo_main.jpg',
+        img: './assets/img/recipes/risotto-calamares/risotto_calamares_main.jpg',
         desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
         meal: 'lunch',
         lang: ['es'],
-        advices: [],
-        ingredients: ['rice', 'chicken', 'pepper'],
+        advices: ['No pasarse con el vino'],
+        ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla'],
         steps: [
             {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+                desc: 'Ponemos los calamares a descongelar en caso de estar congelados, lo mismo con el caldo si también lo está.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
             },
+            {
+                desc: 'Ponemos en la paellera aceite y unos ajos, los cuales tienen un corte. Los dejamos que se vayan haciendo y friendo un poco a fuego bajo-medio hasta que estén blanditos y huele bastante a ajo (como en la segunda imagen). Luego los apartamos a un lado.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step2_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step2_3.jpg']
+            }
         ]
     },
     {
