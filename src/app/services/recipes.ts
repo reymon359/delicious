@@ -69,7 +69,7 @@ export const RECIPES: Recipe[] = [
         ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla'],
         steps: [
             {
-                desc: 'Ponemos los calamares a descongelar en caso de estar congelados, lo mismo con el caldo si también lo está.',
+                desc: 'Ponemos los calamares a descongelar en caso de estar congelados y lo mismo con el caldo si también lo está.',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
             },
             {
