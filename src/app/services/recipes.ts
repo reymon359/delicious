@@ -77,8 +77,12 @@ export const RECIPES: Recipe[] = [
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg']
             },
             {
-                desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco.',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step3_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step3_2.jpg']
+                desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco. Al mismo tiempo ponemos el caldo de pescado a calentar a fuego medio-alto',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step3_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step3_2.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step3_3.jpg']
+            },
+            {
+                desc: 'Ponemos 3 vasos de arroz para 4 personas en un cuenco y lo echamos con los calamares una vez estén fritos/hechos',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step4_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step4_2.jpg']
             },
         ]
     },
