@@ -55,17 +55,17 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'paella-pollo2',
-        title: 'Paella de Pollo2',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
+        id: 'risotto-calamares',
+        title: 'Risotto de calamares',
+        dateCreated: new Date('2019-06-24T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
+        img: './assets/img/recipes/paella-pollo/paella_pollo_main.jpg',
+        desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
         meal: 'lunch',
         lang: ['es'],
-        advices: ['Poner bastante de todo para dar más sabor'],
+        advices: [],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
             {

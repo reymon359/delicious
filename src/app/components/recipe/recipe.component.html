@@ -11,8 +11,8 @@
             <p> Ingredientes: <span *ngFor="let item of recipe.ingredients" class="badge badge-secondary ml-1">{{item}}</span> </p>
             <p>tiempo: {{recipe.time}} min.</p>
             <p>Personas: {{recipe.people}} aprox.</p>
-            <p>Consejo: </p>
-            <footer class="blockquote-footer">{{recipe.advices[0]}} </footer>
+            <p>Consejos: </p>
+            <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
         </div>
     </div>
     <h2>Pasos</h2>
