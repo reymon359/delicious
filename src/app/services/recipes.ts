@@ -100,6 +100,10 @@ export const RECIPES: Recipe[] = [
                 desc: 'Seguimos añadiendo caldo y queso hasta que el arroz este en su punto, más blando y entonces apagamos el fuego y lo dejamos reposar tapado.',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step8_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step8_2.jpg']
             },
+            {
+                desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_main.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
+            },
         ]
     },
     {
