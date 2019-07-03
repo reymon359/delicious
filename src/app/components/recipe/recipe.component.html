@@ -9,7 +9,7 @@
             <hr>
             <p class="text-justify">{{recipe.desc}}</p>
             <p> Ingredientes: <span *ngFor="let item of recipe.ingredients" class="badge badge-secondary ml-1">{{item}}</span> </p>
-            <p>tiempo: {{recipe.time}} min.</p>
+            <p>Tiempo: {{recipe.time}} min.</p>
             <p>Personas: {{recipe.people}} aprox.</p>
             <p>Consejos: </p>
             <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
