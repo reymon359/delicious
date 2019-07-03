@@ -35,8 +35,16 @@ export class RecipeService {
     return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
   }
 
+  searchRecipes(text: string): Recipe[] {
+    return RECIPES.filter( recipes => recipes.title.includes(text) );
+    
+    // return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
+  }
 
-
+  filterRecipesByMeal(meal: string): Recipe[] {
+    return RECIPES.filter( recipes => recipes.meal = meal );
+  }
+  
 }
 
 
