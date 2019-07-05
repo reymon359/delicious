@@ -42,27 +42,18 @@ export class RecipeService {
    *   text { String }: the text to search
    * }
    */
-  searchRecipes(text: string): Recipe[] {
-    console.log(text);
-    return RECIPES.filter( recipes => recipes.title.toLowerCase().includes(text.toLowerCase()) );
-    
-    // return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
-
-  //   const inventory = [
-  //     {name: 'apples', quantity: 2},
-  //     {name: 'bananas', quantity: 0},
-  //     {name: 'cherries', quantity: 5}
-  // ];
-  
-  // const result = inventory.find( fruit => fruit.name === 'cherries' );
-  
-  // console.log(result) // { name: 'cherries', quantity: 5 }
+  searchRecipes(text: string): Promise<any> {
+    const promise1 = new Promise((resolve, reject) => {
+      // return RECIPES.filter( recipes => recipes.title.toLowerCase().includes(text.toLowerCase()) );
+      resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
+    });
+    return promise1;
   }
 
   filterRecipesByMeal(meal: string): Recipe[] {
-    return RECIPES.filter( recipes => recipes.meal = meal );
+    return RECIPES.filter(recipes => recipes.meal = meal);
   }
-  
+
 }
 
 
