@@ -12,8 +12,6 @@ export class HomeComponent implements OnInit {
 
   recipes: Recipe[] = [];
   
-  search = ''; // Search param
-  
   constructor(private recipesService: RecipeService, private router: Router) { }
 
   ngOnInit() {
@@ -26,10 +24,13 @@ export class HomeComponent implements OnInit {
     * Searchs a recipe that contains the text 
     * in the title or description
     */
-  searchRecipe(){
-    if ( this.search.length === 0) {
+  searchRecipe(searchText: string){
+    console.log('enters');
+    if ( searchText.length === 0) {
+      console.log('0');
       return;
     }
+    this.recipes = this.recipesService.searchRecipes(searchText);
   }
 
 }

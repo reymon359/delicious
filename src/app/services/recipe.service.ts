@@ -36,7 +36,8 @@ export class RecipeService {
   }
 
   searchRecipes(text: string): Recipe[] {
-    return RECIPES.filter( recipes => recipes.title.includes(text) );
+    console.log(text);
+    return RECIPES.filter( recipes => recipes.title.toLowerCase().includes(text.toLowerCase()) );
     
     // return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
 
