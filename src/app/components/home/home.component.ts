@@ -21,11 +21,11 @@ export class HomeComponent implements OnInit {
     console.log(this.recipes);
   }
 
- /**
-   * searchRecipe()
-   * Searchs a recipe that contains the text 
-   * in the title or description
-   */
+   /**
+    * searchRecipe()
+    * Searchs a recipe that contains the text 
+    * in the title or description
+    */
   searchRecipe(){
     if ( this.search.length === 0) {
       return;
