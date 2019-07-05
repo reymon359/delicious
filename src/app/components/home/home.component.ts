@@ -20,11 +20,14 @@ export class HomeComponent implements OnInit {
   }
 
   /**
-   * searchRecipe()
-   * Searchs a recipe that contains the text 
-   * in the title or description
+   * searchRecipes()
+   * Sends the search text to the recipesService and 
+   * updates the recipes.
+   * @params{
+   *   searchText { String }: the text to search
+   * }
    */
-  searchRecipe(searchText: string) {
+  searchRecipes(searchText: string) {
     console.log('enters');
     if (searchText.length === 0) {
       console.log('0');

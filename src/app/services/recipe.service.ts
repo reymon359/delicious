@@ -34,7 +34,14 @@ export class RecipeService {
   getLastRecipes(): Recipe[] {
     return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
   }
-
+  /**
+   * searchRecipes()
+   * Searchs the recipes array and returns the ones that their
+   * title includes the search text
+   * @params{
+   *   text { String }: the text to search
+   * }
+   */
   searchRecipes(text: string): Recipe[] {
     console.log(text);
     return RECIPES.filter( recipes => recipes.title.toLowerCase().includes(text.toLowerCase()) );
