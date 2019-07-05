@@ -41,7 +41,6 @@ export class HomeComponent implements OnInit {
    * }
    */
   searchRecipes(searchText: string) {
-    console.log('enters');
     // If after searching they remove the text I load all the recipes back
     if (searchText.length === 0) {
       this.loading = true;
@@ -54,7 +53,6 @@ export class HomeComponent implements OnInit {
       return;
     } else if (searchText.length > 1) {
       this.loading = true;
-
       this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
         this.recipes = recipes;
         this.loading = false;
