@@ -20,15 +20,12 @@
 
 <!-- card rows way -->
 <div class="container">
-    <div class="row animated fadeIn fast" *ngIf="recipes.length === 0">
+    <div class="row animated fadeIn fast" *ngIf="recipes.length === 0 && !loading">
         <div class="col-md-12">
-            <!-- <div class="alert alert-warning" role="alert">
-
-            </div> -->
             <div class="alert alert-warning" role="alert">
                 <h4 class="alert-heading">Ups</h4>
                 <p>Parece que no hay ninguna receta con el título <strong> {{ searchText.value}}</strong></p>
-                <button (click)="Ge" type="button" class="btn btn-success">Últimas recetas</button>
+                <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">Últimas recetas</button>
 
             </div>
         </div>

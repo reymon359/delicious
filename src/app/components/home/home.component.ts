@@ -15,12 +15,22 @@ export class HomeComponent implements OnInit {
   constructor(private recipesService: RecipeService, private router: Router) { }
 
   ngOnInit() {
+    this.getRecipes();
+  }
+
+  /**
+   * getRecipes()
+   * Gets the last recipes
+   */
+  getRecipes() {
     this.loading = true;
     this.recipesService.getRecipes().then((recipes: Recipe[]) => {
       this.recipes = recipes;
       this.loading = false;
     });
+
   }
+
 
   /**
    * searchRecipes()
@@ -31,7 +41,7 @@ export class HomeComponent implements OnInit {
    * }
    */
   searchRecipes(searchText: string) {
-
+    console.log('enters');
     // If after searching they remove the text I load all the recipes back
     if (searchText.length === 0) {
       this.loading = true;
@@ -39,18 +49,17 @@ export class HomeComponent implements OnInit {
         this.recipes = recipes;
         this.loading = false;
       });
-    }
-
-    // If there is just 1 character it does not search
-    if (searchText.length <= 1) {
+    } else if (searchText.length <= 1) {
+      // If there is just 1 character it does not search
       return;
-    }
-    this.loading = true;
+    } else if (searchText.length > 1) {
+      this.loading = true;
 
-    this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
-      this.recipes = recipes;
-      this.loading = false;
-    });
+      this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
+        this.recipes = recipes;
+        this.loading = false;
+      });
+    }
   }
 
 }

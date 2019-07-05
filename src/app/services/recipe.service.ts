@@ -21,11 +21,11 @@ export class RecipeService {
       setTimeout(() => {
         resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()));
 
-      },  Math.round(Math.random() * 3000));
+      }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
-  
+
   /**
    * getRecipe()
    * Returns the recipe that matches the id
@@ -53,7 +53,7 @@ export class RecipeService {
       setTimeout(() => {
         resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
 
-      },  Math.round(Math.random() * 3000));
+      }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
