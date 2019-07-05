@@ -4,40 +4,16 @@
     <div class="container">
         <h1 class="display-2">Dove Legacy</h1>
         <p class="lead">The best recipes from all over the world</p>
-        <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2 bmd-label-floating" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+
+        <form class="form-inline my-4  my-lg-5 justify-content-center" (ngSubmit)="searchRecipe(searchText.value)">
+
+            <input class="form-control mr-sm-2   w-auto bmd-label-floating" type="search" placeholder="Search" aria-label="Search" #searchText>
+            <button class="btn btn-success bmd-btn-fab  w-auto ml-1 bmd-btn-fab-sm " type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            </button>
         </form>
-        <form class="form-inline my-2 my-lg-0" (ngSubmit)="searchRecipe()">
-            <input class="form-control mr-sm-2 bmd-label-floating" type="search" placeholder="Search" aria-label="Search" #searchText>
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
-        <form class="form-inline">
-            <div class="form-group bmd-form-group">
-                <label for="exampleInputName2" class="bmd-label-floating">Name</label>
-                <input type="text" class="form-control" id="exampleInputName2">
-            </div>
-            <div class="form-group bmd-form-group">
-                <label for="exampleInputEmail2" class="bmd-label-floating">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail2">
-            </div>
-            <span class="form-group bmd-form-group"> <!-- needed to match padding for floating labels -->
-              <button type="submit" class="btn btn-primary">Send invitation</button>
-            </span>
-        </form>
-        <form>
-            <div class="form-group bmd-form-group">
-                <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
-                <label for="formGroupExampleInput" class="bmd-label-floating">Example label</label>
-                <input type="text" class="form-control" id="formGroupExampleInput">
-            </div>
-            <div class="form-group bmd-form-group">
-                <!-- manually specified -->
-                <label for="formGroupExampleInput2" class="bmd-label-floating">Another label</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2">
-            </div>
-        </form>
+
     </div>
 </div>
 

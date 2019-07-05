@@ -63,3 +63,7 @@ body {
     margin-top: -.5em;
     transition: all .5s;
 }
+
+.w-auto {
+    width: auto!important;
+}
