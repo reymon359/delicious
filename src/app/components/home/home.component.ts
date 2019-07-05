@@ -28,11 +28,12 @@ export class HomeComponent implements OnInit {
    * }
    */
   searchRecipes(searchText: string) {
-    this.loading = true;
 
     if (searchText.length <= 1) {
       return;
     }
+    this.loading = true;
+
     this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
       this.recipes = recipes;
       this.loading = false;
