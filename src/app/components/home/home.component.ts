@@ -11,7 +11,7 @@ import { Recipe } from '../../services/recipe';
 export class HomeComponent implements OnInit {
 
   recipes: Recipe[] = [];
-  
+
   constructor(private recipesService: RecipeService, private router: Router) { }
 
   ngOnInit() {
@@ -19,14 +19,14 @@ export class HomeComponent implements OnInit {
     console.log(this.recipes);
   }
 
-   /**
-    * searchRecipe()
-    * Searchs a recipe that contains the text 
-    * in the title or description
-    */
-  searchRecipe(searchText: string){
+  /**
+   * searchRecipe()
+   * Searchs a recipe that contains the text 
+   * in the title or description
+   */
+  searchRecipe(searchText: string) {
     console.log('enters');
-    if ( searchText.length === 0) {
+    if (searchText.length === 0) {
       console.log('0');
       return;
     }
