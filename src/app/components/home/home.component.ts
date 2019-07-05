@@ -29,7 +29,8 @@ export class HomeComponent implements OnInit {
    */
   searchRecipes(searchText: string) {
     console.log('enters');
-    if (searchText.length === 0) {
+   
+    if (searchText.length <= 1) {
       console.log('0');
       return;
     }
