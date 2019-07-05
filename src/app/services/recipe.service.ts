@@ -14,10 +14,10 @@ export class RecipeService {
 
   /**
    * getRecipes()
-   * Returns the array of recipes like it is
+   * Returns the array of recipes ordered with the last ones first
    */
   getRecipes(): Recipe[] {
-    return RECIPES;
+    return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime());
   }
 
   /**
