@@ -29,6 +29,12 @@ export class HomeComponent implements OnInit {
    */
   searchRecipes(searchText: string) {
 
+    // If after searching they remove the text I load all the recipes back
+    if (searchText.length === 0) {
+      this.recipes = this.recipesService.getRecipes();
+    }
+
+    // If there is just 1 character it does not search
     if (searchText.length <= 1) {
       return;
     }
@@ -37,7 +43,7 @@ export class HomeComponent implements OnInit {
     this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
       this.recipes = recipes;
       this.loading = false;
-    })
+    });
   }
 
 }
