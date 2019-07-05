@@ -44,8 +44,13 @@ export class RecipeService {
    */
   searchRecipes(text: string): Promise<any> {
     const promise1 = new Promise((resolve, reject) => {
+
+      setTimeout(() => {
+        resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
+
+      },  Math.round(Math.random() * 3000));
+
       // return RECIPES.filter( recipes => recipes.title.toLowerCase().includes(text.toLowerCase()) );
-      resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
     });
     return promise1;
   }
@@ -55,5 +60,4 @@ export class RecipeService {
   }
 
 }
-
 

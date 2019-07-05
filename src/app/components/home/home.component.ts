@@ -33,8 +33,10 @@ export class HomeComponent implements OnInit {
     if (searchText.length <= 1) {
       return;
     }
-    this.recipes = this.recipesService.searchRecipes(searchText);
-    this.loading = false;
+    this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
+      this.recipes = recipes;
+      this.loading = false;
+    })
   }
 
 }
