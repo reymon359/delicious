@@ -16,10 +16,16 @@ export class RecipeService {
    * getRecipes()
    * Returns the array of recipes ordered with the last ones first
    */
-  getRecipes(): Recipe[] {
-    return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime());
-  }
+  getRecipes(): Promise<any> {
+    const promise = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()));
 
+      },  Math.round(Math.random() * 3000));
+    });
+    return promise;
+  }
+  
   /**
    * getRecipe()
    * Returns the recipe that matches the id
@@ -43,16 +49,13 @@ export class RecipeService {
    * }
    */
   searchRecipes(text: string): Promise<any> {
-    const promise1 = new Promise((resolve, reject) => {
-
+    const promise = new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
 
       },  Math.round(Math.random() * 3000));
-
-      // return RECIPES.filter( recipes => recipes.title.toLowerCase().includes(text.toLowerCase()) );
     });
-    return promise1;
+    return promise;
   }
 
   filterRecipesByMeal(meal: string): Recipe[] {

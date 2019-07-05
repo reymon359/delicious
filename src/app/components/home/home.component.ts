@@ -15,8 +15,11 @@ export class HomeComponent implements OnInit {
   constructor(private recipesService: RecipeService, private router: Router) { }
 
   ngOnInit() {
-    this.recipes = this.recipesService.getRecipes();
-    console.log(this.recipes);
+    this.loading = true;
+    this.recipesService.getRecipes().then((recipes: Recipe[]) => {
+      this.recipes = recipes;
+      this.loading = false;
+    });
   }
 
   /**
@@ -31,7 +34,11 @@ export class HomeComponent implements OnInit {
 
     // If after searching they remove the text I load all the recipes back
     if (searchText.length === 0) {
-      this.recipes = this.recipesService.getRecipes();
+      this.loading = true;
+      this.recipesService.getRecipes().then((recipes: Recipe[]) => {
+        this.recipes = recipes;
+        this.loading = false;
+      });
     }
 
     // If there is just 1 character it does not search
