@@ -108,11 +108,11 @@
         display: block;
     }
     
-    .set div img {
+    .set div .img {
         width: 150px;
-        -webkit-animation: fadeinout 10s linear forwards;
+        /* -webkit-animation: fadeinout 10s linear forwards;
         animation: fadeinout 10s linear forwards;
-        opacity: 0;
+        opacity: 0; */
     }
     
     @-webkit-keyframes fadeinout {
@@ -215,15 +215,19 @@
     }
     /* Now the closest set of elements */
     
+    .set {
+        transform: scale(2);
+    }
+    
     .set2 {
-        transform: scale(2) rotateY(180deg) translateX(-10px);
-        filter: blur(2px);
+        transform: scale(4) rotateY(180deg) translateX(-10px);
+        filter: blur(.5px);
     }
     /* Now the furthest set of elements */
     
     .set3 {
-        transform: scale(0.8) rotateX(180deg) translateX(+10px);
-        filter: blur(4px);
+        transform: scale(1.5) rotateX(180deg) translateX(+10px);
+        filter: blur(1px);
     }
     
     h2 {

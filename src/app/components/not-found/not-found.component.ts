@@ -31,7 +31,8 @@ export class NotFoundComponent implements OnInit {
 
               for (let imgIndex = 1; imgIndex < 4; imgIndex++) { // The loop for the images
 
-                  html += `<div><img src="https://raw.githubusercontent.com/reymon359/web-experiments/master/Seasons%20Falling/season${this.seasonIndex}_${imgIndex}.png" alt=""></div>`;
+                // html += `<div><img src="https://raw.githubusercontent.com/reymon359/web-experiments/master/Seasons%20Falling/season${this.seasonIndex}_${imgIndex}.png" alt="">🍟</div>`;
+                html += `<div class="img">🍟</div>`;
 
               }
           }
@@ -48,8 +49,8 @@ export class NotFoundComponent implements OnInit {
       this.seasonIndex = (this.seasonIndex === 4) ? 1 : this.seasonIndex + 1;
 
       // Changing season in 10 sec
-      setTimeout(() => {
-         this. changeSeason();
-      }, 10000);
+      // setTimeout(() => {
+      //    this. changeSeason();
+      // }, 10000);
   }
 }
