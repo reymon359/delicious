@@ -33,8 +33,14 @@ export class RecipeService {
    *   id { String }: recipe id
    * }
    */
-  getRecipe(id: string): Recipe {
-    return RECIPES.find(recipe => recipe.id === id);
+  getRecipe(id: string): Promise<any> {
+    const promise = new Promise((resolve, reject) => {
+      // setTimeout(() => {
+        resolve(RECIPES.find(recipe => recipe.id === id));
+
+      // }, Math.round(Math.random() * 2500) + 1500);
+    });
+    return promise;
   }
 
   getLastRecipes(): Recipe[] {
