@@ -30,8 +30,7 @@ export class NotFoundComponent implements OnInit {
           for (let imgGroupIndex = 1; imgGroupIndex < 4; imgGroupIndex++) { // The loop for groups
 
               for (let imgIndex = 1; imgIndex < 4; imgIndex++) { // The loop for the images
-                let ranfood = this.foodEmojis[Math.floor(Math.random() * this.foodEmojis.length)].split('-')[1];
-                  
+                let ranfood = this.foodEmojis[Math.floor(Math.random() * this.foodEmojis.length)];
                 // html += `<div><img src="https://raw.githubusercontent.com/reymon359/web-experiments/master/Seasons%20Falling/season${this.seasonIndex}_${imgIndex}.png" alt="">🍟</div>`;
                 html += `<div class="img">${ranfood}</div>`;
 
