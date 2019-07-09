@@ -18,10 +18,10 @@ export class RecipeService {
    */
   getRecipes(): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      setTimeout(() => {
+      // setTimeout(() => {
         resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()));
 
-      }, Math.round(Math.random() * 2500) + 1500);
+      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
