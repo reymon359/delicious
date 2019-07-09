@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NotFoundComponent implements OnInit {
   seasonIndex = (Math.floor(Math.random() * 4) + 1); // The season we will start. It will be random
-
+  foodEmojis = ['🍇','🍈','🍉','🍊','🍋','🍌','🍍','🥭','🍎','🍏','🍐','🍑','🍒','🍓','🥝','🍅','🥥','🥑','🍆','🥔','🥕','🌽','🌶','🥒','🥬','🥦','🍄','🥜','🌰','🍞','🥐','🥖','🥨','🥯','🥞','🧀','🍖','🍗','🥩','🥓','🍔','🍟','🍕','🌭','🥪','🌮','🌯','🥙','🍳','🥘','🍲','🥣','🥗','🍿','🧂','🥫','🍱','🍘','🍙','🍚','🍛','🍜','🍝','🍠','🍢','🍣','🍤','🍥','🥮','🍡','🥟','🥠','🥡','🍦','🍧','🍨','🍩','🍪','🎂','🍰','🧁','🥧','🍫','🍬','🍭','🍮','🍯','🍼','🥛','☕','🍵','🍶','🍾','🍷','🍸','🍹','🍺','🍻','🥂','🥃','🥤','🥢','🍽','🍴',🥄]
   constructor() { 
     
   }
@@ -19,7 +19,7 @@ export class NotFoundComponent implements OnInit {
   changeSeason() {
       let html = '';
       // I will build the html here
-
+      
       html += `<div class="section404"><h2>404 <br>  <small>Page not found</small></h2>`;
 
       for (let containerIndex = 1; containerIndex < 4; containerIndex++) {

@@ -108,8 +108,9 @@
         display: block;
     }
     
-    .set div .img {
-        width: 150px;
+    .set div {
+        /* width: 150px; */
+        font-size: 150px;
         /* -webkit-animation: fadeinout 10s linear forwards;
         animation: fadeinout 10s linear forwards;
         opacity: 0; */
@@ -215,19 +216,15 @@
     }
     /* Now the closest set of elements */
     
-    .set {
-        transform: scale(2);
-    }
-    
     .set2 {
-        transform: scale(4) rotateY(180deg) translateX(-10px);
-        filter: blur(.5px);
+        transform: scale(2) rotateY(180deg) translateX(-10px);
+        filter: blur(2px);
     }
     /* Now the furthest set of elements */
     
     .set3 {
-        transform: scale(1.5) rotateX(180deg) translateX(+10px);
-        filter: blur(1px);
+        transform: scale(1) rotateX(180deg) translateX(+10px);
+        filter: blur(4px);
     }
     
     h2 {
