@@ -5,6 +5,7 @@ import { SearchComponent } from './components/search/search.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'search', component: SearchComponent },
   { path: 'recipe/:id', component: RecipeComponent },

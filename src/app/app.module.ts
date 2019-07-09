@@ -14,6 +14,7 @@ import { RecipeCardComponent } from './components/recipe-card/recipe-card.compon
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
+import { NotFoundComponent } from './not-found/not-found.component';
 registerLocaleData(localeEs);
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ registerLocaleData(localeEs);
     HomeComponent,
     SearchComponent,
     RecipeComponent,
-    RecipeCardComponent
+    RecipeCardComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
