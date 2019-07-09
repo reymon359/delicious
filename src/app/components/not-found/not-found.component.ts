@@ -40,8 +40,6 @@ export class NotFoundComponent implements OnInit {
           html += `</div>`;
       }
 
-      html += `<a href="https://ramonmorcillo.com" >Ramon Morcillo @reymon359</a>`;
-
       html += `</div>`;
       document.getElementById('404-container').innerHTML = html;
 

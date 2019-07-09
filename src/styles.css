@@ -78,15 +78,12 @@
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
     }
+    /* 404 page */
     
-    body {
+    .section404 {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        /* lets try */
-    }
-    
-    .section404 {
         position: absolute;
         top: 0;
         left: 0;
@@ -95,7 +92,7 @@
         background: radial-gradient(#333, #000);
     }
     
-    .set {
+    .section404 .set {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -103,13 +100,14 @@
         left: 0;
     }
     
-    .set div {
+    .section404 .set div {
         position: absolute;
         display: block;
     }
     
-    .set div {
+    .section404 .set div {
         /* width: 150px; */
+        color: #fff;
         font-size: 150px;
         /* -webkit-animation: fadeinout 10s linear forwards;
         animation: fadeinout 10s linear forwards;
@@ -135,53 +133,53 @@
     }
     /* Setting the elemets position */
     
-    .set div:nth-child(1) {
+    .section404 .set div:nth-child(1) {
         left: 00%;
         animation: animate 15s linear infinite;
         animation-delay: -7s;
     }
     
-    .set div:nth-child(2) {
+    .section404 .set div:nth-child(2) {
         left: 15%;
         animation: animate 20s linear infinite;
         animation-delay: -5s;
     }
     
-    .set div:nth-child(3) {
+    .section404 .set div:nth-child(3) {
         left: 25%;
         animation: animate 16s linear infinite;
     }
     
-    .set div:nth-child(4) {
+    .section404 .set div:nth-child(4) {
         left: 40%;
         animation: animate 15s linear infinite;
         animation-delay: -5s;
     }
     
-    .set div:nth-child(5) {
+    .section404 .set div:nth-child(5) {
         left: 30%;
         animation: animate 18s linear infinite;
         animation-delay: -10s;
     }
     
-    .set div:nth-child(6) {
+    .section404 .set div:nth-child(6) {
         left: 55%;
         animation: animate 9s linear infinite;
         animation-delay: -7s;
     }
     
-    .set div:nth-child(7) {
+    .section404 .set div:nth-child(7) {
         left: 85%;
         animation: animate 10s linear infinite;
     }
     
-    .set div:nth-child(8) {
+    .section404 .set div:nth-child(8) {
         left: 70%;
         animation: animate 22s linear infinite;
         animation-delay: -5s;
     }
     
-    .set div:nth-child(9) {
+    .section404 .set div:nth-child(9) {
         left: 75%;
         animation: animate 14s linear infinite;
         animation-delay: -8s;
@@ -216,18 +214,18 @@
     }
     /* Now the closest set of elements */
     
-    .set2 {
+    .section404 .set2 {
         transform: scale(2) rotateY(180deg) translateX(-10px);
         filter: blur(2px);
     }
     /* Now the furthest set of elements */
     
-    .set3 {
+    .section404 .set3 {
         transform: scale(1) rotateX(180deg) translateX(+10px);
         filter: blur(4px);
     }
     
-    h2 {
+    .section404 h2 {
         position: absolute;
         top: 50%;
         width: 100%;
@@ -238,4 +236,12 @@
         padding: 0;
         font-size: 8em;
         font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .button-404 {
+        position: absolute;
+        position: absolute;
+        bottom: 5%;
+        margin: auto;
+        transform: translateY(-50%);
     }
