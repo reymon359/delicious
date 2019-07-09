@@ -18,10 +18,13 @@ export class RecipeComponent implements OnInit {
       this.recipeService.getRecipe(params.id).then(recipe => {
 
         // If the recipe does not exists we redirect to not found
-        if (recipe === undefined) { this.route.navigate(['not-found']); }
-        
-        this.recipe = recipe;
-        console.log(this.recipe);
+        if (recipe === undefined) {
+          this.route.navigate(['not-found']);
+        } else {
+          this.recipe = recipe;
+          console.log(this.recipe);
+        }
+
 
       });
     });
