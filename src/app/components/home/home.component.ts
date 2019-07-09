@@ -48,9 +48,6 @@ export class HomeComponent implements OnInit {
         this.recipes = recipes;
         this.loading = false;
       });
-    } else if (searchText.length <= 1) {
-      // If there is just 1 character it does not search
-      return;
     } else if (searchText.length > 1) {
       this.loading = true;
       this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
