@@ -9,12 +9,12 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
 import { RecipeCardComponent } from './components/recipe-card/recipe-card.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 // dates in other language
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
-import { NotFoundComponent } from './not-found/not-found.component';
 registerLocaleData(localeEs);
 @NgModule({
   declarations: [
