@@ -1,69 +1,240 @@
-/* You can add global styles to this file, and also import other style files */
-
-body {
-    padding-bottom: 50px;
-    background-color: white;
-    color: darkslategrey;
-}
-
-.main-container {
-    margin-top: 20px;
-}
-
-.img-logo {
-    width: 150px;
-}
-
-
-/* Animations */
-
-.animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-.fast {
-    -webkit-animation-duration: 0.4s;
-    animation-duration: 0.4s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
-
-@keyframes fadeIn {
-    from {
+    /* You can add global styles to this file, and also import other style files */
+    
+    body {
+        padding-bottom: 50px;
+        background-color: white;
+        color: darkslategrey;
+    }
+    
+    .main-container {
+        margin-top: 20px;
+    }
+    
+    .img-logo {
+        width: 150px;
+    }
+    /* Animations */
+    
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    .fast {
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .fadeIn {
+        animation-name: fadeIn;
+    }
+    
+    .recipe-jumbotron {
+        height: 60vh!important;
+    }
+    
+    .bg-image-cover {
+        background-position: center!important;
+        background-size: cover!important;
+    }
+    
+    .card {
+        transition: all .5s;
+    }
+    
+    .card:hover {
+        box-shadow: 0px 5px 40px 3px #8C8689!important;
+        cursor: pointer;
+        margin-top: -.5em;
+        transition: all .5s;
+    }
+    
+    .w-auto {
+        width: auto!important;
+    }
+    
+    a {
+        z-index: 100;
+        position: absolute;
+        bottom: 10px;
+        /* right: 50vw; */
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        /* lets try */
+    }
+    
+    .section404 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(#333, #000);
+    }
+    
+    .set {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .set div {
+        position: absolute;
+        display: block;
+    }
+    
+    .set div img {
+        width: 150px;
+        -webkit-animation: fadeinout 10s linear forwards;
+        animation: fadeinout 10s linear forwards;
         opacity: 0;
     }
-    to {
-        opacity: 1;
+    
+    @-webkit-keyframes fadeinout {
+        20% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
     }
-}
-
-.fadeIn {
-    animation-name: fadeIn;
-}
-
-.recipe-jumbotron {
-    height: 60vh!important;
-}
-
-.bg-image-cover {
-    background-position: center!important;
-    background-size: cover!important;
-}
-
-.card {
-    transition: all .5s;
-}
-
-.card:hover {
-    box-shadow: 0px 5px 40px 3px #8C8689!important;
-    cursor: pointer;
-    margin-top: -.5em;
-    transition: all .5s;
-}
-
-.w-auto {
-    width: auto!important;
-}
+    
+    @keyframes fadeinout {
+        20% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+    }
+    /* Setting the elemets position */
+    
+    .set div:nth-child(1) {
+        left: 00%;
+        animation: animate 15s linear infinite;
+        animation-delay: -7s;
+    }
+    
+    .set div:nth-child(2) {
+        left: 15%;
+        animation: animate 20s linear infinite;
+        animation-delay: -5s;
+    }
+    
+    .set div:nth-child(3) {
+        left: 25%;
+        animation: animate 16s linear infinite;
+    }
+    
+    .set div:nth-child(4) {
+        left: 40%;
+        animation: animate 15s linear infinite;
+        animation-delay: -5s;
+    }
+    
+    .set div:nth-child(5) {
+        left: 30%;
+        animation: animate 18s linear infinite;
+        animation-delay: -10s;
+    }
+    
+    .set div:nth-child(6) {
+        left: 55%;
+        animation: animate 9s linear infinite;
+        animation-delay: -7s;
+    }
+    
+    .set div:nth-child(7) {
+        left: 85%;
+        animation: animate 10s linear infinite;
+    }
+    
+    .set div:nth-child(8) {
+        left: 70%;
+        animation: animate 22s linear infinite;
+        animation-delay: -5s;
+    }
+    
+    .set div:nth-child(9) {
+        left: 75%;
+        animation: animate 14s linear infinite;
+        animation-delay: -8s;
+    }
+    /* Animation of falling down */
+    
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            top: -10%;
+            transform: translateX(20px) rotate(0deg);
+        }
+        10% {
+            opacity: 1;
+        }
+        20% {
+            transform: translateX(-20px) rotate(45deg);
+        }
+        40% {
+            transform: translateX(-20px) rotate(90deg);
+        }
+        60% {
+            transform: translateX(20px) rotate(135deg);
+        }
+        80% {
+            transform: translateX(-20px) rotate(180deg);
+        }
+        100% {
+            top: 110%;
+            transform: translateX(-20px) rotate(225deg);
+        }
+    }
+    /* Now the closest set of elements */
+    
+    .set2 {
+        transform: scale(2) rotateY(180deg) translateX(-10px);
+        filter: blur(2px);
+    }
+    /* Now the furthest set of elements */
+    
+    .set3 {
+        transform: scale(0.8) rotateX(180deg) translateX(+10px);
+        filter: blur(4px);
+    }
+    
+    h2 {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        font-size: 8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
