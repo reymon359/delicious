@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../../services/recipe';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { RecipeService } from '../../services/recipe.service';
 
 @Component({
@@ -12,10 +12,18 @@ export class RecipeComponent implements OnInit {
 
   recipe: Recipe;
 
-  constructor(private activatedRoute: ActivatedRoute, private recipeService: RecipeService) {
+  constructor(private activatedRoute: ActivatedRoute, private route: Router,
+              private recipeService: RecipeService) {
     this.activatedRoute.params.subscribe(params => {
-      this.recipe = this.recipeService.getRecipe(params.id);
-      console.log(this.recipe);
+      this.recipeService.getRecipe(params.id).then(recipe => {
+
+        // If the recipe does not exists we redirect to not found
+        if (recipe === undefined) { this.route.navigate(['not-found']); }
+        
+        this.recipe = recipe;
+        console.log(this.recipe);
+
+      });
     });
   }
 
