@@ -64,8 +64,14 @@ export class RecipeService {
     return promise;
   }
 
-  filterRecipesByMeal(meal: string): Recipe[] {
-    return RECIPES.filter(recipes => recipes.meal = meal);
+  filterRecipesByMeal(mealsToFilter: number[]): Promise<any> {
+    // return RECIPES.filter(recipes => recipes.meal = meal);
+    const promise = new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
+      }, Math.round(Math.random() * 2500) + 1500);
+    });
+    return promise;
   }
 
 }
