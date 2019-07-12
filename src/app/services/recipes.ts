@@ -63,7 +63,7 @@ export const RECIPES: Recipe[] = [
         desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
-        meal: 'lunch',
+        meal: 'Comida',
         lang: ['es'],
         advices: ['No pasarse con el vino'],
         ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla', 'sal'],

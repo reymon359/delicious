@@ -1,12 +1,16 @@
-<div class="container main-container animated fadeIn fast">
+<div class="container main-container animated fadeIn ">
     <div [ngStyle]="{background: 'url(./' + recipe.img + ')'}" class="jumbotron bg-image-cover p-3 p-md-5 text-white rounded recipe-jumbotron">
     </div>
     <div class="row mb-4">
         <div class="col">
-            <h1>{{recipe.title}} </h1>
-            <h3 class="font-italic">{{recipe.author}}</h3>
-            <p><span class="badge badge-primary">{{recipe.meal}}</span> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
-            <hr>
+            <div class="text-center">
+
+                <h1>{{recipe.title}} </h1>
+                <h3 class="font-italic">{{recipe.author}}</h3>
+                <p> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
+                <span class="badge badge-primary">{{recipe.meal}}</span>
+                <hr>
+            </div>
             <p class="text-justify">{{recipe.desc}}</p>
             <p> Ingredientes: <span *ngFor="let item of recipe.ingredients" class="badge badge-secondary ml-1">{{item}}</span> </p>
             <p>Tiempo: {{recipe.time}} min.</p>
