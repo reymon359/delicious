@@ -14,8 +14,9 @@ export class HomeComponent implements OnInit {
   loading: boolean;
   meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
   mealsSelected = [];
-  
+
   errorMessage = '';
+  errorMessageStrong = '';
 
   constructor(private recipesService: RecipeService, private router: Router) { }
 
@@ -57,6 +58,10 @@ export class HomeComponent implements OnInit {
       this.loading = true;
       this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
         this.recipes = recipes;
+        if (this.recipes.length === 0) {
+          this.errorMessage = 'Parece que no hay ninguna receta con el título'
+          this.errorMessageStrong = searchText;
+        }
         this.loading = false;
       });
     }
@@ -67,9 +72,9 @@ export class HomeComponent implements OnInit {
    * Sends the meal filters to the recipesService and 
    * updates the recipes.
    */
-  filterByMeals(){
+  filterByMeals() {
     // console.log(this.mealsSelected);
-    if (this.mealsSelected.length === 0) {
+    if (this.mealsSelected.length === 0 || this.mealsSelected.length === this.meals.length) {
       this.getRecipes();
       return;
     }

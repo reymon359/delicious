@@ -30,13 +30,13 @@
 <!-- card rows way -->
 <div class="container">
 
-    <!-- no search result alert -->
-    <div class="row animated fadeIn fast" *ngIf="recipes.length === 0 && !loading">
+    <!-- error alert -->
+    <div class="row animated fadeIn fast" *ngIf="errorMessage.length > 0 && !loading">
         <div class="col-md-12 text-center">
 
             <!-- <div class="alert alert-warning" role="alert"> -->
             <h4>Ups😐</h4>
-            <p>Parece que no hay ninguna receta con el título <strong> {{ searchText.value}}</strong></p>
+            <p> {{errorMessage}}<strong> {{ errorMessageStrong}}</strong></p>
             <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">Últimas recetas</button>
             <!-- </div> -->
         </div>
