@@ -12,6 +12,9 @@ export class HomeComponent implements OnInit {
 
   recipes: Recipe[] = [];
   loading: boolean;
+  meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
+  
+  
   constructor(private recipesService: RecipeService, private router: Router) { }
 
   ngOnInit() {

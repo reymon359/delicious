@@ -14,6 +14,13 @@
             </button>
         </form>
 
+        <!-- Meal filter -->
+        <!-- Comida Cena Postre Almuerzo Aperitivo Entrante Sopa Ensalada -->
+        <div class="meals-filters">
+            <span *ngFor="let meal of meals" class="badge badge-pill badge-primary m-1 p-2 meal-filter">{{meal}}</span>
+        </div>
+
+
     </div>
 </div>
 
