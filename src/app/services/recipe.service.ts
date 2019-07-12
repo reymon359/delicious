@@ -73,9 +73,9 @@ export class RecipeService {
    */
   filterRecipesByMeal(mealsToFilter: number[]): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      setTimeout(() => {
+      // setTimeout(() => {
         resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
-      }, Math.round(Math.random() * 2500) + 1500);
+      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }

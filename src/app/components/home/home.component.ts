@@ -15,6 +15,8 @@ export class HomeComponent implements OnInit {
   meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
   mealsSelected = [];
   
+  errorMessage = '';
+
   constructor(private recipesService: RecipeService, private router: Router) { }
 
   ngOnInit() {
@@ -60,13 +62,17 @@ export class HomeComponent implements OnInit {
     }
   }
 
-   /**
+  /**
    * filterByMeals()
    * Sends the meal filters to the recipesService and 
    * updates the recipes.
    */
   filterByMeals(){
-    console.log(this.mealsSelected);
+    // console.log(this.mealsSelected);
+    if (this.mealsSelected.length === 0) {
+      this.getRecipes();
+      return;
+    }
     this.loading = true;
     this.recipesService.filterRecipesByMeal(this.mealsSelected).then((recipes: Recipe[]) => {
       this.recipes = recipes;
