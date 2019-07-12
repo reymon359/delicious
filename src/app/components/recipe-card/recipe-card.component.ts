@@ -9,6 +9,8 @@ import { Recipe } from '../../services/recipe';
 })
 export class RecipeCardComponent implements OnInit {
 
+  meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
+  
   @Input() recipe: any = {}; // The recipe info comes from parent
 
   @Output() recipeSelected: EventEmitter<string>; // It is going to emmit a recipeId (string)

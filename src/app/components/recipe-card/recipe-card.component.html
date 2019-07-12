@@ -3,7 +3,7 @@
     </div>
     <div class="card-footer text-white" style="background:rgba(0,0,0,0.7);">
         <h5 class="card-title">{{recipe.title}}</h5>
-        <p class="card-text  "><small class="text-light">{{recipe.dateCreated | date}}</small></p>
+        <p class="card-text  "><small class="text-light mr-2">{{recipe.dateCreated | date}}</small><span class="badge badge-pill badge-primary  p-2">{{meals[recipe.meal]}}</span></p>
         <button (click)="seeRecipe()" type="button" class="btn btn-success btn-block">
         Ver receta
       </button>
