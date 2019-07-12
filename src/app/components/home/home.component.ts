@@ -56,6 +56,7 @@ export class HomeComponent implements OnInit {
         this.loading = false;
       });
     } else if (searchText.length > 1) {
+      this.mealsSelected = [];
       this.loading = true;
       this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
         this.recipes = recipes;
