@@ -19,7 +19,7 @@ export class RecipeService {
   getRecipes(): Promise<any> {
     const promise = new Promise((resolve, reject) => {
       // setTimeout(() => {
-        resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()));
+      resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()));
 
       // }, Math.round(Math.random() * 2500) + 1500);
     });
@@ -36,7 +36,7 @@ export class RecipeService {
   getRecipe(id: string): Promise<any> {
     const promise = new Promise((resolve, reject) => {
       // setTimeout(() => {
-        resolve(RECIPES.find(recipe => recipe.id === id));
+      resolve(RECIPES.find(recipe => recipe.id === id));
 
       // }, Math.round(Math.random() * 2500) + 1500);
     });
@@ -56,10 +56,10 @@ export class RecipeService {
    */
   searchRecipes(text: string): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
+      // setTimeout(() => { 
+      resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
 
-      }, Math.round(Math.random() * 2500) + 1500);
+      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
@@ -74,7 +74,7 @@ export class RecipeService {
   filterRecipesByMeal(mealsToFilter: number[]): Promise<any> {
     const promise = new Promise((resolve, reject) => {
       // setTimeout(() => {
-        resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
+      resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
       // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;

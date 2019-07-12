@@ -31,7 +31,7 @@
 <div class="container">
 
     <!-- error alert -->
-    <div class="row animated fadeIn fast" *ngIf="errorMessage.length > 0 && !loading">
+    <div class="row animated fadeIn fast" *ngIf="recipes.length === 0 && !loading">
         <div class="col-md-12 text-center">
 
             <!-- <div class="alert alert-warning" role="alert"> -->
