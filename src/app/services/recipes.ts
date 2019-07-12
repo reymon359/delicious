@@ -7,7 +7,7 @@ export const RECIPES: Recipe[] = [
         title: 'Paella de Pollo',
         dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo_main.jpg',
+        img: './assets/img/recipes/paella-pollo/paella_pollo_step9_1.jpg',
         desc: 'Paella de pollo y pimientos típica de los fines de semana 🥘.',
         time: 60,
         people: 4,
@@ -50,7 +50,7 @@ export const RECIPES: Recipe[] = [
             },
             {
                 desc: 'Y ya estaría listo. Solo queda disfrutarlo!',
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_main.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step9_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step9_3.jpg']
+                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step9_1.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step9_2.jpg', './assets/img/recipes/paella-pollo/paella_pollo_step9_3.jpg']
             }
         ]
     },
@@ -102,7 +102,7 @@ export const RECIPES: Recipe[] = [
             },
             {
                 desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_main.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
             },
         ]
     },
