@@ -11,7 +11,7 @@ export class Recipe {
     people: number; // number of people
     lang: string[]; // languages the recipe is explained
     advices: string[]; // some cooking advices
-    meal: number; 
+    meal: number; // Meals in numbers to improve filtering
     // Lunch Dinner Dessert Snack Appetizer Entree Soup Salad
     // Comida Cena Postre Almuerzo Aperitivo Entrante Sopa Ensalada
     ingredients: string[];

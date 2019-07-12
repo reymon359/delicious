@@ -63,9 +63,15 @@ export class RecipeService {
     });
     return promise;
   }
-
+  /**
+   * filterRecipesByMeal()
+   * Searchs the recipes array and returns the recipes where their meal
+   * is included in the mealsToFilter array
+   * @params{
+   *   mealsToFilter { Number[] }: array of meals numbers selected
+   * }
+   */
   filterRecipesByMeal(mealsToFilter: number[]): Promise<any> {
-    // return RECIPES.filter(recipes => recipes.meal = meal);
     const promise = new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
