@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   recipes: Recipe[] = [];
   loading: boolean;
   meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
-  
+  mealsSelected = [];
   
   constructor(private recipesService: RecipeService, private router: Router) { }
 
@@ -60,4 +60,17 @@ export class HomeComponent implements OnInit {
     }
   }
 
+   /**
+   * filterByMeals()
+   * Sends the meal filters to the recipesService and 
+   * updates the recipes.
+   */
+  filterByMeals(){
+    console.log(this.mealsSelected);
+    this.loading = true;
+    this.recipesService.filterRecipesByMeal(this.mealsSelected).then((recipes: Recipe[]) => {
+      this.recipes = recipes;
+      this.loading = false;
+    });
+  }
 }
