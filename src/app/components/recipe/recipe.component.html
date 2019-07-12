@@ -8,7 +8,7 @@
                 <h1>{{recipe.title}} </h1>
                 <h3 class="font-italic">{{recipe.author}}</h3>
                 <p> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
-                <span class="badge badge-pill badge-primary  p-2">{{recipe.meal}}</span>
+                <span class="badge badge-pill badge-primary  p-2">{{meals[recipe.meal]}}</span>
                 <hr>
             </div>
             <p class="text-justify">{{recipe.desc}}</p>

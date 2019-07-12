@@ -11,7 +11,8 @@ import { RecipeService } from '../../services/recipe.service';
 export class RecipeComponent implements OnInit {
 
   recipe: Recipe;
-
+  meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
+  
   constructor(private activatedRoute: ActivatedRoute, private route: Router,
               private recipeService: RecipeService) {
     this.activatedRoute.params.subscribe(params => {

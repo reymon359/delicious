@@ -62,6 +62,18 @@
         border-color: hsla(0, 0%, 60%, .4);
     }
     
+    .meal-filter-selected {
+        color: #009688;
+        background-color: hsla(0, 0%, 60%, .4);
+        border-color: hsla(0, 0%, 60%, .4);
+    }
+    
+    .meal-filter-selected:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #009688;
+    }
+    
     .card {
         transition: all .5s;
     }

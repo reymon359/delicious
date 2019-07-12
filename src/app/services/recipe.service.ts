@@ -64,9 +64,9 @@ export class RecipeService {
     return promise;
   }
 
-  filterRecipesByMeal(meal: string): Recipe[] {
-    return RECIPES.filter(recipes => recipes.meal = meal);
-  }
+  // filterRecipesByMeal(meal: string): Recipe[] {
+  //   return RECIPES.filter(recipes => recipes.meal = meal);
+  // }
 
 }
 
