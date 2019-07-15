@@ -59,7 +59,7 @@ export const RECIPES: Recipe[] = [
         title: 'Risotto de calamares',
         dateCreated: new Date('2019-06-24T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img: './assets/img/recipes/risotto-calamares/risotto_calamares_main.jpg',
+        img: './assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg',
         desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
