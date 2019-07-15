@@ -107,22 +107,54 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'paella-pollo3',
-        title: 'Paella de Pollo3',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
+        id: 'tortilla-patatas',
+        title: 'Tortilla de patatas',
+        dateCreated: new Date('2019-07-15T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
+        img: './assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg',
+        desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
         meal: 0,
         lang: ['es'],
-        advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
+        advices: ['No pasarse con el vino'],
+        ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla', 'sal'],
         steps: [
             {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
+                desc: 'Ponemos los calamares a descongelar en caso de estar congelados y lo mismo con el caldo si también lo está.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
+            },
+            {
+                desc: 'Mientras tanto cortamos cebolla y la pochamos',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg']
+            },
+            {
+                desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco. Al mismo tiempo ponemos el caldo de pescado a calentar a fuego medio-alto',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step3_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step3_2.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step3_3.jpg']
+            },
+            {
+                desc: 'Ponemos 3 vasos de arroz para 4 personas en un cuenco y lo echamos con los calamares una vez estén fritos/hechos',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step4_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step4_2.jpg']
+            },
+            {
+                desc: 'Echamos un poco de aceite para freír el arroz y removemos hasta que la gran mayoría del arroz tenga un color transparente',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step5_1.jpg']
+            }, 
+             {
+                desc: 'Una vez el arroz tenga el color descrito anteriormente añadimos el caldo de pescado hasta que cubra el arroz. Entonces Añadimos otro vaso de vino y un poco de sal y removemos( no hay que añadir mucha sal porque luego añadiremos queso ). Si el arroz consume el caldo añadimos más caldo. ',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step6_1.jpg']
+            },
+            {
+                desc: 'Añadimos queso rallado. ',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step7_1.jpg']
+            },
+            {
+                desc: 'Seguimos añadiendo caldo y queso hasta que el arroz este en su punto, más blando y entonces apagamos el fuego y lo dejamos reposar tapado.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step8_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step8_2.jpg']
+            },
+            {
+                desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
+                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
             },
         ]
     },
