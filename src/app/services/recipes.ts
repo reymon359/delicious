@@ -107,8 +107,8 @@ export const RECIPES: Recipe[] = [
         ]
     },
     {
-        id: 'tortilla-patatas',
-        title: 'Tortilla de patatas',
+        id: 'tortilla-patata',
+        title: 'Tortilla de patata',
         dateCreated: new Date('2019-07-15T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: './assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg',
@@ -122,39 +122,39 @@ export const RECIPES: Recipe[] = [
         steps: [
             {
                 desc: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.Luego las añadimos a una sartén a fuego medio con aceite para que se vayan haciendo.',
-                imgs: ['./assets/img/recipes/tortilla-patatas/tortilla_patatas_step1_1.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step1_1.jpg']
             },
             {
-                desc: 'Cuando estén un poco blanditas las partimos un poco.',
-                imgs: ['./assets/img/recipes/tortilla-patatas/tortilla_patatas_step2_1.jpg']
+                desc: 'Cuando estén un poco blanditas las partimos un poco. Cuando están hechas apagamos el fuego y las dejamos escurriendo',
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step2_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step2_2.jpg']
             },
             {
-                desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco. Al mismo tiempo ponemos el caldo de pescado a calentar a fuego medio-alto',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step3_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step3_2.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step3_3.jpg']
+                desc: 'Partimos 1 cebolla por persona. Luego les ponemos un chorro de aceite y las metemos en el microondas unos 10 minutos para pocharlas. Si a los 10 min no están pochadas las ponemos un poco más. Otros modos de pochar la cebolla son válidos también.',
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step3_1.jpg', './assets/img/recipes/tortilla-patata/tortilla_patata_step3_2.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step3_3.jpg']
             },
             {
                 desc: 'Ponemos 3 vasos de arroz para 4 personas en un cuenco y lo echamos con los calamares una vez estén fritos/hechos',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step4_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step4_2.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step4_1.jpg', './assets/img/recipes/tortilla-patata/tortilla_patata_step4_2.jpg']
             },
             {
                 desc: 'Echamos un poco de aceite para freír el arroz y removemos hasta que la gran mayoría del arroz tenga un color transparente',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step5_1.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step5_1.jpg']
             }, 
              {
                 desc: 'Una vez el arroz tenga el color descrito anteriormente añadimos el caldo de pescado hasta que cubra el arroz. Entonces Añadimos otro vaso de vino y un poco de sal y removemos( no hay que añadir mucha sal porque luego añadiremos queso ). Si el arroz consume el caldo añadimos más caldo. ',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step6_1.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step6_1.jpg']
             },
             {
                 desc: 'Añadimos queso rallado. ',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step7_1.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step7_1.jpg']
             },
             {
                 desc: 'Seguimos añadiendo caldo y queso hasta que el arroz este en su punto, más blando y entonces apagamos el fuego y lo dejamos reposar tapado.',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step8_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step8_2.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step8_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step8_2.jpg']
             },
             {
                 desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step9_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step9_2.jpg']
             },
         ]
     }
