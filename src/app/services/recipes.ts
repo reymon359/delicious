@@ -121,12 +121,12 @@ export const RECIPES: Recipe[] = [
         ingredients: ['patata', 'huevo', 'cebolla', 'aceite', 'sal'],
         steps: [
             {
-                desc: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
+                desc: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.Luego las añadimos a una sartén a fuego medio con aceite para que se vayan haciendo.',
+                imgs: ['./assets/img/recipes/tortilla-patatas/tortilla_patatas_step1_1.jpg']
             },
             {
-                desc: 'Mientras tanto cortamos cebolla y la pochamos',
-                imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg']
+                desc: 'Cuando estén un poco blanditas las partimos un poco.',
+                imgs: ['./assets/img/recipes/tortilla-patatas/tortilla_patatas_step2_1.jpg']
             },
             {
                 desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco. Al mismo tiempo ponemos el caldo de pescado a calentar a fuego medio-alto',
@@ -157,105 +157,5 @@ export const RECIPES: Recipe[] = [
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
             },
         ]
-    },
-    {
-        id: 'paella-pollo4',
-        title: 'Paella de Pollo4',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
-        author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
-        time: 30,
-        people: 4,
-        meal: 0,
-        lang: 'es',
-        advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
-            {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
-            },
-        ]
-    },
-    {
-        id: 'paella-pollo5',
-        title: 'Paella de Pollo5',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
-        author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
-        time: 30,
-        people: 4,
-        meal: 0,
-        lang: 'es',
-        advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
-            {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
-            },
-        ]
-    },
-    {
-        id: 'paella-pollo6',
-        title: 'Paella de Pollo6',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
-        author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
-        time: 30,
-        people: 4,
-        meal: 1,
-        lang: 'es',
-        advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
-            {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
-            },
-        ]
-    },
-    {
-        id: 'paella-pollo7',
-        title: 'Paella de Pollo7',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
-        author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
-        time: 30,
-        people: 4,
-        meal: 2,
-        lang: 'es',
-        advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
-            {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
-            },
-        ]
-    },
-    {
-        id: 'paella-pollo8',
-        title: 'Paella de Pollo8',
-        dateCreated: new Date('2019-06-21T00:00:00.000Z'),
-        author: 'Paloma Cascales',
-        img: './assets/img/recipes/paella-pollo/paella_pollo.jpg',
-        desc: 'La paella de pollo mitica de la mia mama',
-        time: 30,
-        people: 4,
-        meal: 4,
-        lang: 'es',
-        advices: ['Poner bastante de todo para dar más sabor'],
-        ingredients: ['rice', 'chicken', 'pepper'],
-        steps: [
-            {
-                imgs: ['./assets/img/recipes/paella-pollo/paella_pollo_step1_1.jpg'],
-                desc: 'Pelar 2 tomates y triturarlos con la batidora. Que no queden muy caldoso. Luego freir el tomate con aceite.'
-            },
-        ]
-    },
+    }
 ];
