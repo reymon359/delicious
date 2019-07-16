@@ -12,7 +12,7 @@ export const RECIPES: Recipe[] = [
         time: 60,
         people: 4,
         meal: 0,
-        lang: ['es'],
+        lang: 'es',
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['arroz', 'pimientos', 'tomate', 'pollo', 'azafran', 'colorante', 'ajo', 'aceite'],
         steps: [
@@ -64,7 +64,7 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 0,
-        lang: ['es'],
+        lang: 'es',
         advices: ['No pasarse con el vino'],
         ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla', 'sal'],
         steps: [
@@ -116,17 +116,12 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 0,
-        lang: ['es'],
+        lang: 'es',
         advices: ['El secreto de una buena tortilla de patatas es no poner mucha patata'],
         ingredients: ['patata', 'huevo', 'cebolla', 'aceite', 'sal'],
         steps: [
             {
-                desc: [
-                    { 
-                        lang: 'es',
-                        text: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.'
-                    }
-                ]
+                desc: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
             },
             {
@@ -173,7 +168,7 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 0,
-        lang: ['es'],
+        lang: 'es',
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
@@ -193,7 +188,7 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 0,
-        lang: ['es'],
+        lang: 'es',
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
@@ -213,7 +208,7 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 1,
-        lang: ['es'],
+        lang: 'es',
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
@@ -233,7 +228,7 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 2,
-        lang: ['es'],
+        lang: 'es',
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
@@ -253,7 +248,7 @@ export const RECIPES: Recipe[] = [
         time: 30,
         people: 4,
         meal: 4,
-        lang: ['es'],
+        lang: 'es',
         advices: ['Poner bastante de todo para dar más sabor'],
         ingredients: ['rice', 'chicken', 'pepper'],
         steps: [
