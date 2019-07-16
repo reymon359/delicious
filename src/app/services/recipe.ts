@@ -21,6 +21,11 @@ export class Recipe {
 
 // Steps interface
 export class Step {
-    desc: string; // Steps description
+    desc: Desc[]; // Steps description
     imgs: string[]; // step img
+}
+// Description interface
+export class Desc {
+    lang: string; // Steps description
+    text: string; // step img
 }

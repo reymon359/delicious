@@ -117,11 +117,16 @@ export const RECIPES: Recipe[] = [
         people: 4,
         meal: 0,
         lang: ['es'],
-        advices: ['No pasarse con el vino'],
-        ingredients: ['arroz', 'calamar', 'queso', 'vino', 'aceite', 'caldo de pescado', 'mantequilla', 'sal'],
+        advices: ['El secreto de una buena tortilla de patatas es no poner mucha patata'],
+        ingredients: ['patata', 'huevo', 'cebolla', 'aceite', 'sal'],
         steps: [
             {
-                desc: 'Ponemos los calamares a descongelar en caso de estar congelados y lo mismo con el caldo si también lo está.',
+                desc: [
+                    { 
+                        lang: 'es',
+                        text: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.'
+                    }
+                ]
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg', './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg']
             },
             {
