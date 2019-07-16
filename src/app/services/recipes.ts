@@ -121,7 +121,7 @@ export const RECIPES: Recipe[] = [
         ingredients: ['patata', 'huevo', 'cebolla', 'aceite', 'sal'],
         steps: [
             {
-                desc: 'Cogemos 1 patata por persona (en este ejemplo 4), las cortamos y les ponemos sal.Luego las añadimos a una sartén a fuego medio con aceite para que se vayan haciendo.',
+                desc: 'Cogemos 1 patata por tortilla (en este ejemplo 4), las cortamos y les ponemos sal.Luego las añadimos a una sartén a fuego medio con aceite para que se vayan haciendo.',
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step1_1.jpg']
             },
             {
@@ -129,11 +129,11 @@ export const RECIPES: Recipe[] = [
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step2_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step2_2.jpg']
             },
             {
-                desc: 'Partimos 1 cebolla por persona. Luego les ponemos un chorro de aceite y las metemos en el microondas unos 10 minutos para pocharlas. Si a los 10 min no están pochadas las ponemos un poco más. Otros modos de pochar la cebolla son válidos también.',
+                desc: 'Partimos 1 cebolla por tortilla. Luego les ponemos un chorro de aceite y las metemos en el microondas unos 10 minutos para pocharlas. Si a los 10 min no están pochadas las ponemos un poco más. Otros modos de pochar la cebolla son válidos también.',
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step3_1.jpg', './assets/img/recipes/tortilla-patata/tortilla_patata_step3_2.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step3_3.jpg']
             },
             {
-                desc: 'Ponemos 3 vasos de arroz para 4 personas en un cuenco y lo echamos con los calamares una vez estén fritos/hechos',
+                desc: 'Batimos 3 huevos por tortilla y echamos la patata y la cebolla pochada repartida equitativamente. Si sobra cebolla o patata la ponemos en un cuenco aparte.',
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step4_1.jpg', './assets/img/recipes/tortilla-patata/tortilla_patata_step4_2.jpg']
             },
             {
