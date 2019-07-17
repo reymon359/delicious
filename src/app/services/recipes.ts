@@ -103,7 +103,7 @@ export const RECIPES: Recipe[] = [
             {
                 desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
                 imgs: ['./assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg','./assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg']
-            },
+            }
         ]
     },
     {
@@ -111,7 +111,7 @@ export const RECIPES: Recipe[] = [
         title: 'Tortilla de patata',
         dateCreated: new Date('2019-07-15T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img: './assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg',
+        img: './assets/img/recipes/tortilla-patata/tortilla_patata_step7_2.jpg',
         desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
@@ -141,21 +141,13 @@ export const RECIPES: Recipe[] = [
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step5_1.jpg']
             }, 
              {
-                desc: 'Ahora viene lo más complicado, cuando la parte inferior esté medio hecha le damos la vuelta con un plato y la ponemos boca abajo para que se haga la otra cara. ',
+                desc: 'Ahora viene lo más complicado, cuando la parte inferior esté medio hecha le damos la vuelta con un plato y la ponemos boca abajo para que se haga la otra cara.',
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step6_1.jpg']
             },
             {
-                desc: 'Añadimos queso rallado. ',
-                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step7_1.jpg']
-            },
-            {
-                desc: 'Seguimos añadiendo caldo y queso hasta que el arroz este en su punto, más blando y entonces apagamos el fuego y lo dejamos reposar tapado.',
-                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step8_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step8_2.jpg']
-            },
-            {
-                desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
-                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step9_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step9_2.jpg']
-            },
+                desc: 'Una vez hechas las dos caras y el interior en el punto deseado la volcamos en un plato y la servimos.',
+                imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step7_1.jpg','./assets/img/recipes/tortilla-patata/tortilla_patata_step7_2.jpg']
+            }
         ]
     }
 ];
