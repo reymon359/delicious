@@ -137,11 +137,11 @@ export const RECIPES: Recipe[] = [
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step4_1.jpg', './assets/img/recipes/tortilla-patata/tortilla_patata_step4_2.jpg']
             },
             {
-                desc: 'Echamos un poco de aceite para freír el arroz y removemos hasta que la gran mayoría del arroz tenga un color transparente',
+                desc: 'Luego ponemos un poco de aceite en la sartén y echamos los huevos con la patata y la cebolla',
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step5_1.jpg']
             }, 
              {
-                desc: 'Una vez el arroz tenga el color descrito anteriormente añadimos el caldo de pescado hasta que cubra el arroz. Entonces Añadimos otro vaso de vino y un poco de sal y removemos( no hay que añadir mucha sal porque luego añadiremos queso ). Si el arroz consume el caldo añadimos más caldo. ',
+                desc: 'Ahora viene lo más complicado, cuando la parte inferior esté medio hecha le damos la vuelta con un plato y la ponemos boca abajo para que se haga la otra cara. ',
                 imgs: ['./assets/img/recipes/tortilla-patata/tortilla_patata_step6_1.jpg']
             },
             {
