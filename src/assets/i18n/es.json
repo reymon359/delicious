@@ -12,7 +12,11 @@
         "meals": ["Comida", "Cena", "Postre", "Almuerzo", "Aperitivo", "Entrante", "Sopa", "Ensalada"],
         "errorMessage": {
             "searchError": "Parece que no hay ninguna receta con el título",
-            "filterError": "Parece que no hay ninguna receta de ese tipo"
+            "filterError": "Parece que no hay ninguna receta de ese tipo",
+            "buttons": {
+                "lastRecipes": "Últimas recetas",
+                "addRecipe": "Añadir Receta"
+            }
         }
 
     }

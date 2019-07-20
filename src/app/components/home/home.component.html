@@ -32,13 +32,11 @@
     <!-- error alert -->
     <div class="row animated fadeIn fast" *ngIf="recipes.length === 0 && !loading">
         <div class="col-md-12 text-center">
-
-            <!-- <div class="alert alert-warning" role="alert"> -->
             <h4>Ups😐</h4>
             <p *ngIf="errorType === 'searchError'">{{'home.errorMessage.searchError' | translate}} <strong> {{ errorMessageStrong}}</strong></p>
             <p *ngIf="errorType === 'filterError'"> {{'home.errorMessage.filterError' | translate}}</p>
-            <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">Últimas recetas</button>
-            <!-- </div> -->
+            <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">{{'home.errorMessage.buttons.lastRecipes' | translate}}</button>
+            <button type="button" class="btn btn-success">{{'home.errorMessage.buttons.addRecipe' | translate}}</button>
         </div>
     </div>
 

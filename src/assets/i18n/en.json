@@ -12,7 +12,11 @@
         "meals": ["Lunch", "Dinner", "Dessert", "Snack", "Appetizer", "Entree", "Soup", "Salad"],
         "errorMessage": {
             "searchError": "It seems that there is no recipe with the title",
-            "filterError": "It seems that there is no recipe of that type"
+            "filterError": "It seems that there is no recipe of that type",
+            "buttons": {
+                "lastRecipes": "Last recipes",
+                "addRecipe": "Add Recipe"
+            }
         }
     }
 }
