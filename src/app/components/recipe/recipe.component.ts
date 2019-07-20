@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../../services/recipe';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RecipeService } from '../../services/recipe.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-recipe',
@@ -14,7 +15,7 @@ export class RecipeComponent implements OnInit {
   meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
   
   constructor(private activatedRoute: ActivatedRoute, private route: Router,
-              private recipeService: RecipeService) {
+              private recipeService: RecipeService ,public translate: TranslateService) {
     this.activatedRoute.params.subscribe(params => {
       this.recipeService.getRecipe(params.id).then(recipe => {
 

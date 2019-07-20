@@ -18,6 +18,15 @@
                 "addRecipe": "Añadir Receta"
             }
         }
-
+    },
+    "recipe": {
+        "ingredients": "Ingredientes",
+        "time": "Tiempo",
+        "people": "Personas",
+        "advices": "Consejos",
+        "steps": "Pasos",
+        "buttons": {
+            "moreRecipes": "Más recetas"
+        }
     }
 }

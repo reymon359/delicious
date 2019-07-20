@@ -14,14 +14,14 @@
                 <hr>
             </div>
             <p class="text-justify">{{recipe.desc}}</p>
-            <p> Ingredientes: <span *ngFor="let item of recipe.ingredients" class="badge badge-secondary ml-1">{{item}}</span> </p>
-            <p>Tiempo: {{recipe.time}} min.</p>
-            <p>Personas: {{recipe.people}} aprox.</p>
-            <p>Consejos: </p>
+            <p>{{'recipe.ingredients' | translate}}: <span *ngFor="let item of recipe.ingredients" class="badge badge-secondary ml-1">{{item}}</span> </p>
+            <p>{{'recipe.time' | translate}}: {{recipe.time}} min.</p>
+            <p>{{'recipe.people' | translate}}: {{recipe.people}} aprox.</p>
+            <p>{{'recipe.advices' | translate}}: </p>
             <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
         </div>
     </div>
-    <h2>Pasos</h2>
+    <h2>{{'recipe.steps' | translate}}</h2>
     <div *ngFor="let step of recipe.steps; let i = index" class="row mt-3">
         <p> <span class="badge badge-info m-2">{{i+1}}</span>{{step.desc}}</p>
         <div *ngIf="step.imgs.length > 0" class="row w-100 justify-content-center align-items-center">
@@ -34,6 +34,6 @@
 <div class="row">
     <div class="col text-center">
 
-        <button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-success">Más recetas</button>
+        <button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-success">{{'recipe.buttons.moreRecipes' | translate}}</button>
     </div>
 </div>
