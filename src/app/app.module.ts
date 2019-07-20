@@ -20,6 +20,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 registerLocaleData(localeEs);
 
@@ -35,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SearchComponent,
     RecipeComponent,
     RecipeCardComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
