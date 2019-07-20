@@ -46,8 +46,8 @@
     </div>
 
     <!-- recipes -->
-    <div class="row animated fadeIn fast " *ngIf="!loading ">
-        <app-recipe-card class="col-md-4 " [recipe]="recipe " *ngFor="let recipe of recipes; let i = index "></app-recipe-card>
+    <div class="row animated fadeIn fast align-items-center " *ngIf="!loading ">
+        <app-recipe-card class="col-md-3 " [recipe]="recipe " *ngFor="let recipe of recipes; let i = index "></app-recipe-card>
     </div>
 </div>
 
