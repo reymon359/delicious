@@ -79,9 +79,15 @@
     }
     
     .card:hover {
-        box-shadow: 0px 5px 40px 3px #8C8689!important;
+        transform: scale(1.03);
         cursor: pointer;
-        margin-top: -.5em;
+        box-shadow: 0px 5px 40px 3px #8C8689!important;
+        /* margin-top: -.5em; */
+        transition: all .5s;
+    }
+    
+    .card:hover card .bg-image-cover {
+        background-size: 500px 500px!important;
         transition: all .5s;
     }
     
