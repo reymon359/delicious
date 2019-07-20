@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { RecipeService } from '../../services/recipe.service';
-import { Router } from '@angular/router';
 import { Recipe } from '../../services/recipe';
 import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
@@ -21,9 +20,7 @@ export class HomeComponent implements OnInit {
   errorType = '';
 
   constructor(private recipesService: RecipeService,
-    private router: Router,
     public translate: TranslateService) {
-
 
     // Getting the meals array for the current translation
     translate.getTranslation(translate.currentLang).subscribe(translations => {

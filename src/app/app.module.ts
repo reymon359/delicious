@@ -7,7 +7,6 @@ import {HttpClientModule, HttpClient} from '@angular/common/http';
 // Components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { SearchComponent } from './components/search/search.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
 import { RecipeCardComponent } from './components/recipe-card/recipe-card.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
