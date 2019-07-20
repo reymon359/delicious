@@ -1,74 +1,61 @@
-<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav> -->
-<nav *ngIf="!isNotFound" style="box-shadow: none" class="navbar navbar-expand-lg navbar-light bg-transparent">
-    <a class="navbar-brand" href="#">
-        <img src="./assets/img/icons/paella-icon.png" width="30" height="30" alt="">
-    </a>
+<!-- <nav style="box-shadow: none" class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand" href="#">Delici<img src="./assets/img/icons/paella-icon.png" width="20px" alt="">us</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/home']">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/about']">User</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Language
-        </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <select #langSelect (change)="translate.use(langSelect.value)">
-                                <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-                              </select>
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                </div>
-            </li>
+
+
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Language
             </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                    <div *ngFor="let lang of translate.getLangs()" (click)="translate.use(lang)" class="dropdown-item" href="#">{{ lang }}</div>
-
+                    <div style="cursor: pointer" *ngFor="let lang of translate.getLangs()" (click)="translate.use(lang)" class="dropdown-item" href="#">{{ lang }}</div>
                 </div>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+    </div>-->
+
+<nav style="box-shadow: none" class="navbar navbar-light bg-transparent navbar-expand-md  justify-content-center">
+    <a class="navbar-brand d-flex w-50 mr-auto" href="#">Delici<img src="./assets/img/icons/paella-icon.png" width="30px"  alt="">us</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item " routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/home']">Home</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/about']">About</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/contribute']">Contribuir</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Language
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div style="cursor: pointer" *ngFor="let lang of translate.getLangs()" (click)="translate.use('es')" class="dropdown-item">{{ lang }}</div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Share</a>
+            </li>
+        </ul>
+
     </div>
 </nav>

@@ -4,9 +4,6 @@
     <div class="container">
         <h1 class="display-2">Delici<img src="./assets/img/icons/paella-icon.png" width="70px" alt="">us</h1>
         <p class="lead">{{ 'home.subtitle' | translate }}</p>
-        <select #langSelect (change)="translate.use(langSelect.value)">
-            <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-          </select>
 
         <!-- search form -->
         <form class="form-inline my-4  my-lg-5 justify-content-center" (keyup)="searchRecipes(searchText.value)">
