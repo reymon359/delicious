@@ -15,6 +15,9 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
+
+// Translation
+import {TranslateModule} from '@ngx-translate/core';
 registerLocaleData(localeEs);
 @NgModule({
   declarations: [
@@ -28,7 +31,8 @@ registerLocaleData(localeEs);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    TranslateModule.forRoot()
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'es' }],
   bootstrap: [AppComponent]
