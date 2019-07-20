@@ -1,4 +1,11 @@
 {
+    "navbar": {
+        "home": "Inicio",
+        "about": "Acerca",
+        "contribute": "Contribuir",
+        "language": "Idioma",
+        "share": "Compartir"
+    },
     "home": {
         "subtitle": "Sabrosas recetas caseras"
     }

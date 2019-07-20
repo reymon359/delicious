@@ -1,31 +1,3 @@
-<!-- <nav style="box-shadow: none" class="navbar navbar-expand-lg navbar-light bg-transparent">
-    <a class="navbar-brand" href="#">Delici<img src="./assets/img/icons/paella-icon.png" width="20px" alt="">us</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['/home']">Home</a>
-            </li>
-            <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['/about']">User</a>
-            </li>
-
-
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Language
-            </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <div style="cursor: pointer" *ngFor="let lang of translate.getLangs()" (click)="translate.use(lang)" class="dropdown-item" href="#">{{ lang }}</div>
-                </div>
-            </li>
-        </ul>
-    </div>-->
-
 <nav style="box-shadow: none" class="navbar navbar-light bg-transparent navbar-expand-md  justify-content-center">
     <a class="navbar-brand d-flex w-50 mr-auto" href="#">Delici<img src="./assets/img/icons/paella-icon.png" width="30px"  alt="">us</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
@@ -34,26 +6,29 @@
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
         <ul class="navbar-nav w-100 justify-content-center">
             <li class="nav-item " routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['/home']">Home</a>
+                <a class="nav-link" [routerLink]="['/home']">{{ 'navbar.home' | translate }}</a>
             </li>
             <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['/about']">About</a>
+                <a class="nav-link" [routerLink]="['/about']">{{ 'navbar.about' | translate }}</a>
             </li>
             <li class="nav-item" routerLinkActive="active">
-                <a class="nav-link" [routerLink]="['/contribute']">Contribuir</a>
+                <a class="nav-link" [routerLink]="['/contribute']">{{ 'navbar.contribute' | translate }}</a>
             </li>
         </ul>
         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Language
+                        {{ 'navbar.language' | translate }}
                     </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <div style="cursor: pointer" *ngFor="let lang of translate.getLangs()" (click)="translate.use('es')" class="dropdown-item">{{ lang }}</div>
+                    <!-- <div style="cursor: pointer" *ngFor="let lang of translate.getLangs()" (click)="translate.use(lang)" class="dropdown-item">{{ lang }}</div> -->
+                    <div style="cursor: pointer" (click)="translate.use('es')" class="dropdown-item">Español</div>
+                    <div style="cursor: pointer" (click)="translate.use('en')" class="dropdown-item">English</div>
+
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Share</a>
+                <a class="nav-link" href="#">{{ 'navbar.share' | translate }}</a>
             </li>
         </ul>
 

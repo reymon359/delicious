@@ -1,4 +1,11 @@
 {
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "contribute": "Contribute",
+        "language": "Language",
+        "share": "Share"
+    },
     "home": {
         "subtitle": "Tasty home made recipes"
     }
