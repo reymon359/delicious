@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { RecipeService } from '../../services/recipe.service';
 import { Router } from '@angular/router';
 import { Recipe } from '../../services/recipe';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,9 @@ export class HomeComponent implements OnInit {
   errorMessage = '';
   errorMessageStrong = '';
 
-  constructor(private recipesService: RecipeService, private router: Router) { }
+  constructor(private recipesService: RecipeService, 
+    private router: Router,
+    public translate: TranslateService) { }
 
   ngOnInit() {
     this.getRecipes();
