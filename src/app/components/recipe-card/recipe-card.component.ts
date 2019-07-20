@@ -1,7 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
-import { Recipe } from '../../services/recipe';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService,LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-recipe-card',
