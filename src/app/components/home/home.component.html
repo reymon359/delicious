@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 
-<div class="jumbotron jumbotron-fluid bg-transparent text-center">
+<div class="jumbotron jumbotron-fluid bg-transparent text-center animated fadeIn">
     <div class="container">
         <h1 class="display-2">Delici<img src="./assets/img/icons/paella-icon.png" width="70px" alt="">us</h1>
         <p class="lead">{{ 'home.subtitle' | translate }}</p>
@@ -36,22 +36,22 @@
             <p *ngIf="errorType === 'searchError'">{{'home.errorMessage.searchError' | translate}} <strong> {{ errorMessageStrong}}</strong></p>
             <p *ngIf="errorType === 'filterError'"> {{'home.errorMessage.filterError' | translate}}</p>
             <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">{{'home.errorMessage.buttons.lastRecipes' | translate}}</button>
-            <button type="button" class="btn btn-success">{{'home.errorMessage.buttons.addRecipe' | translate}}</button>
+            <button type="button" [routerLink]="['/submit']" class="btn btn-success">{{'home.errorMessage.buttons.addRecipe' | translate}}</button>
         </div>
     </div>
 
     <!-- loader -->
-    <div *ngIf="loading" class="progress w-75 mx-auto" style="height: 20px;">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+    <div *ngIf="loading " class="progress w-75 mx-auto " style="height: 20px; ">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary " role="progressbar " aria-valuenow="75 " aria-valuemin="0 " aria-valuemax="100 " style="width: 100% "></div>
     </div>
 
     <!-- recipes -->
-    <div class="row animated fadeIn fast" *ngIf="!loading">
-        <app-recipe-card class="col-md-4" [recipe]="recipe" *ngFor="let recipe of recipes; let i = index"></app-recipe-card>
+    <div class="row animated fadeIn fast " *ngIf="!loading ">
+        <app-recipe-card class="col-md-4 " [recipe]="recipe " *ngFor="let recipe of recipes; let i=i ndex "></app-recipe-card>
     </div>
 </div>
 
 <!-- card colums way -->
-<!-- <div class="card-columns">
-    <app-recipe-card [recipe]="recipe" *ngFor="let recipe of recipes; let i = index"></app-recipe-card>
+<!-- <div class="card-columns ">
+    <app-recipe-card [recipe]="recipe " *ngFor="let recipe of recipes; let i=i ndex "></app-recipe-card>
 </div> -->
