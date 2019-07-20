@@ -18,8 +18,8 @@ export class HomeComponent implements OnInit {
   mealsSelected = [];
 
 
-  errorMessage = '';
   errorMessageStrong = '';
+  errorType = '';
 
   constructor(private recipesService: RecipeService,
     private router: Router,
@@ -75,7 +75,7 @@ export class HomeComponent implements OnInit {
       this.recipesService.searchRecipes(searchText).then((recipes: Recipe[]) => {
         this.recipes = recipes;
         if (this.recipes.length === 0) {
-          this.errorMessage = 'Parece que no hay ninguna receta con el título'
+          this.errorType = 'searchError';
           this.errorMessageStrong = searchText;
         }
         this.loading = false;
@@ -98,8 +98,8 @@ export class HomeComponent implements OnInit {
     this.recipesService.filterRecipesByMeal(this.mealsSelected).then((recipes: Recipe[]) => {
       this.recipes = recipes;
       if (this.recipes.length === 0) {
-        this.errorMessage = 'Parece que no hay ninguna receta de ese tipo';
-        this.errorMessageStrong = ' ';
+        this.errorType = 'filterError';
+        this.errorMessage = '';
       }
       this.loading = false;
     });

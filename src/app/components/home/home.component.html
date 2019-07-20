@@ -35,7 +35,8 @@
 
             <!-- <div class="alert alert-warning" role="alert"> -->
             <h4>Ups😐</h4>
-            <p> {{errorMessage}}<strong> {{ errorMessageStrong}}</strong></p>
+            <p *ngIf="errorType === 'searchError'">{{'home.errorMessage.searchError' | translate}} <strong> {{ errorMessageStrong}}</strong></p>
+            <p *ngIf="errorType === 'filterError'"> {{'home.errorMessage.filterError' | translate}}</p>
             <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">Últimas recetas</button>
             <!-- </div> -->
         </div>

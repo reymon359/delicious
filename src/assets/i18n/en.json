@@ -9,6 +9,10 @@
     "home": {
         "subtitle": "Tasty home made recipes",
         "search": "Search",
-        "meals": ["Lunch", "Dinner", "Dessert", "Snack", "Appetizer", "Entree", "Soup", "Salad"]
+        "meals": ["Lunch", "Dinner", "Dessert", "Snack", "Appetizer", "Entree", "Soup", "Salad"],
+        "errorMessage": {
+            "searchError": "It seems that there is no recipe with the title",
+            "filterError": "It seems that there is no recipe of that type"
+        }
     }
 }
