@@ -24,6 +24,12 @@ export class HomeComponent implements OnInit {
     private router: Router,
     public translate: TranslateService) {
 
+
+    // Getting the meals array for the current translation
+    translate.getTranslation(translate.currentLang).subscribe(translations => {
+    this.meals = translations.home.meals;
+    });
+
     // Changing meals translations on language change
     translate.onLangChange.subscribe((event: LangChangeEvent) => {
       this.meals = event.translations.home.meals;
