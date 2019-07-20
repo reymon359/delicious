@@ -24,12 +24,12 @@ export class HomeComponent implements OnInit {
 
     // Getting the meals array for the current translation
     translate.getTranslation(translate.currentLang).subscribe(translations => {
-    this.meals = translations.home.meals;
+    this.meals = translations.meals;
     });
 
     // Changing meals translations on language change
     translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.meals = event.translations.home.meals;
+      this.meals = event.translations.meals;
     });
   }
 
