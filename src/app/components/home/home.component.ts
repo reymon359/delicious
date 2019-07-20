@@ -13,7 +13,6 @@ export class HomeComponent implements OnInit {
 
   recipes: Recipe[] = [];
   loading: boolean;
-  // meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
   meals = [];
   mealsSelected = [];
 
@@ -25,9 +24,8 @@ export class HomeComponent implements OnInit {
     private router: Router,
     public translate: TranslateService) {
 
+    // Changing meals translations on language change
     translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      console.log(event);
-      // do something
       this.meals = event.translations.home.meals;
     });
   }
@@ -99,7 +97,6 @@ export class HomeComponent implements OnInit {
       this.recipes = recipes;
       if (this.recipes.length === 0) {
         this.errorType = 'filterError';
-        this.errorMessage = '';
       }
       this.loading = false;
     });
