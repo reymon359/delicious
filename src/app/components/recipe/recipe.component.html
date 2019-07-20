@@ -1,16 +1,19 @@
 <app-navbar></app-navbar>
 
 <div class="container main-container animated fadeIn ">
-    <div [ngStyle]="{background: 'url(./' + recipe.img + ')'}" class="jumbotron bg-image-cover p-3 p-md-5 text-white rounded recipe-jumbotron">
+    <div class="text-center jumbotron bg-image-cover p-3 p-md-5 text-white rounded recipe-jumbotron" [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + recipe.img + ')'}">
+        <h1>{{recipe.title}} </h1>
+        <h3 class="font-italic">{{recipe.author}}</h3>
+        <p> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
+        <span class="badge badge-pill badge-primary  p-2">{{meals[recipe.meal]}}</span>
+
+
     </div>
     <div class="row mb-4">
         <div class="col">
             <div class="text-center">
+                <button (click)="print()" type="button" class="btn btn-success">Download</button>
 
-                <h1>{{recipe.title}} </h1>
-                <h3 class="font-italic">{{recipe.author}}</h3>
-                <p> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>
-                <span class="badge badge-pill badge-primary  p-2">{{meals[recipe.meal]}}</span>
                 <hr>
             </div>
             <p class="text-justify">{{recipe.desc}}</p>

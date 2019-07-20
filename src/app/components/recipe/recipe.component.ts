@@ -35,4 +35,8 @@ export class RecipeComponent implements OnInit {
   ngOnInit() {
   }
 
+    print(){
+      window.print();
+    }
+
 }
