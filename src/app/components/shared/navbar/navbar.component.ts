@@ -7,10 +7,13 @@ import { TranslateService } from '@ngx-translate/core';
   styles: []
 })
 export class NavbarComponent implements OnInit {
+  
+  public location;
 
   constructor(public translate: TranslateService) { }
 
   ngOnInit() {
+    this.location = window.location.href;
   }
 
 }

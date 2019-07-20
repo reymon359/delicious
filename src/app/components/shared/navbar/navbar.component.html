@@ -24,13 +24,11 @@
                     <!-- <div style="cursor: pointer" *ngFor="let lang of translate.getLangs()" (click)="translate.use(lang)" class="dropdown-item">{{ lang }}</div> -->
                     <div style="cursor: pointer" (click)="translate.use('es')" class="dropdown-item">Español</div>
                     <div style="cursor: pointer" (click)="translate.use('en')" class="dropdown-item">English</div>
-
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">{{ 'navbar.share' | translate }}</a>
+                <a class="nav-link" [href]="'https://www.addtoany.com/share_save?linkurl='+ this.location" target="_blank">{{ 'navbar.share' | translate }}</a>
             </li>
         </ul>
-
     </div>
 </nav>
