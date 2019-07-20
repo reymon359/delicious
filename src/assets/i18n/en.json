@@ -7,6 +7,8 @@
         "share": "Share"
     },
     "home": {
-        "subtitle": "Tasty home made recipes"
+        "subtitle": "Tasty home made recipes",
+        "search": "Search"
+
     }
 }
