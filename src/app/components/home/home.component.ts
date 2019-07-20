@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { RecipeService } from '../../services/recipe.service';
 import { Router } from '@angular/router';
 import { Recipe } from '../../services/recipe';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
@@ -13,20 +13,31 @@ export class HomeComponent implements OnInit {
 
   recipes: Recipe[] = [];
   loading: boolean;
-  meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
+  // meals = ['Comida', 'Cena', 'Postre', 'Almuerzo', 'Aperitivo', 'Entrante', 'Sopa', 'Ensalada'];
+  meals = [];
   mealsSelected = [];
 
-  
+
   errorMessage = '';
   errorMessageStrong = '';
 
-  constructor(private recipesService: RecipeService, 
+  constructor(private recipesService: RecipeService,
     private router: Router,
-    public translate: TranslateService) { }
+    public translate: TranslateService) {
+
+    translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      console.log(event);
+      // do something
+      this.meals = event.translations.home.meals;
+    });
+  }
 
   ngOnInit() {
     this.getRecipes();
   }
+
+
+
 
   /**
    * getRecipes()

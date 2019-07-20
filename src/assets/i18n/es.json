@@ -8,6 +8,7 @@
     },
     "home": {
         "subtitle": "Sabrosas recetas caseras",
-        "search": "Búsqueda"
+        "search": "Búsqueda",
+        "meals": ["Comida", "Cena", "Postre", "Almuerzo", "Aperitivo", "Entrante", "Sopa", "Ensalada"]
     }
 }

@@ -8,7 +8,7 @@
     },
     "home": {
         "subtitle": "Tasty home made recipes",
-        "search": "Search"
-
+        "search": "Search",
+        "meals": ["Lunch", "Dinner", "Dessert", "Snack", "Appetizer", "Entree", "Soup", "Salad"]
     }
 }
