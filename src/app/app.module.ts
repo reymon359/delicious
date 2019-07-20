@@ -21,6 +21,7 @@ import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { SubmitComponent } from './components/submit/submit.component';
+import { AboutComponent } from './components/about/about.component';
 
 registerLocaleData(localeEs);
 
@@ -33,12 +34,12 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
-    SearchComponent,
     RecipeComponent,
     RecipeCardComponent,
     NotFoundComponent,
     NavbarComponent,
-    SubmitComponent
+    SubmitComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
