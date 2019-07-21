@@ -11,19 +11,19 @@
     </div>
     <div class="row">
         <div class="col-md-6">
-            <p>{{'recipe.time' | translate}}: {{recipe.time}} min.</p>
-            <p>{{'recipe.people' | translate}}: {{recipe.people}} aprox.</p>
+            <p>{{'recipe.time' | translate}}: {{recipe.time}} min. {{'recipe.people' | translate}}: {{recipe.people}} aprox.</p>
+            <p></p>
         </div>
         <div class="col-md-6 text-right">
             <a class="btn btn-success" [href]="'https://www.addtoany.com/share_save?linkurl='+ this.location" target="_blank">{{ 'recipe.buttons.share' | translate }}</a>
             <button (click)="print()" type="button" class="btn btn-success">{{ 'recipe.buttons.download' | translate }}</button>
+            <button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-success">{{'recipe.buttons.moreRecipes' | translate}}</button>
         </div>
     </div>
     <div class="row mb-4">
         <div class="col">
             <p class="text-justify">{{recipe.desc}}</p>
             <p>{{'recipe.ingredients' | translate}}: <span *ngFor="let item of recipe.ingredients" class="badge badge-pill badge-secondary ml-1">{{item}}</span> </p>
-
             <p>{{'recipe.advices' | translate}}: </p>
             <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
         </div>
@@ -41,6 +41,5 @@
 <div class="row">
     <div class="col text-center">
 
-        <button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-success">{{'recipe.buttons.moreRecipes' | translate}}</button>
     </div>
 </div>
