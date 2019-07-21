@@ -112,7 +112,7 @@ export const RECIPES: Recipe[] = [
         dateCreated: new Date('2019-07-15T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: './assets/img/recipes/tortilla-patata/tortilla_patata_step7_2.jpg',
-        desc: 'Tortillas de patata con cebolla para varias personas.',
+        desc: 'Tortilla de patata con cebolla para varias personas.',
         time: 30,
         people: 4,
         meal: 0,
