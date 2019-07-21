@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../../services/recipe';
 import { ActivatedRoute, Router } from '@angular/router';
 import { RecipeService } from '../../services/recipe.service';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-recipe',
@@ -16,18 +16,19 @@ export class RecipeComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute, private route: Router,
     private recipeService: RecipeService, public translate: TranslateService) {
+
+    // Getting the meals array for the current translation
+    translate.getTranslation(translate.currentLang).subscribe(translations => {
+      this.meals = translations.meals;
+    });
+
+    // Changing meals translations on language change
+    translate.onLangChange.subscribe((event: LangChangeEvent) => {
+      this.meals = event.translations.meals;
+    });
+
+
     this.activatedRoute.params.subscribe(params => {
-
-      // Getting the meals array for the current translation
-      translate.getTranslation(translate.currentLang).subscribe(translations => {
-        this.meals = translations.meals;
-      });
-
-      // Changing meals translations on language change
-      translate.onLangChange.subscribe((event: LangChangeEvent) => {
-        this.meals = event.translations.meals;
-      });
-
       this.recipeService.getRecipe(params.id).then(recipe => {
         // If the recipe does not exists we redirect to not found
         if (recipe === undefined) {
