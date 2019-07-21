@@ -26,7 +26,9 @@
         "advices": "Consejos",
         "steps": "Pasos",
         "buttons": {
-            "moreRecipes": "Más recetas"
+            "moreRecipes": "Más recetas",
+            "download": "Descargar",
+            "share": "Compartir"
         }
     }
 }
