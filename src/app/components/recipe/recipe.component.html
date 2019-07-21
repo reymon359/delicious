@@ -6,23 +6,20 @@
         <h3 class="lead">{{recipe.author}}</h3>
         <p><span class="badge badge-pill badge-primary  p-2 mr-1">{{meals[recipe.meal]}}</span> <small>{{recipe.dateCreated | date:'dd/MM/yyyy' }}</small> </p>
 
+        <p>{{'recipe.time' | translate}}: {{recipe.time}} min. {{'recipe.people' | translate}}: {{recipe.people}} aprox.</p>
 
 
     </div>
     <div class="row">
-        <div class="col-md-6 text-right">
+        <div class="col text-right">
             <a class="btn btn-success" [href]="'https://www.addtoany.com/share_save?linkurl='+ this.location" target="_blank">{{ 'recipe.buttons.share' | translate }}</a>
             <button (click)="print()" type="button" class="btn btn-success">{{ 'recipe.buttons.download' | translate }}</button>
-            <button [routerLink]="['/home']" routerLinkActive="router-link-active" type="button" class="btn btn-success">{{'recipe.buttons.moreRecipes' | translate}}</button>
-        </div>
-        <div class="col-md-6">
-            <p>{{'recipe.time' | translate}}: {{recipe.time}} min. {{'recipe.people' | translate}}: {{recipe.people}} aprox.</p>
         </div>
     </div>
     <div class="row mb-4">
         <div class="col">
-            <p class="text-justify">{{recipe.desc}}</p>
             <p>{{'recipe.ingredients' | translate}}: <span *ngFor="let item of recipe.ingredients" class="badge badge-pill badge-secondary ml-1">{{item}}</span> </p>
+            <p class="text-justify">{{recipe.desc}}</p>
             <p>{{'recipe.advices' | translate}}: </p>
             <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
         </div>
