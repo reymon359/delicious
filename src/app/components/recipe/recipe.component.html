@@ -1,7 +1,7 @@
 <app-navbar></app-navbar>
 
 <div class="container main-container animated fadeIn ">
-    <div class="text-center jumbotron bg-image-cover p-3 p-md-5 text-white rounded recipe-jumbotron" [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + recipe.img + ')'}">
+    <div class="text-center jumbotron-fluid jumbotron bg-image-cover p-3 p-md-5 text-white rounded" [ngStyle]="{'background-image': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + recipe.img + ')'}">
         <h1 class="mt-3">{{recipe.title}} </h1>
         <h3 class="font-italic">{{recipe.author}}</h3>
         <p> {{recipe.dateCreated | date:'dd MMMM yyyy' }}</p>

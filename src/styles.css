@@ -42,10 +42,6 @@
         animation-name: fadeIn;
     }
     
-    .recipe-jumbotron {
-        height: 60vh!important;
-    }
-    
     .bg-image-cover {
         background-position: center!important;
         background-size: cover!important;
