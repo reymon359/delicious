@@ -16,10 +16,10 @@ export class RecipeService {
    * getRecipes()
    * Returns the array of recipes ordered with the last ones first
    */
-  getRecipes(): Promise<any> {
+  getRecipes(from, quantity): Promise<any> {
     const promise = new Promise((resolve, reject) => {
       // setTimeout(() => {
-      resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()));
+      resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(from, quantity));
 
       // }, Math.round(Math.random() * 2500) + 1500);
     });

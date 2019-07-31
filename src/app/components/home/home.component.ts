@@ -15,9 +15,12 @@ export class HomeComponent implements OnInit {
   meals = [];
   mealsSelected = [];
 
-
   errorMessageStrong = '';
   errorType = '';
+
+  // Pagination
+  from = 0;
+  quantity = 12;
 
   constructor(private recipesService: RecipeService,
     public translate: TranslateService) {
@@ -46,7 +49,7 @@ export class HomeComponent implements OnInit {
    */
   getRecipes() {
     this.loading = true;
-    this.recipesService.getRecipes().then((recipes: Recipe[]) => {
+    this.recipesService.getRecipes(this.from, this.quantity).then((recipes: Recipe[]) => {
       this.recipes = recipes;
       this.loading = false;
     });
@@ -66,7 +69,7 @@ export class HomeComponent implements OnInit {
     // If after searching they remove the text I load all the recipes back
     if (searchText.length === 0) {
       this.loading = true;
-      this.recipesService.getRecipes().then((recipes: Recipe[]) => {
+      this.recipesService.getRecipes(this.from, this.quantity).then((recipes: Recipe[]) => {
         this.recipes = recipes;
         this.loading = false;
       });
