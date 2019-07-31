@@ -54,7 +54,7 @@
          <app-recipe-card [recipe]="recipe " *ngFor="let recipe of recipes; let i= index "></app-recipe-card>
     </div> -->
 
-    <button (click)="searchText.value='';getRecipes(from,quantity)" type="button" class="btn btn-success">{{'home.errorMessage.buttons.viewMore' | translate}}</button>
+    <button *ngIf="recipes.length%this.quantity===0" (click)="searchText.value='';getRecipes(from,quantity)" type="button" class="btn btn-success">{{'home.errorMessage.buttons.viewMore' | translate}}</button>
 
 
 </div>

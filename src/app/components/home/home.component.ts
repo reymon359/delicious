@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
 
     // Getting the meals array for the current translation
     translate.getTranslation(translate.currentLang).subscribe(translations => {
-    this.meals = translations.meals;
+      this.meals = translations.meals;
     });
 
     // Changing meals translations on language change
@@ -49,9 +49,15 @@ export class HomeComponent implements OnInit {
    */
   getRecipes() {
     this.loading = true;
-    this.recipesService.getRecipes(this.from, this.quantity).then((recipes: Recipe[]) => {
-      this.recipes = recipes;
+    // console.log(this.from);
+    this.recipesService.getRecipes(this.from, this.from + this.quantity).then((recipes: Recipe[]) => {
+      console.log(this.recipes);
+      console.log(recipes);
+
+      this.recipes = this.recipes.concat(recipes);
       this.loading = false;
+      this.from += this.quantity;
+      // console.log(this.from);
     });
 
   }

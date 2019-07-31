@@ -19,7 +19,12 @@ export class RecipeService {
   getRecipes(from, quantity): Promise<any> {
     const promise = new Promise((resolve, reject) => {
       // setTimeout(() => {
-      resolve(RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(from, quantity));
+      resolve(
+        {
+          recipes: RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(from, quantity),
+          total: RECIPES.length
+        }
+      );
 
       // }, Math.round(Math.random() * 2500) + 1500);
     });
