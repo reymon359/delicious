@@ -55,7 +55,7 @@
     </div> -->
     <div class="row mt-2">
         <div class="col text-center">
-            <button *ngIf="recipes.length < this.total" (click)="searchText.value='';getRecipes(from,quantity)" type="button" class="btn btn-success">{{'home.errorMessage.buttons.viewMore' | translate}}</button>
+            <button *ngIf="recipes.length < this.total && recipes.length !== 0" (click)="searchText.value='';getRecipes(from,quantity)" type="button" class="btn btn-success">{{'home.errorMessage.buttons.viewMore' | translate}}</button>
         </div>
     </div>
 
