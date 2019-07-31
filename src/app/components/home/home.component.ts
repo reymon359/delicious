@@ -21,9 +21,10 @@ export class HomeComponent implements OnInit {
   // Pagination
   from = 0;
   quantity = 12;
+  total: number;
 
   constructor(private recipesService: RecipeService,
-    public translate: TranslateService) {
+              public translate: TranslateService) {
 
     // Getting the meals array for the current translation
     translate.getTranslation(translate.currentLang).subscribe(translations => {
@@ -49,15 +50,12 @@ export class HomeComponent implements OnInit {
    */
   getRecipes() {
     this.loading = true;
-    // console.log(this.from);
-    this.recipesService.getRecipes(this.from, this.from + this.quantity).then((recipes: Recipe[]) => {
-      console.log(this.recipes);
-      console.log(recipes);
-
-      this.recipes = this.recipes.concat(recipes);
-      this.loading = false;
+    this.recipesService.getRecipes(this.from, this.from + this.quantity).then(data => {
+    
+      this.recipes = this.recipes.concat(data.recipes);
+      this.total = data.total;
       this.from += this.quantity;
-      // console.log(this.from);
+      this.loading = false;
     });
 
   }
