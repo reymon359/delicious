@@ -15,7 +15,8 @@
             "filterError": "It seems that there is no recipe of that type",
             "buttons": {
                 "lastRecipes": "Last recipes",
-                "addRecipe": "Add Recipe"
+                "addRecipe": "Add Recipe",
+                "viewMore": "View More"
             }
         }
     },

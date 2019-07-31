@@ -15,7 +15,8 @@
             "filterError": "Parece que no hay ninguna receta de ese tipo",
             "buttons": {
                 "lastRecipes": "Últimas recetas",
-                "addRecipe": "Añadir Receta"
+                "addRecipe": "Añadir Receta",
+                "viewMore": "Ver Más"
             }
         }
     },
