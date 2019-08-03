@@ -51,7 +51,6 @@ export class HomeComponent implements OnInit {
   getRecipes() {
     this.loading = true;
     this.recipesService.getRecipes(this.from, this.from + this.quantity).then(data => {
-    
       this.recipes = this.recipes.concat(data.recipes);
       this.total = data.total;
       this.from += this.quantity;
@@ -72,11 +71,8 @@ export class HomeComponent implements OnInit {
   searchRecipes(searchText: string) {
     // If after searching they remove the text I load all the recipes back
     if (searchText.length === 0) {
-      this.loading = true;
-      this.recipesService.getRecipes(this.from, this.quantity).then((recipes: Recipe[]) => {
-        this.recipes = recipes;
-        this.loading = false;
-      });
+      this.from = 0;
+      this.getRecipes();
     } else if (searchText.length > 1) {
       this.mealsSelected = [];
       this.loading = true;
