@@ -1,6 +1,6 @@
 {
-    "name": "dove-legacy",
-    "version": "0.0.0",
+    "name": "delicious",
+    "version": "1.0.0",
     "author": "ramon morcillo @reymon359",
     "scripts": {
         "ng": "ng",
