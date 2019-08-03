@@ -7,7 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dove-legacy';
+  title = 'delicious';
   constructor(translate: TranslateService) {
     translate.addLangs(['en', 'es']);
     // this language will be used as a fallback when a translation isn't found in the current language
