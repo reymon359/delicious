@@ -2,13 +2,188 @@
 <div class="container main-container animated fadeIn ">
     <div class="row">
         <div class="col">
-            <h1>¿How do I add a recipe?</h1>
-            <p>There are 2 ways to s</p>
-            <form action="https://formspree.io/ramonmorcillodev@gmail.com" method="POST">
-                <input type="text" name="name">
-                <input type="email" name="_replyto">
-                <input type="submit" value="Send">
-            </form>
+            <h1>Contributing</h1>
+            <p>Delici🥘us is an <a href="https://github.com/reymon359/delicious" target="_blank">open source </a> <b>recipes</b> project and the more it has the better! so feel free to submit your own recipes to it😄</p>
+
+            <h3>I am thinking of adding a recipe</h3>
+
+            <p>First off, thank you for considering to submit a new recipe. It's people like you that make Delici🥘us such a great site.</p>
+
+            <h3>So how do I add my recipe?</h3>
+
+            <p>All the recipes are in the <a href="https://github.com/reymon359/delicious/blob/master/src/app/services/recipes.ts" target="_blank">recipes.ts file</a> in an array of recipes. So you just have to submit a <b>pull request</b> with your recipe
+                added to the array. If you do not know what an array or pull request is I am planning to add some way to submit recipes for non programming people.</p>
+
+            <h3>What kind of recipes can I submit?</h3>
+
+            <p>You can submit any kind of recipe you want! Just do not forget to label it right according to the <b>meal</b> it is. For example a chocolate cake would be a <b>Dessert</b> not a <b>Salad</b>. To learn more about how to structure a recipe look
+                at the
+                <a href="https://github.com/reymon359/delicious/blob/master/src/app/services/recipe.ts" target="_blank">recipe class</a> and the array of recipes ini the <a href="https://github.com/reymon359/delicious/blob/master/src/app/services/recipes.ts"
+                    target="_blank">recipes.ts file</a> to see some examples.</p>
+
+            <h3>Other contributtions</h3>
+
+            <p>Delici🥘us is an open source project and we love to receive contributions from our community — you! There are other ways to contribute appart from submitting recipes like submitting bug reports and feature requests or writing code which can
+                be incorporated into Delici🥘us itself.</p>
+
+            <h3>Some expectations for behavior.</h3>
+
+            <p>This includes not just how to <b>communicate with others</b> (being respectful, considerate, etc) but also <b>technical responsibilities</b> (importance of testing, project dependencies, etc).</p>
+
+            <h1>Your First Contribution</h1>
+
+
+            <p>Unsure where to begin contributing to Delici🥘us? Here are a couple of friendly tutorials that can help you: <a href="http://makeapullrequest.com/" target="_blank">http://makeapullrequest.com</a> and <a href="http://www.firsttimersonly.com/"
+                    target="_blank">http://www.firsttimersonly.com</a>. Also if you are working on your first Pull Request you can learn how from this <em>free</em> series, <a href="https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github">How to Contribute to an Open Source Project on GitHub</a>.</p>
+
+            <p>At this point, you're ready to submit your recipe! Feel free to ask for help; everyone is a beginner at first :smile_cat:</p>
+
+            <p>For something that is bigger than a one or two line fix:</p>
+
+            <ol>
+                <li>Create your own fork of the code</li>
+
+                <li>Do the changes in your fork</li>
+
+                <li>If you like the change and think the project could use it send a pull request indicating that you have a CLA on file.</li>
+            </ol>
+
+            <p>Small contributions such as fixing spelling errors, where the content is small enough to not be considered intellectual property, can be submitted by a contributor as a patch, without a CLA.</p>
+
+            <p>As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. As long as the change does not affect functionality, some likely examples include the following:</p>
+
+            <ul>
+                <li>Spelling / grammar fixes</li>
+
+                <li>Typo correction, white space and formatting changes</li>
+
+                <li>Comment clean up</li>
+
+                <li>Bug fixes that change default return values or error codes stored in constants</li>
+
+                <li>Adding logging messages or debugging output</li>
+
+                <li>Changes to ‘metadata’ files like Gemfile, .gitignore, build scripts, etc.</li>
+
+                <li>Moving source files from one directory or package to another</li>
+            </ul>
+
+
+            <h1 id="howtoreportabug">How to report a bug</h1>
+
+            <h3 id="explainsecuritydisclosuresfirst">Explain security disclosures first!</h3>
+
+            <p>At bare minimum, include this sentence:</p>
+
+            <blockquote>
+                <p>If you find a security vulnerability, do NOT open an issue. Email XXXX instead.</p>
+            </blockquote>
+
+            <p>If you don’t want to use your personal contact information, set up a “security@” email address. Larger projects might have more formal processes for disclosing security, including encrypted communication. (Disclosure: I am not a security expert.)</p>
+
+            <blockquote>
+                <p>Any security issues should be submitted directly to security@travis-ci.org In order to determine whether you are dealing with a security issue, ask yourself these two questions:</p>
+
+                <ul>
+                    <li>Can I access something that's not mine, or something I shouldn't have access to?</li>
+
+                    <li>Can I disable something for other people?</li>
+                </ul>
+
+                <p>If the answer to either of those two questions are "yes", then you're probably dealing with a security issue. Note that even if you answer "no" to both questions, you may still be dealing with a security issue, so if you're unsure, just
+                    email us at security@travis-ci.org.</p>
+            </blockquote>
+
+            <p>[source: <a href="https://github.com/travis-ci/travis-ci/blob/master/CONTRIBUTING.md">Travis CI</a>] <strong>Need more inspiration?</strong> [1] <a href="https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#security">Celery</a> [2]
+                <a href="https://github.com/expressjs/express/blob/master/Security.md">Express.js</a></p>
+
+            <h3 id="tellyourcontributorshowtofileabugreport">Tell your contributors how to file a bug report.</h3>
+
+            <p>You can even include a template so people can just copy-paste (again, less work for you).</p>
+
+            <blockquote>
+                <p>When filing an issue, make sure to answer these five questions:</p>
+
+                <ol>
+                    <li>What version of Go are you using (go version)?</li>
+
+                    <li>What operating system and processor architecture are you using?</li>
+
+                    <li>What did you do?</li>
+
+                    <li>What did you expect to see?</li>
+
+                    <li>What did you see instead? General questions should go to the golang-nuts mailing list instead of the issue tracker. The gophers there will answer or ask you to file an issue if you've tripped over a bug.</li>
+                </ol>
+            </blockquote>
+
+            <p>[source: <a href="https://github.com/golang/go/blob/master/CONTRIBUTING.md#filing-issues">Go</a>] <strong>Need more inspiration?</strong> [1] <a href="https://github.com/celery/celery/blob/master/CONTRIBUTING.rst#other-bugs">Celery</a> [2]
+                <a href="https://github.com/atom/atom/blob/master/CONTRIBUTING.md#reporting-bugs">Atom</a> (includes template)</p>
+
+            <h1 id="howtosuggestafeatureorenhancement">How to suggest a feature or enhancement</h1>
+
+            <h3 id="ifyouhaveaparticularroadmapgoalsorphilosophyfordevelopmentshareithere">If you have a particular roadmap, goals, or philosophy for development, share it here.</h3>
+
+            <p>This information will give contributors context before they make suggestions that may not align with the project’s needs.</p>
+
+            <blockquote>
+                <p>The Express philosophy is to provide small, robust tooling for HTTP servers, making it a great solution for single page applications, web sites, hybrids, or public HTTP APIs.</p>
+
+                <p>Express does not force you to use any specific ORM or template engine. With support for over 14 template engines via Consolidate.js, you can quickly craft your perfect framework.</p>
+            </blockquote>
+
+            <p>[source: <a href="https://github.com/expressjs/express#philosophy">Express</a>] <strong>Need more inspiration?</strong> <a href="https://github.com/activeadmin/activeadmin#goals">Active Admin</a></p>
+
+            <h3 id="explainyourdesiredprocessforsuggestingafeature">Explain your desired process for suggesting a feature.</h3>
+
+            <p>If there is back-and-forth or signoff required, say so. Ask them to scope the feature, thinking through why it’s needed and how it might work.</p>
+
+            <blockquote>
+                <p>If you find yourself wishing for a feature that doesn't exist in Elasticsearch, you are probably not alone. There are bound to be others out there with similar needs. Many of the features that Elasticsearch has today have been added because
+                    our users saw the need. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.</p>
+            </blockquote>
+
+            <p>[source: <a href="https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#feature-requests">Elasticsearch</a>] <strong>Need more inspiration?</strong> [1] <a href="https://github.com/hoodiehq/hoodie/blob/master/CONTRIBUTING.md#feature-requests">Hoodie</a>                [2] <a href="https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#requesting-a-feature">Ember.js</a></p>
+
+            <h1 id="codereviewprocess">Code review process</h1>
+
+            <h3 id="explainhowacontributiongetsacceptedafteritsbeensubmitted">Explain how a contribution gets accepted after it’s been submitted.</h3>
+
+            <p>Who reviews it? Who needs to sign off before it’s accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?</p>
+
+            <blockquote>
+                <p>The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent to the puppet-dev list. Notes are posted to
+                    the Puppet Community community-triage repo and include a link to a YouTube recording of the hangout. After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing
+                    any activity.</p>
+            </blockquote>
+
+            <p>[source: <a href="https://github.com/puppetlabs/puppet/blob/master/CONTRIBUTING.md#submitting-changes">Puppet</a>] <strong>Need more inspiration?</strong> [1] <a href="https://meteor.hackpad.com/Responding-to-GitHub-Issues-SKE2u3tkSiH">Meteor</a>                [2] <a href="https://github.com/expressjs/express/blob/master/Contributing.md#becoming-a-committer">Express.js</a></p>
+
+            <h1 id="community">Community</h1>
+
+            <p>If there are other channels you use besides GitHub to discuss contributions, mention them here. You can also list the author, maintainers, and/or contributors here, or set expectations for response time.</p>
+
+            <blockquote>
+                <p>You can chat with the core team on https://gitter.im/cucumber/cucumber. We try to have office hours on Fridays.</p>
+            </blockquote>
+
+            <p>[source: <a href="https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#talking-with-other-devs">cucumber-ruby</a>] <strong>Need more inspiration?</strong> [1] <a href="https://github.com/chef/chef/blob/master/CONTRIBUTING.md#-developer-office-hours">Chef</a>                [2] <a href="https://github.com/audreyr/cookiecutter#community">Cookiecutter</a></p>
+
+            <h1 id="bonuscodecommitmessageandlabelingconventions">BONUS: Code, commit message and labeling conventions</h1>
+
+            <p>These sections are not necessary, but can help streamline the contributions you receive.</p>
+
+            <h3 id="explainyourpreferredstyleforcodeifyouhaveany">Explain your preferred style for code, if you have any.</h3>
+
+            <p><strong>Need inspiration?</strong> [1] <a href="http://requirejs.org/docs/contributing.html#codestyle">Requirejs</a> [2] <a href="https://github.com/elastic/elasticsearch/blob/master/CONTRIBUTING.md#contributing-to-the-elasticsearch-codebase">Elasticsearch</a></p>
+
+            <h3 id="explainifyouuseanycommitmessageconventions">Explain if you use any commit message conventions.</h3>
+
+            <p><strong>Need inspiration?</strong> [1] <a href="https://github.com/angular/material/blob/master/.github/CONTRIBUTING.md#submit">Angular</a> [2] <a href="https://github.com/nodejs/node/blob/master/CONTRIBUTING.md#step-3-commit">Node.js</a></p>
+
+            <h3 id="explainifyouuseanylabelingconventionsforissues">Explain if you use any labeling conventions for issues.</h3>
+
+            <p><strong>Need inspiration?</strong> [1] <a href="https://github.com/wagenet/StandardIssueLabels#standardissuelabels">StandardIssueLabels</a> [2] <a href="https://github.com/atom/atom/blob/master/CONTRIBUTING.md#issue-and-pull-request-labels">Atom</a></p>
         </div>
     </div>
 </div>
