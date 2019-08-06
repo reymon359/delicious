@@ -70,7 +70,7 @@ export class RecipeService {
       resolve(
         {
           recipes: RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)),
-          total: RECIPES.length
+          total: RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)).length
         }
       );
     });
