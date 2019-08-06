@@ -92,7 +92,7 @@ export const RECIPES: Recipe[] = [
         title: 'Risotto de calamares',
         dateCreated: new Date('2019-06-24T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img:            './assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg',
+        img: 'https://lh3.googleusercontent.com/coQXXSdS-wOi7Co5Wk8nKLy3rZrm96MnQ312yz4bDyA2_WO5GYZSjfUfMxH3BFTlTI9Q6t5iTLELtMBZOE8BCTHfrWiLV7oLQhQLZ4q0ng5OaWSXJvILc7JbIqNzhXyY75pKZBu6VBmpzVEuDia9lh1ChLlTuj9ACT_yKYQU5oVb3Xigb4LDes0q6SbrFIzX4Zi2B-2Vv792lnzIxM_ebs0LlF8H8rkLMf0ujlD6qlQAoiKEmMDlab5XvJl_z-1B-uj17PFfMP0L3JHPq8GXvNDxc-tmlespu4O14AvfEqWKBFkUS6QyjNrPXAxT-S51d0LSgcSS2ca8bohTntWVtioIADLMrLOK_ybKAj3ptoUa8eLpA4Z2iHHidHF_zmHECb4g0mfAJT-gAhuE1VW2p2YgyoWMo3bRzl43PM4i8x5e77q88nZkhfb2_ITEn3JBF2zrY4_wOvuhStUMFYp-WBltk4fXz5eqzBbRXwfGIq7W89tbFhHF7TeBqwBlkQOp1-L49WCM1IDIUzMsjX_3t38RA4B06lHhw_4C80j2iEUieBlF5xUYgQkdAdQCA7kuQM9pD0290UkKVPksnrmxQ8Te2GEWqONEH5c1EaVgqsA8ARjRk-gCtonMrTwEKw95E5h8LmT5-tfhFn179v1tr_DOj9Ozi5OT1PLvQTZZTsusK_A49zUtwLQr_IQ9XSXC3Ef2fkj8QZkWbR33ndPmZHwr1w=w678-h903-no',
         desc: 'Risotto de calamares para varias personas',
         time: 30,
         people: 4,
@@ -104,61 +104,61 @@ export const RECIPES: Recipe[] = [
             {
                 desc: 'Ponemos los calamares a descongelar en caso de estar congelados y lo mismo con el caldo si también lo está.',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step1_1.jpg',
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step1_2.jpg'
+                    'https://lh3.googleusercontent.com/hkK7XlWN1SM_D7OUFahpCXkfMviiiHJZrRsMGwvFKjejgotTt4KcGHKhXWXRsKq9XwIRccBEM1Vu4eh9iP5XDG4rlQ5w8jtWyVrgU3mXsRA_ypk8HPTPCPQpGjbAyQidLjjFwcdg3q12HG5xZazXzgds2YIXTYcODm82A5LtppLt8M8Zt_SkFYBOehROfBG4-R3_aChPAgTX0ku9X79PchmUCZVuRdJ5AFTVK7jV9NT_6mIpHlZLVWYEeQAXW-00xt4rCTpmTcIKScFKDUcoIZECxnA4k8W8RAbO3lD0XumP05I0bCkdIrBQLSsfMdzc49eJP8iS53FghX5VUWh17wldJGRh_rw2Od3SnhslEWTpGOtYUoIuywowtbLKZOS2coyA3qnDJ8QePtdyfMWVfnFOASRs4uI-YFsq2AqxnoHhXIO2X-WWfRdVmSJgv7SwgaxuxxNKJR3EIUyCFgSPTcy_6Fqj-BRNniTqxjViguhrTWyqFMnmIJsnr72P6xGCDcSb7yMrBiZOuEowA81iSOnjNTOH_acKKyU8vxOZlxEkVXPko02P1V9uEHCNMPcnlpG_bVuV4Qxpa3os136mSsRjAlNSJd3d_21uD5NHl50tfyF_8aQQOQn0A9-YpVieQa0Iq-dfKDqsgwwEOpboihzsNFrhPvSEFdjdfYOp4hUXxXN87uPVeCzCcogMLXvDcxD71yJPHiXI60z2BHuzFG3fSw=w678-h903-no',
+                    'https://lh3.googleusercontent.com/Lo8_E0bHXxpKDsE8RI6x47Bo8fnyq_pyeBUS0UT1slDDjWsBGBlfatf1Jl7i7iYw8xc7iOzfQqLlNtctDjvIx_B12wAC68eZJUSAjlRlCK6pJbKfBEqnKi9-DvISUvigqqCbUP6Tcw1k0YJllQJte6xS83rafciGNkbQgaKP_rgNd4sQpvGFbV1Qz2MQtNaBmAnFAV-i-WvFfQ-zXeFg3jjxIKot1oJRRmijIG_fc-GLwxmXRqlMzroiduv-uH5RhmJHwTnX-uaZmfoyeyS5a9M9I5xT-8sLUJh6s_Hf8yyrQGKnEBMCruAz9nYw9OAy8ChdN6UzU-5tBYWwras7MXMbLuV5hN0H9KjnvbovMTO9-NDHJAtKWNkecDY7MJNk1uvm9EfJBx8xIiZfgRw0smoyOd9XoJM1wQYpQp_VYO39LGHVubGUeji6yIWdioNPWILbOQEUwG0cvzrs_pa8JNpPoLiVmvhN-NB6XoDhnCjL3XPzofpc0B6BYLDRn6rtbhAJ_IfN7qts8YdcCWeFVo1QkP_q055bLz6zJovYDfH3bQ_gNxNKMxAnAN-6bZZcthPSnI_xVvaAMCFPwz9m4AZ29VYxEaNWbXLmM5KB_QqqTTtPBafH88AE3Izapox4TBZZkal7Ls3WYVpjOTmoeFXXpArZWJN6juxT3x5L2nBhKVlnq4RiOZe01Qye_M7e1pAClOBLW01tJdkCGw3mbl-xzA=w678-h903-no'
                 ]
             },
             {
                 desc: 'Mientras tanto cortamos cebolla y la pochamos',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step2_1.jpg'
+                    'https://lh3.googleusercontent.com/406qsM9zikE-V9hcK76TNyS8T1xskQwm06sSQ0VAbFl0Fmvbx2fzAybuAzisBLUwDoLEn34W5vLodcm1kmOJa4K8ytpb04H_tMfM9cnxVc1i97TMl4ftR44DGyrmObQYcRRTExVIFpA5462P4A7GS9S1hYLBrPOwv7ggea-p_J3OtvHlGsB3QFdDf3srQSQKR5wh_39VcmpNW-9qPSNyOeTnX2F4jzLTOS9uUJQKCrNxfQ8f56IprA6NN_VyuxK0bf3FDgJzbiNF-aLeRr6G8N76ZT748EYXAGfzIt8kItiU4pjzIezsjuf4pxOH8sgFiPh-St1zKT8qrTzJUhm0AIwzQHk3H02bFCFbNvRFt0qxrJIdup-n9k4gyhrfTrBtxZed-62CuXv0AuVfxxco63D9-CGzs3EGWbSXswo_n949tO5hxVIAX-vBQ5DCpQyB3Z7XkCz-yCFR4Web1ntIUXDq3UIAPuJwVZN4I0OU-edPkAwQ_SG6rW-7l3bPVNWyfCvNdDGDiVqd_oWK5CiRwNIXh5hQSOlshG59I5vck8U4cIcAztUkdb8wyWPhnIvfDAp9F9RwvnGa0ljoCx64tPX8dah3Kg-_poPa6zBjVcW6kA6NmvXtH3j7dTOzuUVGAcwR8Tp7I-dFofrhhpJcikYhJmse1nZidBQLAAVwMrWX76zd9jjcjZ1FB-e-zwxZzaQB-NiF7P060zJNNMv0y4SQ3A=w678-h903-no'
                 ]
             },
             {
                 desc: 'Añadimos aceite a la sartén, echamos los calamares, un poco de sal y un vaso de vino blanco. Y removemos hasta que se hagan un poco. Al mismo tiempo ponemos el caldo de pescado a calentar a fuego medio-alto',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step3_1.jpg',
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step3_2.jpg',
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step3_3.jpg'
+                    'https://lh3.googleusercontent.com/KOcLtxulpVFmST6x4petPNGso-iaIk4i-ZyBLG2iu1ARCPIdNInMGhBskP5a3OJnnzD-YmuYuicv4QyOQcwB3-01ZprkgdpapATlnvtGdvePPVB9U1MQBE_KX17B1oDdrUoitz78qBhtmUk0j1ThMM1wBUp3l9Vz1AG4ookjpqjBZnLE4nsGC6gt7Vett1NaHP_K-QtWJDGyPRtChmxqU5I7KDezS1HxpkzkeSbaXyboe4x9UwEVHLAtfZABWAuzseDkS5iPKy8_b7Njq9RnZaK3ZVgYo_iS39ia0Rht5mmFKbdzAzsxEg-u12GfaCWrRLeWyWptEC93Xr9EyEbThfTdwMQT5BkJPgfCIs3bnD_rn_XMH_F1XlLOatOlWsupViel8usLTlG9jFMj3qkP-n3fLt0Npz4ArwuYTBgZQ9v2sRv9obWpi4YncMS1sBOrgrJOgIH-4DrbtzqPCwISC71UKefdsNNcuckWwVljkXwPu4DVNE5iBo_LPGtqBfSfwWqLqnGkHjiPSqLWICrOxJZ7JJU8ga2I5gXhV5k6Ay4b4Qy5WNDMS0V2JPqmkCsEzdFM1TA546aHACQrQKiYs6GC70N7tQNQOa4fUbX-HTQyUV9IIZaZXynkAqQKAXceYX9w5BAZKatybs-8-hnF-sYg966H7uGuOlYJuAvUmp3LkGgCw5khA-YSG9T5ESW1oCZueGyWdbjD3GMaU-PNFnzP-Q=w678-h903-no',
+                    'https://lh3.googleusercontent.com/J8Sx0B0ebCJAnvkJHfJZnKEtNxoQzfN42AV9aIc7TdbTCjFUCGz3QyouPpdpiTG6pNcnGDpLy6qJ0hK6HpFqkNaKc6DHH6Ua0K-ZIFSB9iShojmpwDEeJm_I2mXS9nD7Zf5raqLrXnbwwFO0Yol8grmFdwATmtrq-iMHAuqggGwLFEQB29hIdL7msmrGVS9CiOKSdib578k9vlGgbb7VtkP3HIA50FMcWtyq-0DJ2gsW7AuZhuwlYeip_suBEMkAH4z6O_xZ1_-XK0Wmt0tzE6YEB1SMHS4JLG-dtaADsuMG8qiZZLMjdBVAflz3bIurGLfTV0S3I_5xzIVTdEx9EEryqZ4JP_Dg1p3_1XuL4OStakgeLJPcqMdc1ZWcNLw49EUQz8dQXQLuVZXFqZN41nkrEQ7Q3A3j3NoQSCoCbE2TB4iXzSjyv-LXI-8IIgApa2klvTSOHoogclIaC1Mb7eHKzI-MnZCWVDRm0MpJ0LeBi47YdQNBhia9mbfrYmAdhBNaznwbHjiwLlGXfilIzuf0UPB6iZ2p4oT1ZWu_H5hGNcBHAGaoPBLFhE0Vh4x-O3OB4uoBDWe8Nc--QdbNK3lxwoe3d8Jik9jeCEXZoOVYZB4y7W-bJoX6-AW_NVl129QWCJBglfv97hoXaQquNJW-SrF_-S_UV51yVJEdh0BEXrAFi7kclvgtax3ECpSuceKmrPXvLyzkiV_dAhO1ODVEwQ=w678-h903-no',
+                    'https://lh3.googleusercontent.com/t2XNnldoV6bW_cpJgq2btLBP88bXluU84rT98Fu9th29DsESmgKoeEm1j2yFZT9kWjByo0Tdr8pqzfyFzN-N6V8kpzpUVcfVAW_zrmIKR7JFYQdA63lmQ2SgAbL3E0Hy8Ye-rX6bBgaqz7Zz7XbuE--f_RgVM0dQHyhI9s5XyWtiuW1YZWWWf3_H-8UjL7oP_mnocqcEPAFfVd4xxwEkyO9uMm--cvBxAGvseneSJdpqt59wMbPMQw9oNMCaJ83pjx-QkhJ-aCLfnXMVPda3HsBUzRtLCoeYeqIRG0EvGhTVvBsap_pf40fe3FDCouZ1ZUb02xP32TsjCONaYVq9G6F-vKgG5Z2xelpO8lSN0wQRiyqMeVmhNQ89leikKR7W1TmsmtASgGXFQ5BuD-QKxppV-4GqycVQ9kJOaqP67G718nBoGZs3v5SDE0kZ6CFwDndN0mSN2gyrujETe5od-c9RjtbcLamB9DUjg2r9-JMmcVX78jlpR7aWvJai9abnJdx9_1Y_Tif6VhfV39JbqehKpd6TF1boixEKGNnhFRtprkR87klUioct9J4kahceh06ItNnIt_z8JMV3x02DGr-UPyBdutGF8Haaj5opRCMe6xUL1uOJRU7sH2qUQWlLjpCazsl39JhevuuVvMBfWJAP8M8KH7E7qHqZt8Bqt6W0BCGjFti8WpAxEaFEmr6zIV8Xfl3TaRRLeJgcz8KjnXFFjA=w678-h903-no'
                 ]
             },
             {
                 desc: 'Ponemos 3 vasos de arroz para 4 personas en un cuenco y lo echamos con los calamares una vez estén fritos/hechos',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step4_1.jpg',
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step4_2.jpg'
+                    'https://lh3.googleusercontent.com/m7bOtUWDEsVj_SjGAe7762T7s1M5g2KcvLpsAjP8af6aFQo5K0-uI1g_06ZLXrxtjd6XWYmPEg_MNfzd3Dh51rbjnpZCQ1JHzNRgQZqOQcC_ACP6fs2K89y875gFEqutBWkLpHPg41LTo0SAijQ7-gom8OuuaDG68oGPPspclBR69c4CE3ludnZlpLvGXng2E0_iGnqEmZvoUTxNjR50AKxg6vmRksz8nGQ2dZYz3PlYZZkrGA7paj0CgZzoetp5a2984CNxbzJ_BGrbWpWxGUIooXiPflynoWz57xI81f99gnxSOqcO-1UwOYT85wknNzgPWjL9KMdAR7bj1EGyG7UHP50t4fVb4lycxzIKnHRoOFfp6mXWQcWfXBQ9i0AKm74nr4-zZ8gKVKwqh70k18z3QW12HbDI5X7eAuy-2_j48QjeLUFAPS3xJIAGGfcCVaB2QLWVFDAA4k4rUJ0BMzfUnk0bBy5cloTw29Eh5GAVQb9zVqNX4Pi17cb35NBilZ0lqJnUaeUthYpkdf4XM5bFwe69UNEaqZaxB46NJ6wX5vCo5q8AS5wnc0md235eaIZoGBywvY9Kqb76GbTbvD8ixN6DqIkABVw6rjKuHtqHUravHmyfOp1UYV3CbCXZ6DrqduMAkRT5rrFqf6AWjHa1GCm_x4DI8Ht8M_o5pkLYxa4pA1kTgJzEkmf4lGqMjDAqMRfuTlsWYRAygKpSEKsdDA=w678-h903-no',
+                    'https://lh3.googleusercontent.com/6pAQphEpPA7zaEjA7k7NMz_7DOHf8SVft9_FVemWcqX7B8QHr9p-WgUKoUkbh0yiMxZTnMWsASPcQykTpSaoV2Ren_6_TyF_VV6KP2zgg2c9-Iv14Ihy7AYHRbb1n6xBptWmAbrEX0GEau1baTHFwfK2ducxQoZnIfazgd9daf9Us7EJuLY_0sXNYWlOXcX2qFkZ0IwDv9M2ey9HBxhxVefZRtWo0HCCzfJhiA_5dIJ1LdMs6c6GUINuWnZ3l7JxLk_hAaFcWiAzLWbbSKsItvIlwrpBKO2OfpiP7gZFj3raKRo7r-4yYTCxPAU97Jt74mtLUtueoSALYxvU0wUB4c3GcQ1bxPRF8a-6FWSyzR39JnOvLHao4Ht7lf6qGhcxQs2HKvF4x0mUp0VdfeiL1Si8_GeG8-bA_vWAOl2yYcQ4On9pZHmB0Ax_CcVnF1-CL_8GU6NAq1o7Hjt-UZavAJUJBfzPXKu8DU45HolPQgZgKwzKH8EU5pbZUpUl99e05XAYfFdCoU_YMDwpwcLKC0mRaPXXE34it9TRiduAoFCpRx-ltFzPrg3D7W0thAka016grHduXnhyi-4qnFWpQOMyWTxD9GEWkMYuQ-RkGapJ9EkgEoFE2qRKuymj3DYEjHXf1qrSYFiSpG2zTJsrx5guxgXyQZkTe6q5yBKocDzNTSaw6GU3vPVv5siJcIANG0BZfh7x0JCeZRAUgICHyI0YSQ=w678-h903-no'
                 ]
             },
             {
                 desc: 'Echamos un poco de aceite para freír el arroz y removemos hasta que la gran mayoría del arroz tenga un color transparente',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step5_1.jpg'
+                    'https://lh3.googleusercontent.com/cktQcUVqg8i8vSmLyGgM4FNN864HkGfCg3CjOe6SDz-H1AHrVTcUsEB8Bi88IQkf7YGWube1iev7n5gKBiFYLhxlrALs0vLFP8A7T1XDAAj-3WwwDjCh-lt1INiwHhcFgSGrNAaLse3aZimPsS2hYH4Mem-hbnj9Csg1i-Vt_G-WxxoEi3ojB5eO0OvcPAty17ApHabYyjGCCaqYDm3Q_4V6rZ1CSb78u1WVA9glL6GNXYYx5bpo4xYSRWxTRtE99Tcjr9SqvaLwCJ3ay6tsow-3ZSUvVip2eCOr-jlN7B-2Rhl8IORtuFyjoeQtSV3dJNs-7sgJwmTHtrRYMurzUHLYraPrNSUv0MOonBDLA8Xz6OUJD1O-x0OkEIMF_kT81jGFD5sdWY5j4JhVbr0pmk0vLmU6wlhBPr-7xt_hHe76BPAizgAn3XXliK9qupm99xfIVfLMA_6Stt3iCEsA7gK9YAOQtfk7wSKhWu4Vk0IG30VWlz2AXUbtcdAVJEDKvY5ZIAnTA-rxVEBfa4sRr_6iY9CRhCHTR6o3M6q48qKzYI98CsUGmWuyBFkmMQMvzRMg1jVm2F81UIFBS6YG3uSfQwKwF6GdPmdSkDRB6P_cnvdSJQTwdR6RBXXthaUBU99HTzxSrY_oL1c9cAXkpE1-FcEh0cPOEU9Mu7swtX9zEH_9hcjBMXsq7bJRxo5yfqEhpsKIa_8AQaWbk9yKr5PJpw=w678-h903-no'
                 ]
             },
             {
                 desc: 'Una vez el arroz tenga el color descrito anteriormente añadimos el caldo de pescado hasta que cubra el arroz. Entonces Añadimos otro vaso de vino y un poco de sal y removemos( no hay que añadir mucha sal porque luego añadiremos queso ). Si el arroz consume el caldo añadimos más caldo. ',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step6_1.jpg'
+                    'https://lh3.googleusercontent.com/oMjlUAGgD2tXDLLG9leC-7qNcLBkRLRMOMXnSa_znK449qTYEEJatJ6KpP9ieqn2x3G6txseHeFvoBNPpg_zHzJglavckeJZ4yZkvXNIDQBYVpi_6A1qHTMl44b4oQDcZ8TWXG0tHG0ko3loC_8fom1e0asFw-XTpBt71IzhRtEodgcR3n7XNqihcHm_1NjY0IBPvkzboSAL2zCUibCA73GUWLh0krm-x6O5UEUxS0C8qJRHd5YRXpQ5zcQTxRNgasS0Ff3xEitzPyF6lssaySdUOw8vqaTtsVErWorrNACcJy1leT1XKBYeQ9xoL4dtyMN8pvh6JMJR2hsdgB6UzoHsp6DQ8pXRV5BVOdy2_zn7d2gma9LBLb8y8-oaRfDINUFOH6N-JtMd2LLL_TcXcIveWxG9Dyb_IVZmCGW4nprAGG6Oi4TF9YGK9EmDzvouQZlvkMvuQs5rPc5Z5hCe0bWcDz1m0MtmlJIlSTFlXfFKiMDoBvtKaNobPSzslu85vkoR6ia33B0EN09omrjMcvo7dOF17YSgz1nVotw45stHwBEODcP3iwye79pXZr9rnmdHODOVoXSmPbj2exy-s0AI-DlDUxxSA-ToPkvH30_3cUGpLYFwoTsVwF1o0PHVqnpp3aure4Fgp49o0V1tpA8xYsL5GVJxdeCvyf57aCyil2EnTp4KMEScL8gta2qXm9rT2O65j2jj_Ad9tvIDi1D91w=w678-h903-no'
                 ]
             },
             {
                 desc: 'Añadimos queso rallado. ',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step7_1.jpg'
+                    'https://lh3.googleusercontent.com/KBaqXoyGipVB-2IdBgHwoj1UpFMZS5ojehV3MY75rtqe9xU15eJiJTkGOvQ1Zu3hVa9QLmn4hMtxl_55OabROs4607VrGYxnnsgxu8B_b5rAVt1FDThCCbzxmc7TaGZL2zjcZ797Z1JS1ugYmI63nerdq9t4qk6RSx6LKW0WHW8yBD6TOYa47NIPWpoR_wiMd8iqhmr1woYxPnZ8mgAsWiEc20BlcempE6REVZTU813w5FqM1iXKBB7AgfOuhnmZUtuqxcEDRhmCk-mjz31B1nvw7udtrcvtZIpl9cLnoUV03FKo70utvNYjTHAp2T2Rv0IZ4BWj_DBcNvsMwKIUuxca_XuZ13fAnrcARHGDRMom5oGDEVPY9TtuRnOtlatVh2RXRstlQ1fc3N4BtxDL0HfDo1D1bWbcKaf6lan3AUfrRCO0wmc2SaKNumek2ND02_p96o2x_GmuibSI9YleZcjsODtsOkLy0NHpYXnDvD5EfmgOEcpi5QojmeSOMtbkD-_dErE6rCehR8gqjd5yKTts4os4yZUwyF_BZsLPq0-A3Da0ewDBgt7n5Was2o3dVhRJSBwamJeigFrWTlbZzTU2wxs5HHVbYbDanyRYqohueVHj6CNIRt4R30s3IIYFRlth-4s97pUGcI7fdb2ed5chOZzapE4Qz6I9NWc5LdUE371mn5Aj5RudHAH7Az0d_dNAdHRH0hk_S13_kldbWDwRzQ=w678-h903-no'
                 ]
             },
             {
                 desc: 'Seguimos añadiendo caldo y queso hasta que el arroz este en su punto, más blando y entonces apagamos el fuego y lo dejamos reposar tapado.',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step8_1.jpg',
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step8_2.jpg'
+                    'https://lh3.googleusercontent.com/tP-qvAUVjI9BsM5nlC7QwRzyS3L4iGiqBdv1IY_IeHoh1uiAltu921fydVl9d618e8NMzc1wEmtq9FnMWFAfkZqpj2Uj5pBfEXzX5apeMTjUeqZdeoDEj6AV7fp5xVzNc2lpIsb6qAUEIRACfJBWUjUi5z3zKCHWKtSrz6XDyrCKIzzLedZhNQvAZByt2t1WBAFZVkeAvpKfxIJpnMubOhQwjUV_hnouLShw-NctZPozSf2Wl_tiHXUqSnUX4ilKXC0w3JvJU4QYtJiP15qnbzhbeVcnQ5oZOA_CLVp4GJm1seL_6ff_aooO8rAFxMDtrc8ExD0dNUG9QXxv-zhOPhOKrvgN2YPlxk3ccBnFP5N45Yh5Hys--z_16ISSnH9rVMp62TBvntbgbP6R4oCc4jCPM8fW2_6GNYbUhd_uWDfwyeF80IlV0TAJQXsvYwfD_i0Aj3jKUTVMuy7Ww4tTVS6bVOqXT2_wIjMxVhhbof09dGQGhbnX_OrfhQe_VZTuhABzLc8eCDOFiDEQlPok5ffYSvWzNTa6Wk6y3yIbkViwa5Lsu_StCUzs4ld7Y_HouXW8qmvr0eXSWzAhLy54ejklouUCTgoGu7uq3Y2WTgfHXzVXnYNPMUoqn4p67UKjxvutb8BtWl-QV8ujPo2JDkblGirxBsHDK62B4pEWpPvB4ssYVq708_YDYGOx_WbQyrn9xR87jsiWaGhBLgBc0LDirg=w678-h903-no',
+                    'https://lh3.googleusercontent.com/pXcOpUZZVbFgjECXLfI8fb9bpkd-JFupcCVvGLCshk6-bmX_HeugibkWxgPtpGAfMrBn-guC98BDkvooBqv6bVzy1VPgDRnCU0xZO0DvLD00H5h6sRph8SF0kWv7-mADuAZutyI4WQNgiciNBO7cEeid6tFbbz3NYHgHeJboL6eK6SUhir6diLK_yLDp0cRaAejvO-wW8YRoAY8Ok-W397j6bCuG0H1eo6SM8UreamimAl0L9WeOFc_53rB9x7GynZcOQrXKlM0mLlvbo9C8QR6sEA-rhcDs7fUqQEpSBV_YL53U04aS21fT9QqQ85sFVrGr3365iMKG1-68FNZktX3IWavzRJPCWCynvgpbQnISa9XDEkvK7yoH1TEuDnc1TQIL3Lu-oGdL45GaBm5jL8W7Jji_ootXjIN9IZXzhmsOpcV6YZGdBanPj_y8cjg4x8XX8FprqRce8chyl89-7tPsP1cBfRVh2GuvSBj3eNL88GZTuDBzhjyBm3erKaHoBAoaw_5BO-pE98hRuosmIBypDxHQOsLEqo92m5-AhN1t2qajdZhI94R-qwliF-qtQOY6ZWy9m8c2QhN6_E1acxAX2f2-9FDbgke5c-2qnzDnFLfCk4t1Lqrczg3k3ZU4z5NDRQw-OXLS8emT27uPSukqR7mYY_LCD5Hm7YzIN7PxdxIK3630he3wUR85SBmD8jV3SWoH-0ivzZg158aCNiYzNA=w678-h903-no'
                 ]
             },
             {
                 desc: 'Cuando el arroz ha adquirido su punto, añadimos un trozo de mantequilla, algo más de queso y removemos por última vez. Con la mantequilla el plato adquiere más sabor y brillo. Y por último emplatamos.',
                 imgs: [
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step9_1.jpg',
-                    './assets/img/recipes/risotto-calamares/risotto_calamares_step9_2.jpg'
+                    'https://lh3.googleusercontent.com/coQXXSdS-wOi7Co5Wk8nKLy3rZrm96MnQ312yz4bDyA2_WO5GYZSjfUfMxH3BFTlTI9Q6t5iTLELtMBZOE8BCTHfrWiLV7oLQhQLZ4q0ng5OaWSXJvILc7JbIqNzhXyY75pKZBu6VBmpzVEuDia9lh1ChLlTuj9ACT_yKYQU5oVb3Xigb4LDes0q6SbrFIzX4Zi2B-2Vv792lnzIxM_ebs0LlF8H8rkLMf0ujlD6qlQAoiKEmMDlab5XvJl_z-1B-uj17PFfMP0L3JHPq8GXvNDxc-tmlespu4O14AvfEqWKBFkUS6QyjNrPXAxT-S51d0LSgcSS2ca8bohTntWVtioIADLMrLOK_ybKAj3ptoUa8eLpA4Z2iHHidHF_zmHECb4g0mfAJT-gAhuE1VW2p2YgyoWMo3bRzl43PM4i8x5e77q88nZkhfb2_ITEn3JBF2zrY4_wOvuhStUMFYp-WBltk4fXz5eqzBbRXwfGIq7W89tbFhHF7TeBqwBlkQOp1-L49WCM1IDIUzMsjX_3t38RA4B06lHhw_4C80j2iEUieBlF5xUYgQkdAdQCA7kuQM9pD0290UkKVPksnrmxQ8Te2GEWqONEH5c1EaVgqsA8ARjRk-gCtonMrTwEKw95E5h8LmT5-tfhFn179v1tr_DOj9Ozi5OT1PLvQTZZTsusK_A49zUtwLQr_IQ9XSXC3Ef2fkj8QZkWbR33ndPmZHwr1w=w678-h903-no',
+                    'https://lh3.googleusercontent.com/s6Nyq9aWHEmQ5SN9RymthW-GPcmeZmS1WBZaYZNxhnWSyspWrioVBQMxFlQXAOhDd--1NNamwNs1zeVHPEmAwHatzPA0C9DiiuLaVzHcW2JGUsaI7EAOGWiK6q--1CyzPrQCa0GJcTccxRg29F-jq-eTZ9cWyhusfOpAnifAk-ytyqSdYi8Yu8ll5vOetTni67VREtf38rsfgXJQSFMQJQ7McmGO7JNtw7_-5EHq7Xbggv9LoM1kj7BCPEZhlAz59gYEyyuOzyYzPoDQzqZaounJ_0QwTbiUkL8xlSSRu5Kq5ywCdRBZ8nlwhDXc12pEtjpsgKCUwVPkANo1bB0tidaR6bwvEEQ8Qb4mqeTjT9A0NOxmN_f3HDNAi4zSk6-YBbsYaCCU8MXtiKOBGzKdqx6QtNrQvuLjDOd4HnEhkhGgSL_pob07mClKfMnHwl0zY0HGHBln8dj7y1WyRouh6zBurt5359unKojyOfsfnNKJ--InX0TFyZww8yIn8CuFeTrc2w-zmSgHBV7Ypna3mA29SXOmRknj6130tXyGCxKAU089mZ6J0YsN6BM5lx-YCwcTyMbV2W0OmzC41yR2h4zu4VGB8_pGLqocs03z6ojkCYYxMrmV9k6ptWtlGvqkGDdX6khR5VMf8Nx0Af520Ks1lxWD0xMYgaJqeuqCYasbbsygE1nm2dZUZPlW7b2kYmwxTI59NllKyCs3jxEDw-NNjA=w678-h903-no'
                 ]
             }
         ]
