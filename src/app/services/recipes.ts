@@ -3,12 +3,12 @@ import { Recipe } from './recipe';
 // Here will go the recipes info
 export const RECIPES: Recipe[] = [
     {
-        id: 'paella-pollo',
-        title: 'Paella de Pollo',
+        id: 'arroz-pollo',
+        title: 'Arroz con Pollo',
         dateCreated: new Date('2019-06-21T00:00:00.000Z'),
         author: 'Paloma Cascales',
         img: 'https://lh3.googleusercontent.com/q5gxVOjiuH9qaR-m4fjYissc1iRenPPNIHcMAB6sx268f-Qu4nZQEUTzWW5ydq2KlyKyky636Q2ds4AeoAPgWpswrWIwnasGHm2fH76IFEW7UQ4psu4KEAhSdUa76Cz1r1ocaOk0L_KozeOIRhOx1J1dzNofBYbmags6bfmD__3UQBHOR_dQq0d-vpApzxGDrlwdxYN3E1PycYOkZQdUk0Y-7eKlVAe1rS3VwuoZnpfMYT9UXrMtA3Wr4qZ2XGMBeeunaw136wneZInEB0hJmQCnNkMef3mYK22kPOCrOW_BB4pvXYy949BQKjUAn8eM22mwu030IQITVkd9yyb75NOu2IzQmtBlPvHd_sSKRIP3pn3p_ot_9IylH-IikdUC0Koc3XKmQg3moOVOiJgzAR48QSrQ65bX0gqaBYrIm3_wYEi0CYR5zjhj5Z-suROGDoy2Y0WPEKim0Jb-XxyUt4sdIT5561L_rzD4UGi05boqhimZCMZ8s7xnU0xpK5AWSNf_8hrXHjZ8hXMpTj4f2xh-_pzgltyOg1hxRqYn_5ZndO2WrW0YA5MQ2OdBTMEOfCPyju6QwqVWC2AnyGv3jwOfz0i2gdZNflwEdTELZ2wKsgPe7VSr629ZidmDnXaUE7ndyHsNArPEJkBhMTO5NuLJ2NeOVobb_LKcxEg6JE0hO4M4FYX9FBvuCxbExdpBfeUN5Rb9WOhg0AybMwnjEb2v7g=w678-h903-no',
-        desc: 'Paella de pollo y pimientos típica de los fines de semana 🥘.',
+        desc: 'Arroz con pollo y pimientos típico de los fines de semana 🥘.',
         time: 60,
         people: 4,
         meal: 0,
