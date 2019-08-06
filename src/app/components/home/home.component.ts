@@ -50,7 +50,6 @@ export class HomeComponent implements OnInit {
     this.loading = true;
     this.recipesService.getRecipes(this.from, this.from + this.quantity).then(data => {
       this.recipes = this.recipes.concat(data.recipes);
-      console.log(this.recipes)
       this.total = data.total;
       this.from += this.quantity;
       this.loading = false;
