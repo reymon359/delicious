@@ -96,8 +96,9 @@ export class HomeComponent implements OnInit {
       return;
     }
     this.loading = true;
-    this.recipesService.filterRecipesByMeal(this.mealsSelected).then((recipes: Recipe[]) => {
-      this.recipes = recipes;
+    this.recipesService.filterRecipesByMeal(this.mealsSelected).then(data => {
+      this.recipes = this.recipes.concat(data.recipes);
+      this.total = data.total;
       if (this.recipes.length === 0) {
         this.errorType = 'filterError';
       }

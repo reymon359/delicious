@@ -67,9 +67,15 @@ export class RecipeService {
    */
   filterRecipesByMeal(mealsToFilter: number[]): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
+      resolve(
+        {
+          recipes: RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)),
+          total: RECIPES.length
+        }
+      );
     });
     return promise;
+    
   }
 
 }
