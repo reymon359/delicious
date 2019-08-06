@@ -18,15 +18,12 @@ export class RecipeService {
    */
   getRecipes(from, quantity): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      // setTimeout(() => {
       resolve(
         {
           recipes: RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(from, quantity),
           total: RECIPES.length
         }
       );
-
-      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
@@ -40,17 +37,12 @@ export class RecipeService {
    */
   getRecipe(id: string): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      // setTimeout(() => {
       resolve(RECIPES.find(recipe => recipe.id === id));
-
-      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
 
-  getLastRecipes(): Recipe[] {
-    return RECIPES.sort((a, b) => b.dateCreated.getTime() - a.dateCreated.getTime()).slice(0, 3);
-  }
+  
   /**
    * searchRecipes()
    * Searchs the recipes array and returns the ones that their
@@ -61,10 +53,7 @@ export class RecipeService {
    */
   searchRecipes(text: string): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      // setTimeout(() => { 
       resolve(RECIPES.filter(recipes => recipes.title.toLowerCase().includes(text.toLowerCase())));
-
-      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
@@ -78,9 +67,7 @@ export class RecipeService {
    */
   filterRecipesByMeal(mealsToFilter: number[]): Promise<any> {
     const promise = new Promise((resolve, reject) => {
-      // setTimeout(() => {
       resolve(RECIPES.filter(recipes => mealsToFilter.includes(recipes.meal)));
-      // }, Math.round(Math.random() * 2500) + 1500);
     });
     return promise;
   }
