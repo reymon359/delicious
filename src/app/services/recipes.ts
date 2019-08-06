@@ -168,8 +168,7 @@ export const RECIPES: Recipe[] = [
         title: 'Tortilla de patata',
         dateCreated: new Date('2019-07-15T00:00:00.000Z'),
         author: 'Paloma Cascales',
-        img:
-            './assets/img/recipes/tortilla-patata/tortilla_patata_step7_2.jpg',
+        img: 'https://lh3.googleusercontent.com/ld1021vlmyVJcJGg4xzTVXr9YbvZqyfJi1F7ACEFOxWzVD51v-xLITrHo1EUGndTY4NX5DTyBz572Swz09Eyfuaw7Mt1sUDkxTrIRdePzWKvUGr8HKQjOs4eUhSQcNtQrn6XdnrlCU1bNkeJy0k7uiUhuHw_N4kVBP0aX_bJVk00svLWaV7bkNTf1ctsjExtpmii5t6sSddWcV6Qhd6Do-h-46CmHq3PTH31LgHbta462YcA47eirfVuTQrRYgMRPrt-FrEvHtRXkEQQjpp7SsO6MIIofAF6bYEpl96dzFKK_MRGYltuacrHLCwTxZgkh1DmTpN6ZjpDVJLF7sQ4XMFiDraLIJM3INeODCir5OihK0VSWF8D6h8kv4XAW9R-EYbPAzYVdaFuivAkV2Mvu5Lmww3SJsA0iRU2zlrs63Zp2m4N3jFLBeOWr-pWp031GC7KfEelrLf5iCw2tFJESI2ibRkTwHvR0eEAsgoAvV_hs1cVcrH5a0ovW4dy88ENTDQgWi57vsI8UTRJ6Y8L6dCXH7ALYCipLPq_2BIDcikwdBkv-NIcC2T5EywYjp7tR7cYLxQewgzvkTHDeESfoOAQdAiSaZ5D6cPLJLGXXlxDiuOw_2Z2SQdTyDhbLYEPM2vBMIiSbKUH7YSyvkUvIOAVyh7_qvcq6WkCR4OJDFXIQIwpo9ZedPRyakag2FYRIoaSvtNmAGPgbXD5Xk3o6xfv6Q=w678-h903-no',
         desc: 'Tortilla de patata con cebolla para varias personas.',
         time: 30,
         people: 4,
@@ -181,48 +180,48 @@ export const RECIPES: Recipe[] = [
             {
                 desc: 'Cogemos 1 patata por tortilla (en este ejemplo 4), las cortamos y les ponemos sal.Luego las añadimos a una sartén a fuego medio con aceite para que se vayan haciendo.',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step1_1.jpg'
+                    'https://lh3.googleusercontent.com/gLXsMt73eyTN-Wkva9OGIFkweopSWAh9OSS2XdbfEHHy1p1hEs9_mxMAmWsaR58x3alag5_gyz2frtDjIMGF5xVbOoBVsvA-HuDZQz11qtnwxfmKIRVX8fonGZ1b_1H0D_aUWKVS9zvZvqm1dGuAtPZd77mmmEuc5PQ6oLV-v7DcVZKU86E-F7-NRMw78np9ZgNYkNMHsNw89NltKnS9LzL400k4mzTSUbsH_ZQX8rCtdLcPOKlIfZ7EQKRUma6ookd1zzyRQ0_PwROEe8uJFghszSWCMyOomoxfuWfmGCL_OCALs5W06ocJwrzOBGv6mXDf3ctmdaOpCgeF7umPxmyHRYNOFWMmV4nrOg4LjY-qsaa09aG83Jso8DdR2RrZMYImh_KhbkoRDsj5WSOMStLXYgSJpQPTAQfcgrsZj77oG8xADhxzXAhFyMmZHq3ls-M0ZT-y0FTGfSwRLcz0YVfN_uTmandowYMW_i7KIgsyV0_ehca4LjdDIsfRF18yTjtSziOzumFV_68Nf7UrD9oeHrfzWMGgoVvkwAQlQAMWfjiFdCcZXZAJDSdkzETZqP7jsku2PZzhjtHak-MI4TowtNzPCMi9l2qs21TETOc2WOeqXv-6oG4s1rNlFgt-JNauOFZ43VwZKE-KxOFki84gNNnx-DWtcmCpnM3Nb0VjN5CgotI5ULK6jCSep07HfT2IhlE19blUA1PZd1tC2_UCLA=w678-h903-no'
                 ]
             },
             {
                 desc: 'Cuando estén un poco blanditas las partimos un poco. Cuando están hechas apagamos el fuego y las dejamos escurriendo',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step2_1.jpg',
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step2_2.jpg'
+                    'https://lh3.googleusercontent.com/tD94EkyuHFu-OvHqWJemv1Rvxz9hqNOVyRMcCuFGS_0MiGlwKQvDo6sfvwt9gC6SPpPKiSVkMVS6Hknf0BXTQv6gt_40ArYGa9hUmbpUpxYJODHuhV_ymxOFQK_hmGHAFF7XnD2zuYnpPfJ_7JH9g7PABb85Qot7I0XifLI_UXviW7Ivc9iC92BqePHWJcgHyHhvAeh4LamO6rJ2fTiNOOmq4Ewa2qAkkcqKEHKP2cA8S9fAdHgIVFdCsvzj9LChsGjK34IfBQhZK3ooQqYO_74ngDx2b5PdLRfszg1FBXPDuomyyoSqXABV3c-vGBwllhdLM0i_V_xuc9J_2H33hx2hHFELn2wXFd_hP8DWBlAS5-_-e572-50WaUzsyRKxjqAoHaCw4zSII1s_KgfcTPz5MJsGf1lJ7WH2x56xY0YU0PQntv5-qnsgDnAy9gVZG2R0jiDInIwFjHdNjbLKnRdgQwnxGu4lyda7omeqlaqK2ooqwO-nwJ4F4OO66S4sgFjmwN0lGy6m9ZM2Ecbrow2GQdY7mwmpn9TsyPk2jytJ42Tcv2qqQ81pEfrL9aVnqKAQ6LG8_Mohb5eyfJFRvLDu15xpJVzavq_a4g14wu7EPHNT_hvoo3fR8dtBVA_QkPEXVduAbPpas_r36xMDVS5rEmyB3B3X3h6a8SFh6fNsDAYMLfqNKIbncuXnTjxlJJ50zH7-k6j_LFLYKB6dKGYYYg=s903-no',
+                    'https://lh3.googleusercontent.com/lGEHPBVneTb-LLmcDhQ-to54o-8MeqxNT_dXWYyJp995gnUjuhyIPlDjXqPeK3jiTev4iLC-EcVtqCYUDT3mba0G-fxNydN93de0oaeovQ2CfyiZiqh0Cvt0Ng-84_bQ-Neg4keX107OHpjpQ1D7F-LfyxWh9dzsfhb7-Lt-44D87VHx0ruNbiSP_HE_J7QjQM-ZJg1pi5HWfC6IpW70_OhrrkGZJL8pfWviGqPXDrM_jn7X34mjA4HCH_rdLTL7BLbEnaGe6VYmWKfNZBnmZoqCCVrwc3BWcvUVLY90aTJjEs3vMaYnTIQ7UhKzznKCxmqQ7iFBLCIYCZ6bQCk9fzXqAo-gi6Q_R_v8bdf9OITA4xUxmr2i3pH-r3-NO3miw4ZcQV-ie2m8KI9wnqw31sRAb7tVNYNlp9KMUXVPareSSfgXHVf_DldlVzsRI7cRDLMs7N7kTRXz_iNhdhoMfJYP5X0Go4lSGT33K5gxIfb12dfuMDSZVNlU2tlqlqaQ0PrbIEYrn2HRo5V5aqJt9A_pN01QLt2zl63c9hnSsgXUtjQQ4OzBRuYIeA-bOpVHNZxBH7Dt3nLzJ2pB1idnOGhzudonVw-4xtvGLR2eA9eJV1Jwya3LWCqzxViGDrjBZIMVKAhRvXDyHD65rTBS6sv5R5LTzMbRVfDoXlhPAb7hQNNIBTTAlrgj4gPjmlXzCVoHfN7wVJNX1OqPMoAPthyNpw=s903-no'
                 ]
             },
             {
                 desc: 'Partimos 1 cebolla por tortilla. Luego les ponemos un chorro de aceite y las metemos en el microondas unos 10 minutos para pocharlas. Si a los 10 min no están pochadas las ponemos un poco más. Otros modos de pochar la cebolla son válidos también.',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step3_1.jpg',
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step3_2.jpg',
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step3_3.jpg'
+                    'https://lh3.googleusercontent.com/3yjH7-pkUBa1RWzTvixEo33KL-u11DNA7VPw-11y2PYN99Iz3yHbA3gIsktf-6Rv14Gxe2toqa0u7c7Oahl2sFiPYDSKz9-b9X5FLGInFYpjTSWZyhme00gcksvMIJ-1g8auwTSmaPX5Kudq5I3EMnvYEjZ6g6_zczYcnma9fkmEmFfKnqwRSbrXzxOR00BlLhY0WYJ5pOPliE9ZRZno6gRZeUJ2p-TNsa5JdW2YjJGQt1L4sCKpXhDp_8nCOoyKqqasLqMdOGEbfG9JD-cyCGTCWINKYETXwqXwO5Par2BE5VELYYkO3QjUkeCe_c8OO7aCCTJXjcSGLV9cTYGdbbfqD79QTevUHteoxBarDf_RXVZyaOXEc2IRFHjxY7UfgaHIt6Snj4XDhTmU7uPqrxUt4Hy7wYR-tQOxuZDJh1aaTmipZvvJINoCsh5QJVQO3Dlc24ijPEIAkeb7e8tu941u0c6RDDj_LDmI-im_kbUa1LBSCWWYLhiERPGetov_6RmbsmgZXpw2PLlDcHtQ7DSvjkNyj4oSAqLygdMlK6ALElZRqwmY1JtKwOjowgpQcw1yhI7vsN7fxzA3hNmfok6WyejVDclKbiXlkweS0i19wn-iPiHYKCHXHBjMYsZWg13eKzcCK8mxZVh_VhsTu9JSAeR3oVrVQHInVlisfsmyVpSFL3JwMvk_1OWI3Y0TYf2jOGnB2ufQf8q4_1VaLO8qcw=s903-no',
+                    'https://lh3.googleusercontent.com/pn2-y1wSZCfSswOKa5nXKoqQxqsdTWRo_UrewQ5ZqkOW1aYIGKRu90HQNJ9TU5YwxKnF2k55q5O6rGEY1IsYWKR8wfTgHqvvEUzGM8_z8KW8uHbplpCGc9VqOOcBwZrd7woMplixW8ne97A_m8L4wVH2r5RQJ1ZM1rWtYQKIjfV6HvISIg8-EGGG6zGzZDPIi5_gOvOwF7WRtGXEgFMINFbgmmuqvhr8xYOU4dsWmgHpvICCCQv4rzHp2JXmXCq0XCelwm1VAMYaeAOb1Jiu2L_D2JECi1kI-DhgJ820EaJtlKVLSQUC_lrkqMkYHlS9eZImCw3nzWyNpLW153D6tS-jpHr1XyqIDzj6CjFMpMBFSH7x7NxG9f6PtFW1T6Ywk9lFseIjQMmz8kCqqt2wID0_96q8K7yWQ0v2MoFXU0Km_0hQ9VNoRMi0VsQwn-0v0Ene-oLdjHllvzVQNfUuDBAt13Gf4ciHGtHOrhqAPyj4pg1eh0QkDKrDoU3YozYA3vFpjm7UjCtEKPmwUzK1GwbkxHqM3UOiZwHa07NHmw1m_zS02CrXbRggVfa8TynVDgl0GqDxTZ-CF0thicsvZbCoB2Vg-RhYhLkvZTnswJn7uUbtAqDeyCJKu2u_0U1E720mHWsLmk9WuSN5rKAJ6H9oZ4OqNrfL472NJhESRUcEuSO2dJBk7fDN3DRuJ4difrChhhOy0tbXWrsakZdJB1e1NQ=w678-h903-no',
+                    'https://lh3.googleusercontent.com/8GSTn6TNEdtAprV7ZbBDWIPjVr2H_KJWx6Vakuy9f9_eCeAzhT30fAAj9M2uOgnZCM5naXqTLK7UgWxGFg6OuHQDDKjI0DiFuFTmLt0_AcbdsiPDo_Kw7J9C1ZtlHthfROpMCjDqOTJ4Py2ktlE_I4bwHF1ybN9goefQb5KyHqu5ZPsTMwTW2iWG_oe-LmBF8NbhZErnx87ZJCYLu8FjMIn-IKGCNm63eNE2er_x5eE3hgfxNH0gJFccEVIl5g3o1dh5bbSLyLLu9mHPPp0hQuLvc0YSuKVCIvWfmWQEPR1C0FIE54HJCMOgmKlJ19tpDCfO9LQeWWrUQSImU57LTlCO5_xuPZ8XN2sBmGK9kYfMJrjV63HYIZyIF1DaXuSy2UxW_T69wTjpWGck2COWogWLLGe3bpTXb8ieoBE5ZH8J4Uh_BQnL-oprZQNiBJ3Nwl0rxYD5G4Yl_VYJCwsRgPVOqbSSr6SeNHI_7ry-sRzZ0ZR9j6PoL-8c2oqP6XdbFimkjXjbd7LpozasjvDtpSyRJ9ImH-p3_p4Sdw58g1RSSmISpZ6ujMyo_U6MblQuJ2kWALXs1nAwQZEOxlb0Gm2Uqgjz4sES_fX-GZHi702N6gJ39yYDJzPDe2VLA__ZenUoB1Nrnhrr5rSZbCJVKL3u_anDnfeSxXKXQR86QrX_vvff2xOIYBbzwCXSk3PArM0WF58JNk0J_YH9MBQRfW2kng=w678-h903-no'
                 ]
             },
             {
                 desc: 'Batimos 3 huevos por tortilla y echamos la patata y la cebolla pochada repartida equitativamente. Si sobra cebolla o patata la ponemos en un cuenco aparte.',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step4_1.jpg',
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step4_2.jpg'
+                    'https://lh3.googleusercontent.com/lKww3UmMiBUxKxI_qUUOZ1yvaVKNPFxOc_Zf2FaEN_n9-w5r8BIrCZ3xTokW75WlBBED_Ouo9KYKn5kw_YdTK8ogLNf_J0ACNdeiLkz0SGJ7bclTeTpi7RIXr_4zUkpcEdHimS2mUcjt9kiYrBc3-yyX5wg7Pwmng2Rwp0pX-Q0HG9cPaZLaJPksTw_DZnDFKEzrrn9Ci7JF7k0Z-1IdCXW-xOymsn2vXEPqq353oHYWZK6kb17dbu_G1eshyOhpCDWmpmkybIBZYruLud7vVVMSHqM9S_BpBH0440alfWyRimc5Fayq-tFObFS1UlB-jspIaIW_PkIwe-lXxGkpY-0hbBqUOWRMVZ4lCLS4KXPFKdk7-iAZMoq_dNzM9xC5RXjpHKG0rIf6ISgt_36O7wgY5DDGOhL-_VRl4TZb3APHrEqR6HtPDXFqDMcquJleoHAJsWFLlaYz60dz4_qlXsTWcVMqVEK9OF3wlNoJfppITTMyr5OYe0RzED2Emf15SKDKL-he1T3fBkh0-7jlYZlzxuh3T-oqZpHSzJ_ZolvltmsThV8TV6CBpZ2DHApcBQn7JSVuyzK7ginmF5aTOd8EoMGOM42PhDeMvGEVTt10V8L-xT1EkssW-Jy8jsr_KRQUBmyXwqBgIows6jFrmK-HEZRfuTZxa9X76Ymk38RGHcX8OlkmVTAeBwgrl5glMRMvbaJCKzuwvXs9uGk4SsNb2w=w678-h903-no',
+                    'https://lh3.googleusercontent.com/D8DqzJJn_pijuqqMTR6p7MDaTVLmvoH4EqV3iBtEHfuI6oxXKAW43K_FkVMPA3Dkvqh-YtyQaPrY4FTQX_8yOtkOONRWoga6kgBWDPNnQUiEpgirRm3cGPWWuL2z1a0BvCaR8LUnCcUng5fZ0TCTVfDYbXnUAIHjUCKq7CG8-P8XIF8EyoTxOFgWrIz3aVhTLX8Js3wH3nqfhLmnZ_-Rn2kiDnL6yqYSm7aEU193GEw8LacpzWYTpJ2HBLA1uwEf8w02fVQfWijWQ-WuSmlgqg6UITcAPW7bKGhGjQRgcGXHbwOUi9OGtF0MhQbgNKt2bnXAozk0yyVzy6dPBzAJsE_HNziDLiSC_Bh7vEo1pwWrKc-xO0f-VnO4vCx-7m80PmpxPTMIUFqfJw6JQxbeHKzwswUWcrwTBBHcRdPQ9IbByml3T3K6pTDi4tDRGo4hCcSjAoJ7vKjiDOOWnrL8XCQ0oWD_oc3OksUxh38Ui5oZyFmqgtgJN1p4wvuoy9fq939VvztKc2JbiSKdFF0JUfloApPsIX4Th9PSQmAhXcH_0tBwn26Kr58Bu1nuq1LYkMAWOK9KkpNdvIwyXF5leLgNbXnoNGk30RkfOXFoOZIGf3AvWGq6A7sjAZVrA6oXBDAoOnAguv7zwAU4XhLGcw2BiOkfrsZHFNyswByYdzVr-HzVTz14kswmTlX3kcGdgEb7mK8v-ir_LNzHnq9uRP8vYA=w678-h903-no'
                 ]
             },
             {
                 desc: 'Luego ponemos un poco de aceite en la sartén y echamos los huevos con la patata y la cebolla',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step5_1.jpg'
+                    'https://lh3.googleusercontent.com/I21pj9kDc1SfqIgJXckva2gB6Dl17L00VBtnkT5fYIzcw3dcOPmQLmv5__hh9KtVcghGNyzcI_OvQme4sZkJKaj0ypZp7TS2OAM9ER3I1A5eEf1qKwGbKG0fadsNokQxg1oBlkvpJ3kCKu17jDFyBfB0YLU8iwl0gL_a3bIM7568xfCQwkptDclTMY98t7M5yLcPuT_iVbik11aiidFB8mfGL4WKwiOC5J-u1lxJZ6_J5NuuUzogt8cbOywxlBiF857-0wFVCSP2pilhioo3QkXylyWW50ICW2qk6cZkTPUoz3IYmm3C4y6D7-05FyoUPBGtaBkME4G_Y4cb359Enaz1f9-n2bm972JorgoTW3O9T18l2aLOHbhfvT4Upx4em1EDZD85oRdwa4GI6C4L8O0U7gWAxnaiICMip6q05ZtJ7rmzD6i858AWj6A9IKtzaFnObq8zXUGbBSPGiSO_O2Ylk6glCDKT6CEV3rbPE_tmBl5hMg6q1baB9T2dO5KwxK--wJWd_q6t0J96AJX0ogkhhfPKRuFg8kHhz9XxxuCteXf5FUciH2AkWRvQXwX5O6cqy3EfYvCYdqz1uGx0VzAX-Ji18ciBJfW4ej2YpDHlU-UaIPgblGzv5Mcd6HYZymJF1FluSKSAseuaSeRmDWxcqnC0-u1bp1cD1laLNjukkI0c-nEaNci0XrkzruWKfasAPkaqhh2iNnVPzmqz5NIfFw=w678-h903-no'
                 ]
             },
             {
                 desc: 'Ahora viene lo más complicado, cuando la parte inferior esté medio hecha le damos la vuelta con un plato y la ponemos boca abajo para que se haga la otra cara.',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step6_1.jpg'
+                    'https://lh3.googleusercontent.com/TiR1e6H9QJyzB81FW1gYymJ0G5H0qT5BRKuDD6a7lD0B7cDCQETtzFfJ7bzIndS8RloqCb0rkGqVSZgc2mhTq9TImjZIhAZkGeqHN9fhvSmpfGQEBPqce3KV1IIn85YwleGST-lYPq1nOgr3QN7wazwtosMr6gcEjkTdbcyLk0LZde9dnVfiipOsExyoCilxg5K9fwWsHz3bmtHkT-zrvo3rnyYZc5sK4tCKZSa6CHwH_dBK8mqPrNlrugY7A8bD8mcWsF1Y-t-dLZXkVd7FSRAa7yGAJ94tM6H7yRG93fQQu5Rm80E9qsavhpp4HXVQ3LzacdyOuFcLVd_No8RB77s4bcFFe5nKwN96z5sR9xFA1TBJOVaTGUa1p6ELUsn7CTRy2IpHakf5sK2RJbOoPFckFQ_rKp5cREnXUWWVEVrNOF59qJ65du7XFgaX_WqF5XP6ZRby-8cZt0VsjLV33gF92zcjEd--B5zCpyU6k68tsUNAhKfAk7t37ubUYWdnbarGlaTIF0aL4mfgo_9gVHVnNLaU1-lHzxmOiTuapqdKsPSYN4-9mkHy4FFHmtuCOASPmBTUTo7rjErddKV-JFvPlkXEJKiC7TkU6NMHBBhCY7rnUvEC8ogbkx70ppCQ0GhGuZRdcmSzLI_4OetaotzA9u8Ghj3sgETox3tWgnjHj2QkxKUmZliashmP2j83LfBii64qvo_pPof-PAfna4gMCA=w678-h903-no'
                 ]
             },
             {
                 desc: 'Una vez hechas las dos caras y el interior en el punto deseado la volcamos en un plato y la servimos.',
                 imgs: [
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step7_1.jpg',
-                    './assets/img/recipes/tortilla-patata/tortilla_patata_step7_2.jpg'
+                    'https://photos.google.com/share/AF1QipN75dDh-uDGtuxEu4ZJe7u7DRxIyQ7yQhRv-YJIuoIYYbF5TST1b8fic17h5EX7uQ/photo/AF1QipO8oJ6cKZSwqhYIQSey41YbHMbXdKXt1EJBSYxx?key=VGd2bS1rbUZtejI5QXR5QUczYjVvVGd6aTluQTVn',
+                    'https://lh3.googleusercontent.com/ld1021vlmyVJcJGg4xzTVXr9YbvZqyfJi1F7ACEFOxWzVD51v-xLITrHo1EUGndTY4NX5DTyBz572Swz09Eyfuaw7Mt1sUDkxTrIRdePzWKvUGr8HKQjOs4eUhSQcNtQrn6XdnrlCU1bNkeJy0k7uiUhuHw_N4kVBP0aX_bJVk00svLWaV7bkNTf1ctsjExtpmii5t6sSddWcV6Qhd6Do-h-46CmHq3PTH31LgHbta462YcA47eirfVuTQrRYgMRPrt-FrEvHtRXkEQQjpp7SsO6MIIofAF6bYEpl96dzFKK_MRGYltuacrHLCwTxZgkh1DmTpN6ZjpDVJLF7sQ4XMFiDraLIJM3INeODCir5OihK0VSWF8D6h8kv4XAW9R-EYbPAzYVdaFuivAkV2Mvu5Lmww3SJsA0iRU2zlrs63Zp2m4N3jFLBeOWr-pWp031GC7KfEelrLf5iCw2tFJESI2ibRkTwHvR0eEAsgoAvV_hs1cVcrH5a0ovW4dy88ENTDQgWi57vsI8UTRJ6Y8L6dCXH7ALYCipLPq_2BIDcikwdBkv-NIcC2T5EywYjp7tR7cYLxQewgzvkTHDeESfoOAQdAiSaZ5D6cPLJLGXXlxDiuOw_2Z2SQdTyDhbLYEPM2vBMIiSbKUH7YSyvkUvIOAVyh7_qvcq6WkCR4OJDFXIQIwpo9ZedPRyakag2FYRIoaSvtNmAGPgbXD5Xk3o6xfv6Q=w678-h903-no'
                 ]
             }
         ]
