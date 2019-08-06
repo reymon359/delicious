@@ -90,7 +90,6 @@ export class HomeComponent implements OnInit {
    * updates the recipes.
    */
   filterByMeals() {
-    console.log(this.mealsSelected);
     if (this.mealsSelected.length === 0 || this.mealsSelected.length === this.meals.length) {
       this.recipes = [];
       this.from = 0;
@@ -99,11 +98,8 @@ export class HomeComponent implements OnInit {
     }
     this.loading = true;
     this.recipesService.filterRecipesByMeal(this.mealsSelected).then(data => {
-      console.log(data);
       this.recipes = data.recipes;
       this.total = data.total;
-      console.log(this.recipes.length);
-      console.log(this.total);
       if (this.recipes.length === 0) {
         this.errorType = 'filterError';
       }
