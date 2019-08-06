@@ -35,7 +35,7 @@
             <h4>Ups😐</h4>
             <p *ngIf="errorType === 'searchError'">{{'home.errorMessage.searchError' | translate}} <strong> {{ errorMessageStrong}}</strong></p>
             <p *ngIf="errorType === 'filterError'"> {{'home.errorMessage.filterError' | translate}}</p>
-            <button (click)="searchText.value='';getRecipes()" type="button" class="btn btn-success">{{'home.errorMessage.buttons.lastRecipes' | translate}}</button>
+            <button (click)="searchText.value = '';this.from = 0;getRecipes()" type="button" class="btn btn-success">{{'home.errorMessage.buttons.lastRecipes' | translate}}</button>
             <button type="button" [routerLink]="['/submit']" class="btn btn-success">{{'home.errorMessage.buttons.addRecipe' | translate}}</button>
         </div>
     </div>

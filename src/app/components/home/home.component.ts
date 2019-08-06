@@ -42,8 +42,6 @@ export class HomeComponent implements OnInit {
   }
 
 
-
-
   /**
    * getRecipes()
    * Gets the last recipes
@@ -56,7 +54,6 @@ export class HomeComponent implements OnInit {
       this.from += this.quantity;
       this.loading = false;
     });
-
   }
 
 

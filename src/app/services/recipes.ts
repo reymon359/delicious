@@ -233,7 +233,7 @@ export const RECIPES: Recipe[] = [
         author: 'Paloma Cascales',
         img: 'https://lh3.googleusercontent.com/FL6RdM8FZKWug6Wkv_cfpF3ohI35Daajby9uTDQG3RqJSUQhBa0ThP_KyDf2m0VbJSl78qGW1H3sAyXv7_PwMroWjRjK4hzofjUcC33EG8S2ClTHf_CXHWuVol2O_6PLxSQZoVAupdaUw0WMbvi1XlJoea4VutRwfAnZwBWufKaWeiHvHtJIzzgLP4bT6JXW2tLacjaQZbDEXXURrRLuMQDuH5IxM-enx68uE45I1vb1utq4kFXE3VkSyD-Ei3FECKklXV2naHLytUst-a5o4wVdZ5L8rJyStnuynTgTU4O9LjD8M7BK1U4u3rrqh5ARFC1bUmIEwfuZJjr9LdgIeLw8olPTpSSthjZ9vkHWWqVMFOKvCtMKprYRolHZ-cEpExVgCVpLUnnN7pyYNf7j_6C7MXzon2Ti7cg-XE_wOpVncnJizkGCi3llUZ0n8_zcu1w5ARUer5DMqrW0FhAgyl2aDYW_y7dYN8B7DnedtIwAc9ZaNvw9Xe9cpIp1WqGr3QgJOczFYQuInyYxwXgmmMqkBiQgJSaDqAU4bqstZeHOmzDEWIHK1JS8HqF1UixyfK4x9tHWN87SQlpxUaItHcwuoapfm1f81wCRcE0S4gQjS7HjtQEKT6TXbMwVs3p5Gu1b-1kscboYXHcE-1fe1sjfC4_rmVDG8xgBEpYFyCkAx1nVB9RVS2P2ejpO-tn57OYyEWU8ra_dO-piBqDNAintKg=s843-no',
         desc: 'Crema o puré de verduras.',
-        time: 30,
+        time: 50,
         people: 4,
         meal: 6,
         lang: 'es',
