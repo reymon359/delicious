@@ -33,7 +33,7 @@
         <p> <span class="badge badge-info m-2">{{i+1}}</span>{{step.desc}}</p>
         <div *ngIf="step.imgs.length > 0" class="row w-100 justify-content-center align-items-center">
             <div *ngFor="let img of step.imgs" class="col-6 col-md-4">
-                <img [src]="img" alt="" class="mw-100 rounded mb-4" style="max-height: 500px">
+                <img data-src="{{img}}" alt="" class="lazy mw-100 rounded mb-4" style="max-height: 500px">
             </div>
         </div>
     </div>
