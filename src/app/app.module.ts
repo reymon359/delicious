@@ -15,6 +15,9 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
+// Lazy loading imgs
+import { LazyLoadImageModule } from 'ng-lazyload-image';
+
 // Dates in other language
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
@@ -43,6 +46,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    LazyLoadImageModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,

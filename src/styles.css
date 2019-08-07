@@ -90,30 +90,6 @@
     .w-auto {
         width: auto!important;
     }
-    /* a {
-        z-index: 100;
-        position: absolute;
-        bottom: 10px;
-        width: 100%;
-        text-align: center;
-        color: #fff;
-        font-size: 1.2em;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-    } */
-    /* Recipe page */
-    
-    [data-src] {
-        src: none;
-        background: url(http://notrealdomain2.com/newbanner.png) no-repeat;
-    }
-    
-    .lazy {
-        src: none;
-        /* background-image: none!important;
-        background-color: rgba(255, 255, 255, 0.5); */
-        background: url(http://notrealdomain2.com/newbanner.png) no-repeat;
-    }
     /* 404 page */
     
     .section404 {
