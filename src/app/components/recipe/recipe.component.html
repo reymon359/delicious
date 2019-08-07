@@ -24,8 +24,10 @@
         <div class="col">
             <p>{{'recipe.ingredients' | translate}}: <span *ngFor="let item of recipe.ingredients" class="badge badge-pill badge-secondary ml-1">{{item}}</span> </p>
             <p class="text-justify">{{recipe.desc}}</p>
-            <p>{{'recipe.advices' | translate}}: </p>
-            <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
+            <div *ngIf="recipe.advices.length !== 0">
+                <p>{{'recipe.advices' | translate}}: </p>
+                <footer *ngFor="let advice of recipe.advices" class="blockquote-footer">{{advice}} </footer>
+            </div>
         </div>
     </div>
     <h2>{{'recipe.steps' | translate}}</h2>
