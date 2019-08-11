@@ -30,7 +30,7 @@ registerLocaleData(localeEs);
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, 'https://raw.githubusercontent.com/reymon359/delicious/master/src/assets/i18n/', '.json');
 }
 
 @NgModule({
