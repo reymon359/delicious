@@ -25,9 +25,15 @@
                             "src/i18n"
                         ],
                         "styles": [
-                            "src/styles.css"
+                            "src/styles.css",
+                            "src/assets/libraries/google/fonts-and-icons.css",
+                            "src/assets/libraries/bootstrap/bootstrap-material-design.min.css"
                         ],
-                        "scripts": []
+                        "scripts": [
+                            "src/assets/libraries/jquery/jquery-3.2.1.slim.min.js",
+                            "src/assets/libraries/popper/popper.js",
+                            "src/assets/libraries/bootstrap/bootstrap-material-design.js"
+                        ]
                     },
                     "configurations": {
                         "production": {
