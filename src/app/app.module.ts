@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
-import {HttpClientModule, HttpClient} from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+
+// Routes
+import { APP_ROUTING } from './app.routes';
 
 // Components
 import { AppComponent } from './app.component';
@@ -12,8 +14,8 @@ import { RecipeCardComponent } from './components/recipe-card/recipe-card.compon
 import { NotFoundComponent } from './components/not-found/not-found.component';
 
 // Translation
-import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 // Lazy loading imgs
 import { LazyLoadImageModule } from 'ng-lazyload-image';
@@ -47,15 +49,15 @@ export function HttpLoaderFactory(http: HttpClient) {
   imports: [
     BrowserModule,
     LazyLoadImageModule,
-    AppRoutingModule,
+    APP_ROUTING,
     FormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
-        loader: {
-            provide: TranslateLoader,
-            useFactory: HttpLoaderFactory,
-            deps: [HttpClient]
-        }
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
     })
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'es' }],
