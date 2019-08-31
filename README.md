@@ -1,5 +1,8 @@
 # DoveLegacy
 
+A place to see and share recipes between people.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
 ## Development server
