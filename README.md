@@ -1,4 +1,8 @@
-# DoveLegacy
+# Delicious
+
+A place to see and share recipes between people.
+
+I made this site to share some of my mom and own recipes and to let people add more
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
