@@ -18,7 +18,7 @@
         <div class="meals-filters">
             <div style="display: inline;" *ngFor="let number of [0,1,2,3,4,5,6,7,8];let i = index;">
                 <span *ngIf="!mealsSelected.includes(number)" (click)="searchText.value = '';mealsSelected.push(number);filterByMeals()" class="badge badge-pill badge-primary m-1 p-2 meal-filter">{{meals[number]}}</span>
-                <span *ngIf="mealsSelected.includes(number)" (click)="searchText.value = '';mealsSelected.splice(mealsSelected.indexOf(number),1);filterByMeals()" class="badge badge-pill badge-primary m-1 p-2 meal-filter-selected">{{meals[number]}}</span>
+                <span *ngIf="mealsSelected.includes(number)" (click)="searchText.value = '';mealsSelected.splice(mealsSelected.indexOf(number),1);filterByMeals()" class="badge badge-pill  m-1 p-2 meal-filter-selected">{{meals[number]}}</span>
             </div>
         </div>
 
