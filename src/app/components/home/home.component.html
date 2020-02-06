@@ -47,10 +47,7 @@
 
     <!-- recipes -->
     <div class="row animated fadeIn fast align-items-center " *ngIf="!loading ">
-        <div class="card-deck">
-            <app-recipe-card class="m-auto" [recipe]="recipe" *ngFor="let recipe of recipes; let i = index "></app-recipe-card>
-        </div>
-
+        <app-recipe-card class="col-md-3" [recipe]="recipe" *ngFor="let recipe of recipes; let i = index "></app-recipe-card>
     </div>
     <!-- card colums way -->
     <!-- <div class="card-columns ">
