@@ -90,7 +90,6 @@ export class HomeComponent implements OnInit {
    * updates the recipes.
    */
   filterByMeals() {
-    console.log(this.mealsSelected);
     if (this.mealsSelected.length === 0 || this.mealsSelected.length === this.meals.length) {
       this.recipes = [];
       this.from = 0;
